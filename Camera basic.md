@@ -249,11 +249,15 @@ elif <test>:
 else:
 	pass`
 
-## for and while
+## 8.2 for and while
 
-## while
 
-# file access
+
+# 9 file access
+open
+read
+write
+
 
 
 # IDE, Tools, Books, Websites, etc....
@@ -308,5 +312,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0ODY2MzY1XX0=
+eyJoaXN0b3J5IjpbLTk3NDI5NTM0NF19
 -->
