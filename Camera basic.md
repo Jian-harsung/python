@@ -194,15 +194,15 @@ method | description | how to | output
 
 # 7 tuple
 ## 7.1 definition
-t = (1, 2,3,4,5,6)
+t = (1,1,1,1,2,3,4,5,6)
 - #type(t)  -> tuple
-- #len(t) -> 6
+- #len(t) -> 9
 - #dir(t)  -> count, index
 
 ## 7.2 method
 method | description | how to | output
 -|-|-|-
-count|
+count|计算原组中指定value出现的次数|t.count(value)
 index|
 
 
@@ -212,5 +212,6 @@ index|
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjEyMDc5MDRdfQ==
+eyJoaXN0b3J5IjpbLTE5MzE4NzQ3MDgsLTE0MjEyMDc5MDRdfQ
+==
 -->
