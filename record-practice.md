@@ -267,7 +267,10 @@ method | description | example
 -|-|-
 open(path, mode)|path: mode: r/w/x/a/b|
 
-> filepath=""
+> filepath="C:\Users\jikang\envp\Scripts\ipython-help.txt"
+> import os
+> if os.path.exists(filepath):
+> print(
 
 
 # IDE, Tools, Books, Websites, etc....
@@ -322,7 +325,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTMzMTA3MCwtNzA5OTY0NzE3LDE2OD
+eyJoaXN0b3J5IjpbMTQwNjkwMjkxNSwxNzU5MzMxMDcwLDE2OD
 I0NzgwMCw2NTQ4NjYzNjUsLTU5Nzg1OTE0MiwxNTQ5MzEwMDMx
 LDEyMzY2Mjk2NTYsNTQ4NzU1NjU0LDgzNjgzNDA0NSwtMTExMj
 E3MTg0MCwxMzM1MTE4ODQ4LC0yMDkxNzI0MzU4LDE5MTMyOTEz
