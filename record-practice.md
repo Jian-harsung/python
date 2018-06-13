@@ -194,7 +194,7 @@ method | description | how to | output
 
 # 7 tuple
 ## 7.1 definition
-t = (1, 2,3,4,5,6)
+t1=(1,1,1,1,2,3,4,5,6)
 - #type(t)  -> tuple
 - #len(t) -> 6
 - #dir(t)  -> count, index
@@ -212,5 +212,5 @@ index|
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjEyMDc5MDRdfQ==
+eyJoaXN0b3J5IjpbLTM5MzcxNzcyMF19
 -->
