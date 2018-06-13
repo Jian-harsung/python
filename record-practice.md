@@ -40,6 +40,7 @@ to be updated
 [ipython常用方法说明](https://blog.csdn.net/u013358302/article/details/51436079)
 [笔记:IPython基础](https://www.jianshu.com/p/bbd44c7b99cf)
 
+#c
 
 ### 1.1.5 installed location
 **python** @: C:\Python27
@@ -297,9 +298,9 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTIxNzE4NDAsMTMzNTExODg0OCwtMj
-A5MTcyNDM1OCwxOTEzMjkxMzE3LC0yMDY2MzYzMTE4LC02MjQ2
-MDcyMzEsLTE2MTMzMTAyOTMsMTU5MTk3NjY5LC0yMzIxMDY2OD
-QsMTU4NDkxOTEzNiwxMzI5MTA3NTUsLTc3MTUxMDI1NSwxMjMx
-NTU4ODkwXX0=
+eyJoaXN0b3J5IjpbMjA5OTg0ODU2MiwtMTExMjE3MTg0MCwxMz
+M1MTE4ODQ4LC0yMDkxNzI0MzU4LDE5MTMyOTEzMTcsLTIwNjYz
+NjMxMTgsLTYyNDYwNzIzMSwtMTYxMzMxMDI5MywxNTkxOTc2Nj
+ksLTIzMjEwNjY4NCwxNTg0OTE5MTM2LDEzMjkxMDc1NSwtNzcx
+NTEwMjU1LDEyMzE1NTg4OTBdfQ==
 -->
