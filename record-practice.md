@@ -33,6 +33,7 @@ In [2]:exit()
 (envp) #C:\Users\jikang\envp\Scripts>deactivate.bat
 C:\Users\jikang\envp\Scripts>
 
+[# windows下搭建virtualenv、virtualenvwrapper虚拟环境](https://blog.csdn.net/shaququ/article/details/54292043)
 [# virtualenv和virtualenvwrapper插件的使用](https://www.jianshu.com/p/6a3ff66cb8d3)
 [# Virtualenv和Virtualenvwrapper的配置使用](https://blog.csdn.net/leafage_m/article/details/72854559)
 [# virtualenvwrapper详解](https://blog.csdn.net/taiyangdao/article/details/53890580)
@@ -307,10 +308,10 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTMxMDAzMSwxMjM2NjI5NjU2LDU0OD
-c1NTY1NCw4MzY4MzQwNDUsLTExMTIxNzE4NDAsMTMzNTExODg0
-OCwtMjA5MTcyNDM1OCwxOTEzMjkxMzE3LC0yMDY2MzYzMTE4LC
-02MjQ2MDcyMzEsLTE2MTMzMTAyOTMsMTU5MTk3NjY5LC0yMzIx
-MDY2ODQsMTU4NDkxOTEzNiwxMzI5MTA3NTUsLTc3MTUxMDI1NS
-wxMjMxNTU4ODkwXX0=
+eyJoaXN0b3J5IjpbLTU5Nzg1OTE0MiwxNTQ5MzEwMDMxLDEyMz
+Y2Mjk2NTYsNTQ4NzU1NjU0LDgzNjgzNDA0NSwtMTExMjE3MTg0
+MCwxMzM1MTE4ODQ4LC0yMDkxNzI0MzU4LDE5MTMyOTEzMTcsLT
+IwNjYzNjMxMTgsLTYyNDYwNzIzMSwtMTYxMzMxMDI5MywxNTkx
+OTc2NjksLTIzMjEwNjY4NCwxNTg0OTE5MTM2LDEzMjkxMDc1NS
+wtNzcxNTEwMjU1LDEyMzE1NTg4OTBdfQ==
 -->
