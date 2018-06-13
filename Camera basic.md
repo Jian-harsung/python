@@ -262,8 +262,10 @@ else:
 open
 read
 write
+判断文件是否存在：
 > import os
 > os.path.exists(filepath)
+打开不需显式关闭，用后系统自动close文件的用法：
 > with open(filepath, mode) as f:
 
 Windows因为路径反转，需要在路径前加上r，如
@@ -355,5 +357,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzODEzNzUxLDg1MTYyNTAyM119
+eyJoaXN0b3J5IjpbLTQ5MTc5MjQ5Myw4NTE2MjUwMjNdfQ==
 -->
