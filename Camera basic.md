@@ -15,47 +15,6 @@ python website[www.python.org]
 #pip list
 #pip freeze
 
-_ABC_
-__ABC__
-==ABC==
-~~ABC~~
-> ABC
-
-- ABC
-- XYZ
-
-* ABC
-* XYZ
-
-+ ABC
-+ XYZ
-
-1. ABC
-2. XYZ
-3. TTT
-
-- [ ] ABC
-- [x] ABC
-
-> quoted text
-
-some `inline code`
-```
-multi lines code 1
-mutli lines code 2
-```
-
-```python
-specified code language: python
-s = "Hello worrld"
-print(s)
-```
-```c
-specified code language: c
-str[] = "Hello world";
-printf("%s", str);
-```
-
 也到pypi下载所需要的包到本地，进入目录，通过pip对whl安装
 #pip install virtualenv-15.1.0-py2.py3-none-any.whl
 
@@ -287,6 +246,53 @@ else:
 ## IDE
 pycharm
 Atom
+
+
+# Markdown rules
+
+
+_ABC_
+__ABC__
+==ABC==
+~~ABC~~
+> ABC
+
+- ABC
+- XYZ
+
+* ABC
+* XYZ
+
++ ABC
++ XYZ
+
+1. ABC
+2. XYZ
+3. TTT
+
+- [ ] ABC
+- [x] ABC
+
+> quoted text
+
+some `inline code`
+```
+multi lines code 1
+mutli lines code 2
+```
+
+```python
+specified code language: python
+s = "Hello worrld"
+print(s)
+```
+```c
+specified code language: c
+str[] = "Hello world";
+printf("%s", str);
+```
+H_2_O is
+2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzI5MTMxN119
+eyJoaXN0b3J5IjpbMzA5NDg4NjQzLDE5MTMyOTEzMTddfQ==
 -->
