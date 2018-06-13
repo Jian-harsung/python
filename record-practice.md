@@ -227,8 +227,8 @@ index|返回原组中第一次出现指定value的位置|t.index(5)|7
 -|-|-|t.index(1)|0
 -|-|-|t.index(8)|ValueError: tuple.index(x): x not in tuple
 
-# control flow
-## if
+# 8 control flow
+## 8.1 if
 6种判断条件：<, <=, >, >=, ==, !=
 True和False
 条件语句
@@ -308,10 +308,10 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Nzg1OTE0MiwxNTQ5MzEwMDMxLDEyMz
-Y2Mjk2NTYsNTQ4NzU1NjU0LDgzNjgzNDA0NSwtMTExMjE3MTg0
-MCwxMzM1MTE4ODQ4LC0yMDkxNzI0MzU4LDE5MTMyOTEzMTcsLT
-IwNjYzNjMxMTgsLTYyNDYwNzIzMSwtMTYxMzMxMDI5MywxNTkx
-OTc2NjksLTIzMjEwNjY4NCwxNTg0OTE5MTM2LDEzMjkxMDc1NS
-wtNzcxNTEwMjU1LDEyMzE1NTg4OTBdfQ==
+eyJoaXN0b3J5IjpbNjU0ODY2MzY1LC01OTc4NTkxNDIsMTU0OT
+MxMDAzMSwxMjM2NjI5NjU2LDU0ODc1NTY1NCw4MzY4MzQwNDUs
+LTExMTIxNzE4NDAsMTMzNTExODg0OCwtMjA5MTcyNDM1OCwxOT
+EzMjkxMzE3LC0yMDY2MzYzMTE4LC02MjQ2MDcyMzEsLTE2MTMz
+MTAyOTMsMTU5MTk3NjY5LC0yMzIxMDY2ODQsMTU4NDkxOTEzNi
+wxMzI5MTA3NTUsLTc3MTUxMDI1NSwxMjMxNTU4ODkwXX0=
 -->
