@@ -33,6 +33,9 @@ In [2]:exit()
 (envp) #C:\Users\jikang\envp\Scripts>deactivate.bat
 C:\Users\jikang\envp\Scripts>
 
+[# virtualenv和virtualenvwrapper插件的使用]()
+[virtualenvwrapper详解](https://blog.csdn.net/taiyangdao/article/details/53890580)
+
 ### 1.1.4 ipython
 to be updated
 [ipython常用方法说明](https://blog.csdn.net/u013358302/article/details/51436079)
@@ -303,10 +306,10 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjYyOTY1Niw1NDg3NTU2NTQsODM2OD
-M0MDQ1LC0xMTEyMTcxODQwLDEzMzUxMTg4NDgsLTIwOTE3MjQz
-NTgsMTkxMzI5MTMxNywtMjA2NjM2MzExOCwtNjI0NjA3MjMxLC
-0xNjEzMzEwMjkzLDE1OTE5NzY2OSwtMjMyMTA2Njg0LDE1ODQ5
-MTkxMzYsMTMyOTEwNzU1LC03NzE1MTAyNTUsMTIzMTU1ODg5MF
-19
+eyJoaXN0b3J5IjpbLTcxMjU3NzM2OCwxMjM2NjI5NjU2LDU0OD
+c1NTY1NCw4MzY4MzQwNDUsLTExMTIxNzE4NDAsMTMzNTExODg0
+OCwtMjA5MTcyNDM1OCwxOTEzMjkxMzE3LC0yMDY2MzYzMTE4LC
+02MjQ2MDcyMzEsLTE2MTMzMTAyOTMsMTU5MTk3NjY5LC0yMzIx
+MDY2ODQsMTU4NDkxOTEzNiwxMzI5MTA3NTUsLTc3MTUxMDI1NS
+wxMjMxNTU4ODkwXX0=
 -->
