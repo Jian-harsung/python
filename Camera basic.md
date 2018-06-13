@@ -210,13 +210,14 @@ index|返回原组中第一次出现指定value的位置|t.index(5)|7
 -|-|-|t.index(8)|ValueError: tuple.index(x): x not in tuple
 
 # control flow
-
+## if
+6种判断条件：<, <=, >, >=, ==, !=
 
 # IDE, Tools, Books, Websites, etc....
 ## IDE
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTEwNzU1LC03NzE1MTAyNTUsLTE0Mj
-EyMDc5MDRdfQ==
+eyJoaXN0b3J5IjpbMTg4ODIyMjgyNSwxMzI5MTA3NTUsLTc3MT
+UxMDI1NSwtMTQyMTIwNzkwNF19
 -->
