@@ -50,7 +50,7 @@ print(s)
 ```
 ```c
 str[] = "Hello world";
-
+printf
 ```
 
 也到pypi下载所需要的包到本地，进入目录，通过pip对whl安装
@@ -285,8 +285,8 @@ else:
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjE2OTI0NiwtNzU2MjMwMjIyLC02Mj
-Q2MDcyMzEsLTE2MTMzMTAyOTMsMTU5MTk3NjY5LC0yMzIxMDY2
-ODQsMTU4NDkxOTEzNiwxMzI5MTA3NTUsLTc3MTUxMDI1NSwxMj
-MxNTU4ODkwXX0=
+eyJoaXN0b3J5IjpbLTEyOTA4NDIxMjEsMTY0NjE2OTI0NiwtNj
+I0NjA3MjMxLC0xNjEzMzEwMjkzLDE1OTE5NzY2OSwtMjMyMTA2
+Njg0LDE1ODQ5MTkxMzYsMTMyOTEwNzU1LC03NzE1MTAyNTUsMT
+IzMTU1ODg5MF19
 -->
