@@ -66,7 +66,7 @@ python源文件开头
  - help(???)						# help(list.count)或help(l1.count) 查看方法帮助文档
  - s.format()					# 简单格式化输出
  - %									# 定制格式化输出
- - vars()							# 打印系统内存缓存的变量
+ - vars()							# 打印python当前系统内存缓存的变量
  
 
 ## 2.2 函数
@@ -300,6 +300,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODAxNzUwMCwtMTExMjE3MTg0MCwxOT
+eyJoaXN0b3J5IjpbLTc2MTk5NTgwMiwtMTExMjE3MTg0MCwxOT
 EzMjkxMzE3XX0=
 -->
