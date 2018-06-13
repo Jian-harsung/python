@@ -78,7 +78,7 @@ ord(char)	| 把字符转换为数字 | #ord('A')
 len(对象)	| 求对象的长度 | #len(s1) / #len(l1)
 id() | 查看对象的指针 | #id(s1) / #id(l1)
 
- ## 2.3 包
+  2.3 包
 **numpy** : 科学计算
 **pandas**：
 **scipy**：
@@ -300,9 +300,10 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTk5NTgwMiw4MzY4MzQwNDUsLTExMT
-IxNzE4NDAsMTMzNTExODg0OCwtMjA5MTcyNDM1OCwxOTEzMjkx
-MzE3LC0yMDY2MzYzMTE4LC02MjQ2MDcyMzEsLTE2MTMzMTAyOT
-MsMTU5MTk3NjY5LC0yMzIxMDY2ODQsMTU4NDkxOTEzNiwxMzI5
-MTA3NTUsLTc3MTUxMDI1NSwxMjMxNTU4ODkwXX0=
+eyJoaXN0b3J5IjpbNTQ4NzU1NjU0LC03NjE5OTU4MDIsODM2OD
+M0MDQ1LC0xMTEyMTcxODQwLDEzMzUxMTg4NDgsLTIwOTE3MjQz
+NTgsMTkxMzI5MTMxNywtMjA2NjM2MzExOCwtNjI0NjA3MjMxLC
+0xNjEzMzEwMjkzLDE1OTE5NzY2OSwtMjMyMTA2Njg0LDE1ODQ5
+MTkxMzYsMTMyOTEwNzU1LC03NzE1MTAyNTUsMTIzMTU1ODg5MF
+19
 -->
