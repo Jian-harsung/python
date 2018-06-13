@@ -1,6 +1,6 @@
 
 > # Python record in Windows
-> Jian@Harman
+Jian@Harman
 
 # 1 Installation
 ** python, pip, virtualenv, ipython **
@@ -26,7 +26,7 @@ __ABC__
 
 
 ### 1.1.3 virtualenv
-> #virtualenv envp
+>  #virtualenv envp
 #cd C:\Users\jikang\envp\Scripts
 #active.bat
 (envp)#pip -V
@@ -39,7 +39,7 @@ In [2]:exit()
 (envp) #C:\Users\jikang\envp\Scripts>deactivate.bat
 C:\Users\jikang\envp\Scripts>
 
-(envp) #%save    # how to use
+== (envp) #%save    # how to use ==
 
 ### 1.1.4 ipython
 to be updated
@@ -253,5 +253,5 @@ else:
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjE3MzY4NzFdfQ==
+eyJoaXN0b3J5IjpbLTUyMDMwNzI2M119
 -->
