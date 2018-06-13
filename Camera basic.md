@@ -215,12 +215,19 @@ index|返回原组中第一次出现指定value的位置|t.index(5)|7
 True和False
 条件语句
 复合语句
+if <test>:
+	handle
+
+if <test>:
+	pass
+else:
 
 # IDE, Tools, Books, Websites, etc....
 ## IDE
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjEwNjY4NCwxNTg0OTE5MTM2LDEzMj
-kxMDc1NSwtNzcxNTEwMjU1LC0xNDIxMjA3OTA0XX0=
+eyJoaXN0b3J5IjpbNTg1MjkzODg4LC0yMzIxMDY2ODQsMTU4ND
+kxOTEzNiwxMzI5MTA3NTUsLTc3MTUxMDI1NSwtMTQyMTIwNzkw
+NF19
 -->
