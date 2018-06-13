@@ -267,6 +267,7 @@ method | description | example
 -|-|-
 open(path, mode)|path: mode: r/w/x/a/b|
 
+> filepa
 
 
 # IDE, Tools, Books, Websites, etc....
@@ -321,5 +322,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTA5MjAsMTY4MjQ3ODAwXX0=
+eyJoaXN0b3J5IjpbLTEwNzgzNzc1MjksMTY4MjQ3ODAwXX0=
 -->
