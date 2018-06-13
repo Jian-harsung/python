@@ -14,6 +14,9 @@ python website[www.python.org]
 #pip install virtualenv==version		# 指定安装版本
 #pip list
 #pip freeze
+也可以到pypi下载所需要的包到本地，进入目录，通过pip对whl安装
+#pip install virtualenv-15.1.0-py2.py3-none-any.whl
+
 
 ### 1.1.3 virtualenv
 #virtualenv envp
@@ -243,7 +246,7 @@ else:
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTMzMTAyOTMsMTU5MTk3NjY5LC0yMz
-IxMDY2ODQsMTU4NDkxOTEzNiwxMzI5MTA3NTUsLTc3MTUxMDI1
-NSwxMjMxNTU4ODkwXX0=
+eyJoaXN0b3J5IjpbMTU4MzI0NzQ4MywtMTYxMzMxMDI5MywxNT
+kxOTc2NjksLTIzMjEwNjY4NCwxNTg0OTE5MTM2LDEzMjkxMDc1
+NSwtNzcxNTEwMjU1LDEyMzE1NTg4OTBdfQ==
 -->
