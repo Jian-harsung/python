@@ -37,7 +37,7 @@ __ABC__
 - [ ] ABC
 - [x] ABC
 
-> quot
+> quotte
 some `inline code`
 ```
 multi lines code 1
@@ -287,7 +287,7 @@ else:
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTQ4MzgzLC0xMjkwODQyMTIxLC02Mj
+eyJoaXN0b3J5IjpbLTIwNjYzNjMxMTgsLTI5OTQ4MzgzLC02Mj
 Q2MDcyMzEsLTE2MTMzMTAyOTMsMTU5MTk3NjY5LC0yMzIxMDY2
 ODQsMTU4NDkxOTEzNiwxMzI5MTA3NTUsLTc3MTUxMDI1NSwxMj
 MxNTU4ODkwXX0=
