@@ -1,6 +1,6 @@
 
 > # Python record in Windows
-> Jian@Harman
+Jian@Harman
 
 # 1 Installation
 ** python, pip, virtualenv, ipython **
@@ -21,13 +21,14 @@ __ABC__
 ~~ABC~~
 > ABC
 
+
+
 也到pypi下载所需要的包到本地，进入目录，通过pip对whl安装
 #pip install virtualenv-15.1.0-py2.py3-none-any.whl
 
 
 ### 1.1.3 virtualenv
-> 
-> #virtualenv envp
+>  #virtualenv envp
 #cd C:\Users\jikang\envp\Scripts
 #active.bat
 (envp)#pip -V
@@ -40,7 +41,7 @@ In [2]:exit()
 (envp) #C:\Users\jikang\envp\Scripts>deactivate.bat
 C:\Users\jikang\envp\Scripts>
 
-(envp) #%save    # how to use
+== (envp) #%save    # how to use ==
 
 ### 1.1.4 ipython
 to be updated
@@ -254,7 +255,7 @@ else:
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTU1MTg3LC0xNjEzMzEwMjkzLDE1OT
-E5NzY2OSwtMjMyMTA2Njg0LDE1ODQ5MTkxMzYsMTMyOTEwNzU1
-LC03NzE1MTAyNTUsMTIzMTU1ODg5MF19
+eyJoaXN0b3J5IjpbLTEwNjg4Mjk2NjcsLTE2MTMzMTAyOTMsMT
+U5MTk3NjY5LC0yMzIxMDY2ODQsMTU4NDkxOTEzNiwxMzI5MTA3
+NTUsLTc3MTUxMDI1NSwxMjMxNTU4ODkwXX0=
 -->
