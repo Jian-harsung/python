@@ -40,7 +40,9 @@ to be updated
 [ipython常用方法说明](https://blog.csdn.net/u013358302/article/details/51436079)
 [笔记:IPython基础](https://www.jianshu.com/p/bbd44c7b99cf)
 
-#
+> #cls				# clear screen
+> #%save filename.py   n1-nx
+> 
 
 ### 1.1.5 installed location
 **python** @: C:\Python27
@@ -298,6 +300,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyMjAzOTYzLC0xMTEyMTcxODQwLDE5MT
-MyOTEzMTddfQ==
+eyJoaXN0b3J5IjpbLTg0MjQ2NDA5NCwtMTExMjE3MTg0MCwxOT
+EzMjkxMzE3XX0=
 -->
