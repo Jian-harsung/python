@@ -264,7 +264,10 @@ else:
 > os.path.exists(filepath)
 
 - 打开文件
+> open(path, mode)|path: mode: r/w/x/a/b|
 
+打开不需显式关闭，用后系统自动close文件的用法：
+> with open(filepath, mode) as f:
 
 - 读文件：
 > read
@@ -282,7 +285,7 @@ Windows因为路径反转，需要在路径前加上r，如
 
 method | description | example
 -|-|-
-open(path, mode)|path: mode: r/w/x/a/b|
+
  'close'|
  'closed'|
  'encoding'|
@@ -366,5 +369,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTI2NTE1NCw4NTE2MjUwMjNdfQ==
+eyJoaXN0b3J5IjpbLTE1MDY4MDk5MzQsODUxNjI1MDIzXX0=
 -->
