@@ -209,12 +209,12 @@ index|返回原组中第一次出现指定value的位置|t.index(5)|7
 -|-|-|t.index(1)|0
 -|-|-|t.index(8)|ValueError: tuple.index(x): x not in tuple
 
-
+# control flow
 
 # IDE, Tools, Books, Websites, etc....
 ## IDE
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODcxMjkyNSwtMTQyMTIwNzkwNF19
+eyJoaXN0b3J5IjpbLTc3MTUxMDI1NSwtMTQyMTIwNzkwNF19
 -->
