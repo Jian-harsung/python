@@ -217,27 +217,31 @@ True和False
 复合语句
 break
 
-if <test>:
-	handle
+`if <test>:
+	handle`
 
-if <test>:
+`if <test>:
 	pass
 else:
-	pass
+	pass`
 
-if <test>:
+`if <test>:
 	pass
 elif <test>:
 	pass
 else:
-	pass
+	pass`
+
+
+# file access
+
 
 # IDE, Tools, Books, Websites, etc....
 ## IDE
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDMwNDM5OSwtMjMyMTA2Njg0LDE1OD
-Q5MTkxMzYsMTMyOTEwNzU1LC03NzE1MTAyNTUsLTE0MjEyMDc5
-MDRdfQ==
+eyJoaXN0b3J5IjpbNTgwNDI1NDY0LC0yMzIxMDY2ODQsMTU4ND
+kxOTEzNiwxMzI5MTA3NTUsLTc3MTUxMDI1NSwtMTQyMTIwNzkw
+NF19
 -->
