@@ -67,7 +67,7 @@ python源文件开头
  - s.format()					# 简单格式化输出
  - %									# 定制格式化输出
  - vars()							# 打印python当前系统内存缓存的变量
- - ____buildins__
+ - __buildins__
  - 
  
 
@@ -303,6 +303,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzQ1MTc4NCwtMTExMjE3MTg0MCwxOT
+eyJoaXN0b3J5IjpbMTIzNjYyOTY1NiwtMTExMjE3MTg0MCwxOT
 EzMjkxMzE3XX0=
 -->
