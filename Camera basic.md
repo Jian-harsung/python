@@ -67,6 +67,8 @@ python源文件开头
  - s.format()					# 简单格式化输出
  - %									# 定制格式化输出
  - vars()							# 打印python当前系统内存缓存的变量
+ - ____buildins__
+ - 
  
 
 ## 2.2 函数
@@ -77,6 +79,7 @@ chr(num)	| 把数字转换为字符 | #chr(100)
 ord(char)	| 把字符转换为数字 | #ord('A')
 len(对象)	| 求对象的长度 | #len(s1) / #len(l1)
 id() | 查看对象的指针 | #id(s1) / #id(l1)
+
 
  ## 2.3 包
 **numpy** : 科学计算
@@ -300,6 +303,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTk5NTgwMiwtMTExMjE3MTg0MCwxOT
+eyJoaXN0b3J5IjpbLTUwNzQ1MTc4NCwtMTExMjE3MTg0MCwxOT
 EzMjkxMzE3XX0=
 -->
