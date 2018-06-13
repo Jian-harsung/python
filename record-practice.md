@@ -37,7 +37,7 @@ C:\Users\jikang\envp\Scripts>
 
 ### 1.1.4 ipython
 to be updated
-[ ipython常用方法说明](https://blog.csdn.net/u013358302/article/details/51436079)
+[ipython常用方法说明](https://blog.csdn.net/u013358302/article/details/51436079)
 
 ### 1.1.5 installed location
 **python** @: C:\Python27
@@ -295,8 +295,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTE3MjQzNTgsMTkxMzI5MTMxNywtMj
-A2NjM2MzExOCwtNjI0NjA3MjMxLC0xNjEzMzEwMjkzLDE1OTE5
-NzY2OSwtMjMyMTA2Njg0LDE1ODQ5MTkxMzYsMTMyOTEwNzU1LC
-03NzE1MTAyNTUsMTIzMTU1ODg5MF19
+eyJoaXN0b3J5IjpbMTMzNTExODg0OCwtMjA5MTcyNDM1OCwxOT
+EzMjkxMzE3LC0yMDY2MzYzMTE4LC02MjQ2MDcyMzEsLTE2MTMz
+MTAyOTMsMTU5MTk3NjY5LC0yMzIxMDY2ODQsMTU4NDkxOTEzNi
+wxMzI5MTA3NTUsLTc3MTUxMDI1NSwxMjMxNTU4ODkwXX0=
 -->
