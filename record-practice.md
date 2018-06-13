@@ -40,7 +40,7 @@ to be updated
 [ipython常用方法说明](https://blog.csdn.net/u013358302/article/details/51436079)
 [笔记:IPython基础](https://www.jianshu.com/p/bbd44c7b99cf)
 
-> 
+> %
 > #cls				# clear screen
 > #%save filename.py   n1-nx
 > 
@@ -301,9 +301,9 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTYwMzAzMCwtMTU1MzkxNjU1MSwtMT
-ExMjE3MTg0MCwxMzM1MTE4ODQ4LC0yMDkxNzI0MzU4LDE5MTMy
-OTEzMTcsLTIwNjYzNjMxMTgsLTYyNDYwNzIzMSwtMTYxMzMxMD
-I5MywxNTkxOTc2NjksLTIzMjEwNjY4NCwxNTg0OTE5MTM2LDEz
-MjkxMDc1NSwtNzcxNTEwMjU1LDEyMzE1NTg4OTBdfQ==
+eyJoaXN0b3J5IjpbODM2ODM0MDQ1LDE5NDE2MDMwMzAsLTExMT
+IxNzE4NDAsMTMzNTExODg0OCwtMjA5MTcyNDM1OCwxOTEzMjkx
+MzE3LC0yMDY2MzYzMTE4LC02MjQ2MDcyMzEsLTE2MTMzMTAyOT
+MsMTU5MTk3NjY5LC0yMzIxMDY2ODQsMTU4NDkxOTEzNiwxMzI5
+MTA3NTUsLTc3MTUxMDI1NSwxMjMxNTU4ODkwXX0=
 -->
