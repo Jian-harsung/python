@@ -101,6 +101,11 @@ id() | 查看对象的指针 | #id(s1) / #id(l1)
 - csv：报表
 - XML：多用于传输过程中
 - 
+
+## 2.5 Regulations
+PEP8: 
+
+
 # 3 术语中英对照
 English | Chinese
 ---------|-------
@@ -260,7 +265,8 @@ write
 
 method | description | example
 -|-|-
-open(path, mode)
+open(path, mode)|path: mode: r/w/x/a/b|
+
 
 
 # IDE, Tools, Books, Websites, etc....
@@ -315,5 +321,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDIyMjYxNzksMTY4MjQ3ODAwXX0=
+eyJoaXN0b3J5IjpbMTYxOTA5MjAsMTY4MjQ3ODAwXX0=
 -->
