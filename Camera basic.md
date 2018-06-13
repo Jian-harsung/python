@@ -33,8 +33,6 @@ In [2]:exit()
 (envp) #C:\Users\jikang\envp\Scripts>deactivate.bat
 C:\Users\jikang\envp\Scripts>
 
-== (envp) #%save    # how to use ==
-
 ### 1.1.4 ipython
 to be updated
 [ipython常用方法说明](https://blog.csdn.net/u013358302/article/details/51436079)
@@ -42,7 +40,7 @@ to be updated
 
 > %env          										# display environment including OS, python and ipython
 > #cls													# clear screen
-> #%save filename.py   n1-nx         	# save script to fil
+> #%save filename.py   n1-nx         	# save script to file
 > 
 
 ### 1.1.5 installed location
@@ -68,6 +66,7 @@ python源文件开头
  - help(???)						# help(list.count)或help(l1.count) 查看方法帮助文档
  - s.format()			# 简单格式化输出
  - %							# 定制格式化输出
+ - vars()
  
 
 ## 2.2 函数
@@ -301,6 +300,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxNjkzMiwtMTExMjE3MTg0MCwxOTEzMj
-kxMzE3XX0=
+eyJoaXN0b3J5IjpbLTExOTM5ODExMjcsLTExMTIxNzE4NDAsMT
+kxMzI5MTMxN119
 -->
