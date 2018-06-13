@@ -215,7 +215,6 @@ index|返回原组中第一次出现指定value的位置|t.index(5)|7
 True和False
 条件语句
 复合语句
-break
 
 `if <test>:
 	handle`
@@ -232,6 +231,9 @@ elif <test>:
 else:
 	pass`
 
+## for and while
+
+## while
 
 # file access
 
@@ -241,7 +243,5 @@ else:
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwNDI1NDY0LC0yMzIxMDY2ODQsMTU4ND
-kxOTEzNiwxMzI5MTA3NTUsLTc3MTUxMDI1NSwtMTQyMTIwNzkw
-NF19
+eyJoaXN0b3J5IjpbLTE2MTMzMTAyOTNdfQ==
 -->
