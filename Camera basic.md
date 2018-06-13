@@ -213,12 +213,14 @@ index|返回原组中第一次出现指定value的位置|t.index(5)|7
 ## if
 6种判断条件：<, <=, >, >=, ==, !=
 True和False
+条件语句
+复合语句
 
 # IDE, Tools, Books, Websites, etc....
 ## IDE
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDkxOTEzNiwxMzI5MTA3NTUsLTc3MT
-UxMDI1NSwtMTQyMTIwNzkwNF19
+eyJoaXN0b3J5IjpbLTIzMjEwNjY4NCwxNTg0OTE5MTM2LDEzMj
+kxMDc1NSwtNzcxNTEwMjU1LC0xNDIxMjA3OTA0XX0=
 -->
