@@ -262,6 +262,11 @@ else:
 open
 read
 write
+> import os
+> os.path.exists(filepath)
+> with open(filepath, mode) as f:
+
+Windows因为路径反转,x
 
 method | description | example
 -|-|-
@@ -349,5 +354,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUxNjI1MDIzXX0=
+eyJoaXN0b3J5IjpbMTM3NzYzNTQyNyw4NTE2MjUwMjNdfQ==
 -->
