@@ -291,8 +291,8 @@ specified code language: c
 str[] = "Hello world";
 printf("%s", str);
 ```
-H_2_O is
-2
+== H-2-O is ==
+2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5NDg4NjQzLDE5MTMyOTEzMTddfQ==
+eyJoaXN0b3J5IjpbLTI0NzU2MTI2MywxOTEzMjkxMzE3XX0=
 -->
