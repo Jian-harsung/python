@@ -249,11 +249,15 @@ elif <test>:
 else:
 	pass`
 
-## for and while
+## 8.2 for and while
 
-## while
 
-# file access
+
+# 9 file access
+open
+read
+write
+
 
 
 # IDE, Tools, Books, Websites, etc....
@@ -308,10 +312,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0ODY2MzY1LC01OTc4NTkxNDIsMTU0OT
-MxMDAzMSwxMjM2NjI5NjU2LDU0ODc1NTY1NCw4MzY4MzQwNDUs
-LTExMTIxNzE4NDAsMTMzNTExODg0OCwtMjA5MTcyNDM1OCwxOT
-EzMjkxMzE3LC0yMDY2MzYzMTE4LC02MjQ2MDcyMzEsLTE2MTMz
-MTAyOTMsMTU5MTk3NjY5LC0yMzIxMDY2ODQsMTU4NDkxOTEzNi
-wxMzI5MTA3NTUsLTc3MTUxMDI1NSwxMjMxNTU4ODkwXX0=
+eyJoaXN0b3J5IjpbLTk3NDI5NTM0NCw2NTQ4NjYzNjUsLTU5Nz
+g1OTE0MiwxNTQ5MzEwMDMxLDEyMzY2Mjk2NTYsNTQ4NzU1NjU0
+LDgzNjgzNDA0NSwtMTExMjE3MTg0MCwxMzM1MTE4ODQ4LC0yMD
+kxNzI0MzU4LDE5MTMyOTEzMTcsLTIwNjYzNjMxMTgsLTYyNDYw
+NzIzMSwtMTYxMzMxMDI5MywxNTkxOTc2NjksLTIzMjEwNjY4NC
+wxNTg0OTE5MTM2LDEzMjkxMDc1NSwtNzcxNTEwMjU1LDEyMzE1
+NTg4OTBdfQ==
 -->
