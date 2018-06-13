@@ -93,7 +93,9 @@ iterable |迭代
 method | 方法
 object | 对象
 ?? | 属性
+shallow copy | 浅拷贝
 type | 类型
+tuple | 元组
 
 - 弱变量语言
 - 对象 **.** 属性
@@ -170,25 +172,38 @@ command | output | comments
 
 ## 6.2 method
 method | description | how to | output
+-|-|-|-
  'clear' | 
- 'copy' | 
+ 'copy' | shallow copy | d1=d.copy() | d1指向d同一片内存区域？？？
  'fromkeys' |
  'get' |
- 'has_key',
- 'items',
- 'iteritems',
- 'iterkeys',
- 'itervalues',
- 'keys',
- 'pop',
- 'popitem',
- 'setdefault',
- 'update',
- 'values',
- 'viewitems',
- 'viewkeys',
- 'viewvalues' | 只取字典的值 | d.viewvalues() | 
+ 'has_key' |
+ 'items'|
+ 'iteritems'|
+ 'iterkeys'|
+ 'itervalues'|
+ 'keys'|
+ 'pop'|
+ 'popitem'|
+ 'setdefault'|
+ 'update'|
+ 'values'|
+ 'viewitems' | 输出字典内容 | d.viewitems() | dict_items([('more', {'topic': 'software', 'experience': 10}), ('age', 20), ('address', 'hongmei road'), ('name', 'Jack'), ('no', 1)])
+ 'viewkeys' | 输出字典的键 | d.viewkeys() | dict_keys(['more', 'age', 'address', 'name', 'no'])
+ 'viewvalues' | 输出字典的值 | d.viewvalues() |  dict_values([{'topic': 'software', 'experience': 10}, 20, 'hongmei road', 'Jack', 1])
 
+# 7 tuple
+## 7.1 definition
+t = (1, 2,3,4,5,6)
+- #type(t)  -> tuple
+- #len(t) -> 6
+- #dir(t)  -> count, index
+
+## 7.2 method
+method | description | how to | output
+-|-|-|-
+count|
+index|
 
 
 
@@ -197,5 +212,5 @@ method | description | how to | output
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjA2OTIxNF19
+eyJoaXN0b3J5IjpbLTE0MjEyMDc5MDRdfQ==
 -->
