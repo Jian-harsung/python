@@ -291,11 +291,11 @@ specified code language: c
 str[] = "Hello world";
 printf("%s", str);
 ```
-H_2_O is
-2
+== H-2-O is ==
+2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5NDg4NjQzLDE5MTMyOTEzMTcsLTIwNj
-YzNjMxMTgsLTYyNDYwNzIzMSwtMTYxMzMxMDI5MywxNTkxOTc2
-NjksLTIzMjEwNjY4NCwxNTg0OTE5MTM2LDEzMjkxMDc1NSwtNz
-cxNTEwMjU1LDEyMzE1NTg4OTBdfQ==
+eyJoaXN0b3J5IjpbLTI0NzU2MTI2MywxOTEzMjkxMzE3LC0yMD
+Y2MzYzMTE4LC02MjQ2MDcyMzEsLTE2MTMzMTAyOTMsMTU5MTk3
+NjY5LC0yMzIxMDY2ODQsMTU4NDkxOTEzNiwxMzI5MTA3NTUsLT
+c3MTUxMDI1NSwxMjMxNTU4ODkwXX0=
 -->
