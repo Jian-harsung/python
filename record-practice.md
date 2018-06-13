@@ -39,7 +39,12 @@ __ABC__
 
 some `inline code`
 ```
-multi lines code
+multi lines code 1
+mutli lines code 2
+```
+
+```python
+specified c
 ```
 
 也到pypi下载所需要的包到本地，进入目录，通过pip对whl安装
@@ -274,8 +279,8 @@ else:
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzMwOTk1MTYsLTQ2MTEwMjY5OCwtNj
-I0NjA3MjMxLC0xNjEzMzEwMjkzLDE1OTE5NzY2OSwtMjMyMTA2
-Njg0LDE1ODQ5MTkxMzYsMTMyOTEwNzU1LC03NzE1MTAyNTUsMT
-IzMTU1ODg5MF19
+eyJoaXN0b3J5IjpbLTE2NzExMTY2NTksLTEyNzMwOTk1MTYsLT
+YyNDYwNzIzMSwtMTYxMzMxMDI5MywxNTkxOTc2NjksLTIzMjEw
+NjY4NCwxNTg0OTE5MTM2LDEzMjkxMDc1NSwtNzcxNTEwMjU1LD
+EyMzE1NTg4OTBdfQ==
 -->
