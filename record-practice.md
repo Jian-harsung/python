@@ -264,6 +264,7 @@ read
 write
 > import os
 > os.path.exists(filepath)
+> 
 > with open(filepath, mode) as f:
 
 Windows因为路径反转，需要在路径前加上r，如
@@ -355,7 +356,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzODEzNzUxLDIwMTkzOTA3NDMsLTkxMD
+eyJoaXN0b3J5IjpbMjA3NzQyODkzMSw1MzM4MTM3NTEsLTkxMD
 E4NzkyMiwxNjgyNDc4MDAsNjU0ODY2MzY1LC01OTc4NTkxNDIs
 MTU0OTMxMDAzMSwxMjM2NjI5NjU2LDU0ODc1NTY1NCw4MzY4Mz
 QwNDUsLTExMTIxNzE4NDAsMTMzNTExODg0OCwtMjA5MTcyNDM1
