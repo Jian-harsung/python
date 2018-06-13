@@ -87,6 +87,7 @@ id() | 查看对象的指针 | #id(s1) / #id(l1)
 English | Chinese
 ---------|-------
 class | 类别
+dict | 字典
 identity | ???
 iterable |迭代
 method | 方法
@@ -157,23 +158,36 @@ copy() | v3.x, 这里有深拷贝和浅拷贝的区别|
 
 
 # 6 dict
+## 6.1 Definition
+#d = {'no':1, 'name':"Jack", 'age':20, 'address':"hongmei road"， ‘more’:{'topic':'software', 'experience':10}}
+command | output | comments
+-|-|-
+#d|{'address': 'hongmei road', 'age': 20, 'more': {'experience': 10, 'topic': 'software'}, 'name': 'Jack', 'no': 1} |# 字典的键值对不会根据定义顺序，而是乱序存储
+#len(d) | #5|字典键值对个数
+#d['address']|'hongmei road' | 按键取值
+#d['more'] | {'experience': 10, 'topic': 'software'} | 返回键值，为另一个字典
+#d['more']['topic'] | 'software'|按键取值
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 6.2 method
+method | description | how to | output
+ 'clear' | 
+ 'copy' | 
+ 'fromkeys' |
+ 'get' |
+ 'has_key',
+ 'items',
+ 'iteritems',
+ 'iterkeys',
+ 'itervalues',
+ 'keys',
+ 'pop',
+ 'popitem',
+ 'setdefault',
+ 'update',
+ 'values',
+ 'viewitems',
+ 'viewkeys',
+ 'viewvalues' | 只取字典的值 | d.viewvalues() | 
 
 
 
@@ -183,5 +197,5 @@ copy() | v3.x, 这里有深拷贝和浅拷贝的区别|
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4MjE1MTIwXX0=
+eyJoaXN0b3J5IjpbLTg2MjA2OTIxNF19
 -->
