@@ -203,7 +203,9 @@ t = (1,1,1,1,2,3,4,5,6)
 method | description | how to | output
 -|-|-|-
 count|计算原组中指定value出现的次数|t.count(1)|4
-index|返回原组中第一次出现指定value的位置|
+index|返回原组中第一次出现指定value的位置|t.index(5)|7
+||t.index(1)|0
+|||t.index(8)|ValueError: tuple.index(x): x not in tuple
 
 
 
@@ -212,5 +214,5 @@ index|返回原组中第一次出现指定value的位置|
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTM2NTMzOCwtMTEyMDE0NzUwNF19
+eyJoaXN0b3J5IjpbMTQwNTk4NDQ5MCwxMDI5MzY1MzM4XX0=
 -->
