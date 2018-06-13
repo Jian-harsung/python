@@ -44,7 +44,12 @@ mutli lines code 2
 ```
 
 ```python
-specif
+specified code language
+s = "Hello worrld"
+print(s)
+```
+```c
+str[] = "Hello worl"
 ```
 
 也到pypi下载所需要的包到本地，进入目录，通过pip对whl安装
@@ -279,5 +284,5 @@ else:
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDk3MDQyXX0=
+eyJoaXN0b3J5IjpbLTMyNTIzMDc4M119
 -->
