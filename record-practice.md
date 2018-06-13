@@ -202,7 +202,7 @@ t = (1,1,1,1,2,3,4,5,6)
 ## 7.2 method
 method | description | how to | output
 -|-|-|-
-count|计算原组中指定value出现的次数|t.count(value)
+count|计算原组中指定value出现的次数|t.count(1)
 index|
 
 
@@ -212,5 +212,5 @@ index|
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzE4NzQ3MDhdfQ==
+eyJoaXN0b3J5IjpbLTE3NjU0Nzc5NiwtMTkzMTg3NDcwOF19
 -->
