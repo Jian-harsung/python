@@ -266,7 +266,8 @@ write
 > os.path.exists(filepath)
 > with open(filepath, mode) as f:
 
-Windows因为路径反转,x
+Windows因为路径反转，需要在路径前加上r，如
+> filepath="C:\Users\jikang\envp\Scripts\ipython-help.txt"
 
 method | description | example
 -|-|-
@@ -354,5 +355,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzYzNTQyNyw4NTE2MjUwMjNdfQ==
+eyJoaXN0b3J5IjpbNTMzODEzNzUxLDg1MTYyNTAyM119
 -->
