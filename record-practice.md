@@ -33,8 +33,6 @@ In [2]:exit()
 (envp) #C:\Users\jikang\envp\Scripts>deactivate.bat
 C:\Users\jikang\envp\Scripts>
 
-== (envp) #%save    # how to use ==
-
 ### 1.1.4 ipython
 to be updated
 [ipython常用方法说明](https://blog.csdn.net/u013358302/article/details/51436079)
@@ -68,6 +66,7 @@ python源文件开头
  - help(???)						# help(list.count)或help(l1.count) 查看方法帮助文档
  - s.format()			# 简单格式化输出
  - %							# 定制格式化输出
+ - vars()
  
 
 ## 2.2 函数
@@ -301,9 +300,9 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1NTgwMzA3LDgzNjgzNDA0NSwtMTExMj
-E3MTg0MCwxMzM1MTE4ODQ4LC0yMDkxNzI0MzU4LDE5MTMyOTEz
-MTcsLTIwNjYzNjMxMTgsLTYyNDYwNzIzMSwtMTYxMzMxMDI5My
-wxNTkxOTc2NjksLTIzMjEwNjY4NCwxNTg0OTE5MTM2LDEzMjkx
-MDc1NSwtNzcxNTEwMjU1LDEyMzE1NTg4OTBdfQ==
+eyJoaXN0b3J5IjpbLTExOTM5ODExMjcsODM2ODM0MDQ1LC0xMT
+EyMTcxODQwLDEzMzUxMTg4NDgsLTIwOTE3MjQzNTgsMTkxMzI5
+MTMxNywtMjA2NjM2MzExOCwtNjI0NjA3MjMxLC0xNjEzMzEwMj
+kzLDE1OTE5NzY2OSwtMjMyMTA2Njg0LDE1ODQ5MTkxMzYsMTMy
+OTEwNzU1LC03NzE1MTAyNTUsMTIzMTU1ODg5MF19
 -->
