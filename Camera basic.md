@@ -258,7 +258,9 @@ open
 read
 write
 
-open(path)
+method | description | example
+-|-|-
+open(path, mode)
 
 
 # IDE, Tools, Books, Websites, etc....
@@ -313,5 +315,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MjQ3ODAwXX0=
+eyJoaXN0b3J5IjpbLTIxNDIyMjYxNzksMTY4MjQ3ODAwXX0=
 -->
