@@ -21,7 +21,8 @@ __ABC__
 ~~ABC~~
 > ABC
 
-
+ABC
+AB
 
 也到pypi下载所需要的包到本地，进入目录，通过pip对whl安装
 #pip install virtualenv-15.1.0-py2.py3-none-any.whl
@@ -255,7 +256,8 @@ else:
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjg4Mjk2NjcsLTE2MTMzMTAyOTMsMT
-U5MTk3NjY5LC0yMzIxMDY2ODQsMTU4NDkxOTEzNiwxMzI5MTA3
-NTUsLTc3MTUxMDI1NSwxMjMxNTU4ODkwXX0=
+eyJoaXN0b3J5IjpbLTE3MDEzOTQyMTAsLTEwNjg4Mjk2NjcsLT
+E2MTMzMTAyOTMsMTU5MTk3NjY5LC0yMzIxMDY2ODQsMTU4NDkx
+OTEzNiwxMzI5MTA3NTUsLTc3MTUxMDI1NSwxMjMxNTU4ODkwXX
+0=
 -->
