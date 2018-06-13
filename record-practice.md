@@ -264,6 +264,7 @@ else:
 > os.path.exists(filepath)
 
 - 打开文件
+> open(path, mode)|path: mode: r/w/x/a/b|
 
 打开不需显式关闭，用后系统自动close文件的用法：
 > with open(filepath, mode) as f:
@@ -284,7 +285,7 @@ Windows因为路径反转，需要在路径前加上r，如
 
 method | description | example
 -|-|-
-open(path, mode)|path: mode: r/w/x/a/b|
+
  'close'|
  'closed'|
  'encoding'|
@@ -368,11 +369,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTUzMDc2OCwyMDc3NDI4OTMxLC05MT
-AxODc5MjIsMTY4MjQ3ODAwLDY1NDg2NjM2NSwtNTk3ODU5MTQy
-LDE1NDkzMTAwMzEsMTIzNjYyOTY1Niw1NDg3NTU2NTQsODM2OD
-M0MDQ1LC0xMTEyMTcxODQwLDEzMzUxMTg4NDgsLTIwOTE3MjQz
-NTgsMTkxMzI5MTMxNywtMjA2NjM2MzExOCwtNjI0NjA3MjMxLC
-0xNjEzMzEwMjkzLDE1OTE5NzY2OSwtMjMyMTA2Njg0LDE1ODQ5
-MTkxMzZdfQ==
+eyJoaXN0b3J5IjpbLTE1MDY4MDk5MzQsMjA3NzQyODkzMSwtOT
+EwMTg3OTIyLDE2ODI0NzgwMCw2NTQ4NjYzNjUsLTU5Nzg1OTE0
+MiwxNTQ5MzEwMDMxLDEyMzY2Mjk2NTYsNTQ4NzU1NjU0LDgzNj
+gzNDA0NSwtMTExMjE3MTg0MCwxMzM1MTE4ODQ4LC0yMDkxNzI0
+MzU4LDE5MTMyOTEzMTcsLTIwNjYzNjMxMTgsLTYyNDYwNzIzMS
+wtMTYxMzMxMDI5MywxNTkxOTc2NjksLTIzMjEwNjY4NCwxNTg0
+OTE5MTM2XX0=
 -->
