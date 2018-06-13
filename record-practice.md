@@ -221,6 +221,7 @@ if <test>:
 if <test>:
 	pass
 else:
+	pass
 	
 
 # IDE, Tools, Books, Websites, etc....
@@ -228,7 +229,7 @@ else:
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDQ1NDg5MCwtMjMyMTA2Njg0LDE1OD
-Q5MTkxMzYsMTMyOTEwNzU1LC03NzE1MTAyNTUsMTIzMTU1ODg5
-MF19
+eyJoaXN0b3J5IjpbMTU5MTk3NjY5LDE4MjQ0NTQ4OTAsLTIzMj
+EwNjY4NCwxNTg0OTE5MTM2LDEzMjkxMDc1NSwtNzcxNTEwMjU1
+LDEyMzE1NTg4OTBdfQ==
 -->
