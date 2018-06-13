@@ -266,11 +266,35 @@ write
 method | description | example
 -|-|-
 open(path, mode)|path: mode: r/w/x/a/b|
+ 'close'|
+ 'closed'|
+ 'encoding'|
+ 'errors'|
+ 'fileno',
+ 'flush',
+ 'isatty',
+ 'mode',
+ 'name',
+ 'newlines',
+ 'next',
+ 'read',
+ 'readinto',
+ 'readline',
+ 'readlines',
+ 'seek',
+ 'softspace',
+ 'tell',
+ 'truncate',
+ 'write',
+ 'writelines',
+ 'xreadlines']
 
 > filepath="C:\Users\jikang\envp\Scripts\ipython-help.txt"
 > import os
 > if os.path.exists(filepath):
-> print()
+> open(filepath, 'r')
+> print(readline(100))
+> print(readlines(100))
 
 
 # IDE, Tools, Books, Websites, etc....
@@ -325,11 +349,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDE4NzkyMiwxNDA2OTAyOTE1LDE2OD
-I0NzgwMCw2NTQ4NjYzNjUsLTU5Nzg1OTE0MiwxNTQ5MzEwMDMx
-LDEyMzY2Mjk2NTYsNTQ4NzU1NjU0LDgzNjgzNDA0NSwtMTExMj
-E3MTg0MCwxMzM1MTE4ODQ4LC0yMDkxNzI0MzU4LDE5MTMyOTEz
-MTcsLTIwNjYzNjMxMTgsLTYyNDYwNzIzMSwtMTYxMzMxMDI5My
-wxNTkxOTc2NjksLTIzMjEwNjY4NCwxNTg0OTE5MTM2LDEzMjkx
-MDc1NV19
+eyJoaXN0b3J5IjpbODUxNjI1MDIzLC05MTAxODc5MjIsMTY4Mj
+Q3ODAwLDY1NDg2NjM2NSwtNTk3ODU5MTQyLDE1NDkzMTAwMzEs
+MTIzNjYyOTY1Niw1NDg3NTU2NTQsODM2ODM0MDQ1LC0xMTEyMT
+cxODQwLDEzMzUxMTg4NDgsLTIwOTE3MjQzNTgsMTkxMzI5MTMx
+NywtMjA2NjM2MzExOCwtNjI0NjA3MjMxLC0xNjEzMzEwMjkzLD
+E1OTE5NzY2OSwtMjMyMTA2Njg0LDE1ODQ5MTkxMzYsMTMyOTEw
+NzU1XX0=
 -->
