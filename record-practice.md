@@ -37,6 +37,7 @@ __ABC__
 - [ ] ABC
 - [x] ABC
 
+> quot
 some `inline code`
 ```
 multi lines code 1
@@ -44,13 +45,14 @@ mutli lines code 2
 ```
 
 ```python
-specified code language
+specified code language: python
 s = "Hello worrld"
 print(s)
 ```
 ```c
+specified code language: c
 str[] = "Hello world";
-printf
+printf("%s", str);
 ```
 
 也到pypi下载所需要的包到本地，进入目录，通过pip对whl安装
@@ -58,7 +60,7 @@ printf
 
 
 ### 1.1.3 virtualenv
->  #virtualenv envp
+#virtualenv envp
 #cd C:\Users\jikang\envp\Scripts
 #active.bat
 (envp)#pip -V
@@ -285,8 +287,8 @@ else:
 pycharm
 Atom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA4NDIxMjEsMTY0NjE2OTI0NiwtNj
-I0NjA3MjMxLC0xNjEzMzEwMjkzLDE1OTE5NzY2OSwtMjMyMTA2
-Njg0LDE1ODQ5MTkxMzYsMTMyOTEwNzU1LC03NzE1MTAyNTUsMT
-IzMTU1ODg5MF19
+eyJoaXN0b3J5IjpbLTI5OTQ4MzgzLC0xMjkwODQyMTIxLC02Mj
+Q2MDcyMzEsLTE2MTMzMTAyOTMsMTU5MTk3NjY5LC0yMzIxMDY2
+ODQsMTU4NDkxOTEzNiwxMzI5MTA3NTUsLTc3MTUxMDI1NSwxMj
+MxNTU4ODkwXX0=
 -->
