@@ -266,11 +266,35 @@ write
 method | description | example
 -|-|-
 open(path, mode)|path: mode: r/w/x/a/b|
+ 'close'|
+ 'closed'|
+ 'encoding'|
+ 'errors'|
+ 'fileno',
+ 'flush',
+ 'isatty',
+ 'mode',
+ 'name',
+ 'newlines',
+ 'next',
+ 'read',
+ 'readinto',
+ 'readline',
+ 'readlines',
+ 'seek',
+ 'softspace',
+ 'tell',
+ 'truncate',
+ 'write',
+ 'writelines',
+ 'xreadlines']
 
 > filepath="C:\Users\jikang\envp\Scripts\ipython-help.txt"
 > import os
 > if os.path.exists(filepath):
-> print
+> open(filepath, 'r')
+> print(readline(100))
+> print(readlines(100))
 
 
 # IDE, Tools, Books, Websites, etc....
@@ -325,5 +349,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5MjI4OTUsMTY4MjQ3ODAwXX0=
+eyJoaXN0b3J5IjpbODUxNjI1MDIzXX0=
 -->
