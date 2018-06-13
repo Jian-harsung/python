@@ -64,9 +64,9 @@ python源文件开头
  - type(对象)		# 查看对象类型
  - dir(类型或者对象)		# dir(list)或dir(l1) 列出所有属性和方法
  - help(???)						# help(list.count)或help(l1.count) 查看方法帮助文档
- - s.format()			# 简单格式化输出
- - %							# 定制格式化输出
- - vars()
+ - s.format()					# 简单格式化输出
+ - %									# 定制格式化输出
+ - vars()							# 打印系统内存缓存的变量
  
 
 ## 2.2 函数
@@ -300,6 +300,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTM5ODExMjcsLTExMTIxNzE4NDAsMT
-kxMzI5MTMxN119
+eyJoaXN0b3J5IjpbMTA3ODAxNzUwMCwtMTExMjE3MTg0MCwxOT
+EzMjkxMzE3XX0=
 -->
