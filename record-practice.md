@@ -53,6 +53,8 @@ to be updated
 **package** @: C:\Python27\Scripts		# including easy_install, pip and virtualenv
 **envp** @: C:\Users\jikang\envp\Scripts, 因为在cmd默认路径C:\Users\jikang执行的
 
+
+
 ## 1.2 Linux
 to be updated
 ### virtualenv 
@@ -61,8 +63,12 @@ to be updated
 - source 
 - rm -rf project
 
+安装路径
+- lib: ??
+- site-packages: ??
+
 python源文件开头
-#!/usr/bin/env python
+==#!/usr/bin/env python== 
 
 # 2 常用命令, 函数和包
  ## 2.1 命令
@@ -73,6 +79,7 @@ python源文件开头
  - %									# 定制格式化输出
  - vars()							# 打印python当前系统内存缓存的变量
  - __buildins__
+ - __buildin__
  - 
  
 
@@ -84,17 +91,29 @@ chr(num)	| 把数字转换为字符 | #chr(100)
 ord(char)	| 把字符转换为数字 | #ord('A')
 len(对象)	| 求对象的长度 | #len(s1) / #len(l1)
 id() | 查看对象的指针 | #id(s1) / #id(l1)
-
+range(start, stop[, step])|返回start到stop-1的数字，start default 0|range(100),range(5,20),range(12, 1000, 8)
 
  ## 2.3 包
 **numpy** : 科学计算
 **pandas**：
 **scipy**：
 **matplotlib**：
-
+**random**: 产生随机数
+**sys**: 
 - import MODULE
+- import MODULE1, MODULE2, ...
+> import math
+> math.pi
+
+- from MODULE import <method> /<方法>
+> from math import pi
+> pi
+
 - import MODULE as short-name
-- import function 
+- ==import function ???==
+
+
+[how to use **random** module](http://www.pythonforbeginners.com/random/how-to-use-the-random-module-in-python)
 
 ## 2.4 常用数据传输格式
 - JSON： 网络传输
@@ -255,8 +274,26 @@ else:
 	pass`
 
 ## 8.2 for and while
+- for 为已知循环次数
 
-
+> for i in range(100):
+>   print(i)
+将会打印0到99个数字
+- while为未知条件判断
+> a = 10
+> while a <= 100:
+> print('count %s' % a)
+> a += 1
+会打印从10开始的3累加到100的数字
+- beark语句，只能用在循环体中
+> a = 10
+> while a  <= 100
+> if a % 3 == 0:
+> break;
+> else:
+> print('count %s' % a)
+> a += 1
+此时只打印10，11. 当a累加到12时，对3取余为零，就满足了if判断条件，就会执行break跳出.
 
 # 9 file access
 - 判断文件是否存在：
@@ -316,11 +353,29 @@ method | description | example
 > print(readline(100))
 > print(readlines(100))
 
+# 10 input and output
+ - python 2.x: 用户输入什么，类型就是什么 
+ - python 3.x: 均为str
+
+# python file purpose
+- execution
+- import as module
+- 
 
 # IDE, Tools, Books, Websites, etc....
 ## IDE
 pycharm
 Atom
+
+==列表推导式==
+- [i for i in 'abcdefg']
+- (i for i in range(100))
+
+
+# practice
+## Poker
+
+## mysql access
 
 
 # Markdown rules
@@ -369,11 +424,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDY4MDk5MzQsMjA3NzQyODkzMSwtOT
-EwMTg3OTIyLDE2ODI0NzgwMCw2NTQ4NjYzNjUsLTU5Nzg1OTE0
-MiwxNTQ5MzEwMDMxLDEyMzY2Mjk2NTYsNTQ4NzU1NjU0LDgzNj
-gzNDA0NSwtMTExMjE3MTg0MCwxMzM1MTE4ODQ4LC0yMDkxNzI0
-MzU4LDE5MTMyOTEzMTcsLTIwNjYzNjMxMTgsLTYyNDYwNzIzMS
-wtMTYxMzMxMDI5MywxNTkxOTc2NjksLTIzMjEwNjY4NCwxNTg0
-OTE5MTM2XX0=
+eyJoaXN0b3J5IjpbLTM1NTYzOTg2XX0=
 -->
