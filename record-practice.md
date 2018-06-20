@@ -367,6 +367,7 @@ method | description | example
 
 
 
+
 # python file purpose
 - execution
 - import as module
@@ -434,6 +435,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDA0Mjk5NywxNTU0NzM0NDQ5LC0xMD
-I2NDQwNzc1LC0xNjYwNzI1MzgxLC0zNTU2Mzk4Nl19
+eyJoaXN0b3J5IjpbMjEyNjEzNzg2MywxOTM0MDQyOTk3LDE1NT
+Q3MzQ0NDksLTEwMjY0NDA3NzUsLTM1NTYzOTg2XX0=
 -->
