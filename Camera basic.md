@@ -126,7 +126,7 @@ range(start, stop[, step])|返回start到stop-1的数字，start default 0|range
 ## 2.5 Regulations
 PEP8: 
 
-形参，实参，位置传参
+
 
 # 3 术语中英对照
 English | Chinese
@@ -360,6 +360,11 @@ method | description | example
  - python 2.x: 用户输入什么，类型就是什么 
  - python 3.x: 均为str
 
+# 11 函数
+- 
+- 形参，实参，位置传参
+
+
 # python file purpose
 - execution
 - import as module
@@ -427,6 +432,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjMwNTM1MSwtMzU1NjM5ODYsLTE1MD
-Y4MDk5MzQsODUxNjI1MDIzXX0=
+eyJoaXN0b3J5IjpbLTE2NjA3MjUzODEsLTM1NTYzOTg2LC0xNT
+A2ODA5OTM0LDg1MTYyNTAyM119
 -->
