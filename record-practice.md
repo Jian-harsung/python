@@ -361,7 +361,7 @@ method | description | example
  - python 3.x: 均为str
 
 # 11 函数
-- 
+- 功能
 - 形参，实参，位置传参
 
 
@@ -432,6 +432,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjA3MjUzODEsMTIyMDY2OTQ1OSwtMz
-U1NjM5ODZdfQ==
+eyJoaXN0b3J5IjpbLTEwMjY0NDA3NzUsLTE2NjA3MjUzODEsMT
+IyMDY2OTQ1OSwtMzU1NjM5ODZdfQ==
 -->
