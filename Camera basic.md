@@ -363,7 +363,7 @@ method | description | example
 # 11 函数
 - 功能->逻辑->抽象
 - 形参，实参，位置传参
-- ansh
+- 函数嵌套
 - ==内定函数locals(), return sum, locals() ??==
 
 ```python
@@ -380,6 +380,11 @@ method | description | example
 
 > *args			# tuple, 参数不定长
 > **args		# dict
+
+- 函数嵌套
+> def external(1):
+	> def intenal(y):
+		
 ```
 
 
@@ -450,6 +455,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4MzAwMDA4LDEwMjExMDQ3LC0zNTU2Mz
-k4NiwtMTUwNjgwOTkzNCw4NTE2MjUwMjNdfQ==
+eyJoaXN0b3J5IjpbMTM5MjcwNzY3NSwxMDIxMTA0NywtMzU1Nj
+M5ODYsLTE1MDY4MDk5MzQsODUxNjI1MDIzXX0=
 -->
