@@ -392,6 +392,10 @@ method | description | example
 ```
 - 变量作用域：LEGB (Local, EEEEE, GLobal, Buildin:本地，嵌套，全局，内置)
 
+- 装饰器@
+- 
+
+
 # python file purpose
 - execution
 - import as module
@@ -459,10 +463,10 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTcwMTk5OSwtMTY4NTYzOTQ5LDk0MT
-Q3MDI2NSwxMDM4Njg0NDI3LC0xNDk3NDE1MzQsLTE3NzkzNzQw
-MTIsLTQ4NDYzODczMywxMDc1NTIyMjc5LDEyMTE5MjA4MDAsLT
-ExNDU5NTY3NjksLTg3NDk0NTY5MCwxMDIxMTA0NywtMjA0OTE5
-NjQ3OCwxMDYyMzQ3ODAzLC0xNDQwODMxMTA5LDIwNzE1MjkxNT
-UsLTM1NTYzOTg2XX0=
+eyJoaXN0b3J5IjpbMjcxODEyNTQ0LC0xNjg1NjM5NDksOTQxND
+cwMjY1LDEwMzg2ODQ0MjcsLTE0OTc0MTUzNCwtMTc3OTM3NDAx
+MiwtNDg0NjM4NzMzLDEwNzU1MjIyNzksMTIxMTkyMDgwMCwtMT
+E0NTk1Njc2OSwtODc0OTQ1NjkwLDEwMjExMDQ3LC0yMDQ5MTk2
+NDc4LDEwNjIzNDc4MDMsLTE0NDA4MzExMDksMjA3MTUyOTE1NS
+wtMzU1NjM5ODZdfQ==
 -->
