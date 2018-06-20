@@ -380,6 +380,11 @@ method | description | example
 
 > *args			# tuple, 参数不定长
 > **args		# dict
+
+- 函数嵌套
+> def external(1):
+	> def intenal(y):
+		> 
 ```
 
 
@@ -450,8 +455,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzEyNDc0MCwzMzQ5ODQ0NDEsNzk4Mz
-AwMDA4LDEyMTE5MjA4MDAsLTExNDU5NTY3NjksLTg3NDk0NTY5
-MCwxMDIxMTA0NywtMjA0OTE5NjQ3OCwxMDYyMzQ3ODAzLC0xND
-QwODMxMTA5LDIwNzE1MjkxNTUsLTM1NTYzOTg2XX0=
+eyJoaXN0b3J5IjpbMTkzMzM0NjA0MSwxMjAzMTI0NzQwLDMzND
+k4NDQ0MSwxMjExOTIwODAwLC0xMTQ1OTU2NzY5LC04NzQ5NDU2
+OTAsMTAyMTEwNDcsLTIwNDkxOTY0NzgsMTA2MjM0NzgwMywtMT
+Q0MDgzMTEwOSwyMDcxNTI5MTU1LC0zNTU2Mzk4Nl19
 -->
