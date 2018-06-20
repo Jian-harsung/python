@@ -365,6 +365,9 @@ method | description | example
  - python 2.x: 用户输入什么，类型就是什么 
  - python 3.x: 均为str
 
+print
+input
+
 # 11 函数
 - 功能->逻辑->抽象
 - 形参，实参，位置传参
@@ -470,6 +473,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3Mjk0NTM5LC0zNjQ1Nzg0ODgsNTE3Nz
-A5ODUsLTE0OTc0MTUzNF19
+eyJoaXN0b3J5IjpbMTY1NTE2NjM2NCwzNTcyOTQ1MzksLTM2ND
+U3ODQ4OCw1MTc3MDk4NSwtMTQ5NzQxNTM0XX0=
 -->
