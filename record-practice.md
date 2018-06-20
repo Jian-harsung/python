@@ -363,7 +363,7 @@ method | description | example
 # 11 函数
 - 功能->逻辑->抽象
 - 形参，实参，位置传参
-- 函数
+- 函数嵌套
 - ==内定函数locals(), return sum, locals() ??==
 
 ```python
@@ -450,8 +450,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0OTg0NDQxLDc5ODMwMDAwOCwxMjExOT
-IwODAwLC0xMTQ1OTU2NzY5LC04NzQ5NDU2OTAsMTAyMTEwNDcs
-LTIwNDkxOTY0NzgsMTA2MjM0NzgwMywtMTQ0MDgzMTEwOSwyMD
-cxNTI5MTU1LC0zNTU2Mzk4Nl19
+eyJoaXN0b3J5IjpbMTIwMzEyNDc0MCwzMzQ5ODQ0NDEsNzk4Mz
+AwMDA4LDEyMTE5MjA4MDAsLTExNDU5NTY3NjksLTg3NDk0NTY5
+MCwxMDIxMTA0NywtMjA0OTE5NjQ3OCwxMDYyMzQ3ODAzLC0xND
+QwODMxMTA5LDIwNzE1MjkxNTUsLTM1NTYzOTg2XX0=
 -->
