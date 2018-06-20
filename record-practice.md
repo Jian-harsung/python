@@ -12,6 +12,8 @@ python website[www.python.org]
 default python 解析器 CPython是官方默认的，安装好之后就已经有了。
 ipython是基于CPython的交互式解析器
 
+交互模式和执行模式
+
 ### 1.1.2 pip
 #pip install virtualenv						# 安装最新版本
 #pip install virtualenv==version		# 指定安装版本
@@ -468,11 +470,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDU3ODQ4OCwxODU4MTM3OTIwLC0zMT
-Q2MTEwNDgsMTU3MTI4OTA3MCw1MTc3MDk4NSwtMTY4NTYzOTQ5
-LDk0MTQ3MDI2NSwxMDM4Njg0NDI3LC0xNDk3NDE1MzQsLTE3Nz
-kzNzQwMTIsLTQ4NDYzODczMywxMDc1NTIyMjc5LDEyMTE5MjA4
-MDAsLTExNDU5NTY3NjksLTg3NDk0NTY5MCwxMDIxMTA0NywtMj
-A0OTE5NjQ3OCwxMDYyMzQ3ODAzLC0xNDQwODMxMTA5LDIwNzE1
-MjkxNTVdfQ==
+eyJoaXN0b3J5IjpbMzU3Mjk0NTM5LC0zNjQ1Nzg0ODgsMTg1OD
+EzNzkyMCwtMzE0NjExMDQ4LDE1NzEyODkwNzAsNTE3NzA5ODUs
+LTE2ODU2Mzk0OSw5NDE0NzAyNjUsMTAzODY4NDQyNywtMTQ5Nz
+QxNTM0LC0xNzc5Mzc0MDEyLC00ODQ2Mzg3MzMsMTA3NTUyMjI3
+OSwxMjExOTIwODAwLC0xMTQ1OTU2NzY5LC04NzQ5NDU2OTAsMT
+AyMTEwNDcsLTIwNDkxOTY0NzgsMTA2MjM0NzgwMywtMTQ0MDgz
+MTEwOV19
 -->
