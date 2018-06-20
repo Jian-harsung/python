@@ -374,7 +374,7 @@ method | description | example
 > return args[0]
 > 
 > func2(1,2,3,4,5,6,7,8)
-> <typ>
+> <type>
 ```
 
 
@@ -445,8 +445,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDU5NTY3NjksLTg3NDk0NTY5MCwtOD
-M5ODM3NzIwLDEwMjExMDQ3LC0yMDQ5MTk2NDc4LDEwNjIzNDc4
-MDMsLTE0NDA4MzExMDksMjA3MTUyOTE1NSwtMzU1NjM5ODZdfQ
-==
+eyJoaXN0b3J5IjpbMTIxMTkyMDgwMCwtMTE0NTk1Njc2OSwtOD
+c0OTQ1NjkwLC04Mzk4Mzc3MjAsMTAyMTEwNDcsLTIwNDkxOTY0
+NzgsMTA2MjM0NzgwMywtMTQ0MDgzMTEwOSwyMDcxNTI5MTU1LC
+0zNTU2Mzk4Nl19
 -->
