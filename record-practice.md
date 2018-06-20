@@ -381,13 +381,14 @@ method | description | example
 > *args			# tuple, 参数不定长
 > **args		# dict
 
+
 - 函数嵌套
 > def external(1):
 	def intenal(y):
 		return X*y
 	return local
 ```
-- 变量作用域：LEGB
+- 变量作用域：LEGB (Local, EEEEE, GLobal, Buildin:本地，嵌套，全局，内置)
 
 # python file purpose
 - execution
@@ -456,9 +457,9 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTc0MTUzNCwtMTc3OTM3NDAxMiwtND
-g0NjM4NzMzLDEwNzU1MjIyNzksMTIxMTkyMDgwMCwtMTE0NTk1
-Njc2OSwtODc0OTQ1NjkwLDEwMjExMDQ3LC0yMDQ5MTk2NDc4LD
-EwNjIzNDc4MDMsLTE0NDA4MzExMDksMjA3MTUyOTE1NSwtMzU1
-NjM5ODZdfQ==
+eyJoaXN0b3J5IjpbOTQxNDcwMjY1LC0xNDk3NDE1MzQsLTE3Nz
+kzNzQwMTIsLTQ4NDYzODczMywxMDc1NTIyMjc5LDEyMTE5MjA4
+MDAsLTExNDU5NTY3NjksLTg3NDk0NTY5MCwxMDIxMTA0NywtMj
+A0OTE5NjQ3OCwxMDYyMzQ3ODAzLC0xNDQwODMxMTA5LDIwNzE1
+MjkxNTUsLTM1NTYzOTg2XX0=
 -->
