@@ -395,6 +395,8 @@ method | description | example
 - 装饰器@
 - 
 
+# OOP
+
 
 # python file purpose
 - execution
@@ -463,5 +465,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxODEyNTQ0LC0xNDk3NDE1MzRdfQ==
+eyJoaXN0b3J5IjpbNTE3NzA5ODUsLTE0OTc0MTUzNF19
 -->
