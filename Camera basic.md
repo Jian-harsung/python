@@ -381,6 +381,9 @@ method | description | example
 > *args			# tuple, 参数不定长
 > **args		# dict
 
+> def func(*args, x)
+> #func(1,2,3, x=100)		# 显式指定g参数
+
 - 函数嵌套
 > def external(1):
 	def intenal(y):
@@ -456,5 +459,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzYwMjQwNywtMTQ5NzQxNTM0XX0=
+eyJoaXN0b3J5IjpbMTI0NTI2MTU2MiwtMTQ5NzQxNTM0XX0=
 -->
