@@ -374,7 +374,10 @@ method | description | example
 > return args[0]
 > 
 > func2(1,2,3,4,5,6,7,8)
-> <type>
+> <type 'tuple'>
+> 1
+
+> **args
 ```
 
 
@@ -445,8 +448,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTkyMDgwMCwtMTE0NTk1Njc2OSwtOD
-c0OTQ1NjkwLC04Mzk4Mzc3MjAsMTAyMTEwNDcsLTIwNDkxOTY0
-NzgsMTA2MjM0NzgwMywtMTQ0MDgzMTEwOSwyMDcxNTI5MTU1LC
-0zNTU2Mzk4Nl19
+eyJoaXN0b3J5IjpbMzUyMDc2MzY4LDEyMTE5MjA4MDAsLTExND
+U5NTY3NjksLTg3NDk0NTY5MCwxMDIxMTA0NywtMjA0OTE5NjQ3
+OCwxMDYyMzQ3ODAzLC0xNDQwODMxMTA5LDIwNzE1MjkxNTUsLT
+M1NTYzOTg2XX0=
 -->
