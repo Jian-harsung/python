@@ -366,12 +366,15 @@ method | description | example
 - ==内定函数locals(), return sum, locals() ??==
 
 ```python
-> def func(y, x=10)
+> def func(y, x=10):
 > func(y=20, x=50)		# 调用OK, 关键字参数
 
-> def func2(*args)
+> def func2(*args):
 > print(type(args))
 > return args[0]
+> 
+> func2(1,2,3,4,5,6,7,8)
+> 
 ```
 
 
@@ -442,7 +445,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTEwNDcsLTIwNDkxOTY0NzgsMTA2Mj
-M0NzgwMywtMTQ0MDgzMTEwOSwyMDcxNTI5MTU1LC0zNTU2Mzk4
-Nl19
+eyJoaXN0b3J5IjpbLTgzOTgzNzcyMCwxMDIxMTA0NywtMjA0OT
+E5NjQ3OCwxMDYyMzQ3ODAzLC0xNDQwODMxMTA5LDIwNzE1Mjkx
+NTUsLTM1NTYzOTg2XX0=
 -->
