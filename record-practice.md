@@ -381,7 +381,8 @@ method | description | example
 > *args			# tuple, 参数不定长
 > **args		# dict
 
->
+> def func(*args, x)
+> #func(1,2,3, x=100)		# 显式指定关键字参数
 
 - 函数嵌套
 > def external(1):
@@ -458,10 +459,10 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU2Mzk0OSw5NDE0NzAyNjUsMTAzOD
-Y4NDQyNyw5NDE0NzAyNjUsLTE0OTc0MTUzNCwtMTc3OTM3NDAx
-MiwtNDg0NjM4NzMzLDEwNzU1MjIyNzksMTIxMTkyMDgwMCwtMT
-E0NTk1Njc2OSwtODc0OTQ1NjkwLDEwMjExMDQ3LC0yMDQ5MTk2
-NDc4LDEwNjIzNDc4MDMsLTE0NDA4MzExMDksMjA3MTUyOTE1NS
-wtMzU1NjM5ODZdfQ==
+eyJoaXN0b3J5IjpbMTQ4OTcwMTk5OSwtMTY4NTYzOTQ5LDk0MT
+Q3MDI2NSwxMDM4Njg0NDI3LC0xNDk3NDE1MzQsLTE3NzkzNzQw
+MTIsLTQ4NDYzODczMywxMDc1NTIyMjc5LDEyMTE5MjA4MDAsLT
+ExNDU5NTY3NjksLTg3NDk0NTY5MCwxMDIxMTA0NywtMjA0OTE5
+NjQ3OCwxMDYyMzQ3ODAzLC0xNDQwODMxMTA5LDIwNzE1MjkxNT
+UsLTM1NTYzOTg2XX0=
 -->
