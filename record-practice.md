@@ -9,6 +9,9 @@ Jian@Harman
 download python from python.org, and pip was installed as default
 python website[www.python.org]
 
+default python 解析器 CPython是官方默认的，安装好之后就已经有了。
+
+
 ### 1.1.2 pip
 #pip install virtualenv						# 安装最新版本
 #pip install virtualenv==version		# 指定安装版本
@@ -465,10 +468,10 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3NzA5ODUsLTE2ODU2Mzk0OSw5NDE0Nz
-AyNjUsMTAzODY4NDQyNywtMTQ5NzQxNTM0LC0xNzc5Mzc0MDEy
-LC00ODQ2Mzg3MzMsMTA3NTUyMjI3OSwxMjExOTIwODAwLC0xMT
-Q1OTU2NzY5LC04NzQ5NDU2OTAsMTAyMTEwNDcsLTIwNDkxOTY0
-NzgsMTA2MjM0NzgwMywtMTQ0MDgzMTEwOSwyMDcxNTI5MTU1LC
-0zNTU2Mzk4Nl19
+eyJoaXN0b3J5IjpbMTkyMzYzNDY3LDUxNzcwOTg1LC0xNjg1Nj
+M5NDksOTQxNDcwMjY1LDEwMzg2ODQ0MjcsLTE0OTc0MTUzNCwt
+MTc3OTM3NDAxMiwtNDg0NjM4NzMzLDEwNzU1MjIyNzksMTIxMT
+kyMDgwMCwtMTE0NTk1Njc2OSwtODc0OTQ1NjkwLDEwMjExMDQ3
+LC0yMDQ5MTk2NDc4LDEwNjIzNDc4MDMsLTE0NDA4MzExMDksMj
+A3MTUyOTE1NSwtMzU1NjM5ODZdfQ==
 -->
