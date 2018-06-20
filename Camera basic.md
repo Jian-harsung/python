@@ -387,7 +387,7 @@ method | description | example
 		return X*y
 	return local
 ```
-- 变量作用域：LEGB
+- 变量作用域：LEGB (Local, EEEEE, GLobal, Buildin:本地，嵌套，全局，内置)
 
 # python file purpose
 - execution
@@ -456,5 +456,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTc0MTUzNF19
+eyJoaXN0b3J5IjpbMjE0MzYwMjQwNywtMTQ5NzQxNTM0XX0=
 -->
