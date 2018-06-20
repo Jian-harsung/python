@@ -365,7 +365,7 @@ method | description | example
 - 形参，实参，位置传参
 - ==内定函数locals(), return sum, locals() ??==
 
-def func
+def func)y_
 
 
 # python file purpose
@@ -435,6 +435,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwODUzMTgsMjEyNjEzNzg2MywxOTM0MD
-QyOTk3LDE1NTQ3MzQ0NDksLTM1NTYzOTg2XX0=
+eyJoaXN0b3J5IjpbMjA3MTUyOTE1NSw0OTA4NTMxOCwyMTI2MT
+M3ODYzLDE5MzQwNDI5OTcsLTM1NTYzOTg2XX0=
 -->
