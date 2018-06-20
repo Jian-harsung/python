@@ -365,8 +365,8 @@ method | description | example
  - python 2.x: 用户输入什么，类型就是什么 
  - python 3.x: 均为str
 
-print
-input
+- print
+- ==input??==
 
 # 11 函数
 - 功能->逻辑->抽象
@@ -473,6 +473,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTE2NjM2NCwzNTcyOTQ1MzksLTM2ND
+eyJoaXN0b3J5IjpbMTkxNDgxOTU0OCwzNTcyOTQ1MzksLTM2ND
 U3ODQ4OCw1MTc3MDk4NSwtMTQ5NzQxNTM0XX0=
 -->
