@@ -382,6 +382,7 @@ method | description | example
 > **args		# dict
 
 
+
 - 函数嵌套
 > def external(1):
 	def intenal(y):
@@ -457,9 +458,9 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxNDcwMjY1LC0xNDk3NDE1MzQsLTE3Nz
-kzNzQwMTIsLTQ4NDYzODczMywxMDc1NTIyMjc5LDEyMTE5MjA4
-MDAsLTExNDU5NTY3NjksLTg3NDk0NTY5MCwxMDIxMTA0NywtMj
-A0OTE5NjQ3OCwxMDYyMzQ3ODAzLC0xNDQwODMxMTA5LDIwNzE1
-MjkxNTUsLTM1NTYzOTg2XX0=
+eyJoaXN0b3J5IjpbMTAzODY4NDQyNyw5NDE0NzAyNjUsLTE0OT
+c0MTUzNCwtMTc3OTM3NDAxMiwtNDg0NjM4NzMzLDEwNzU1MjIy
+NzksMTIxMTkyMDgwMCwtMTE0NTk1Njc2OSwtODc0OTQ1NjkwLD
+EwMjExMDQ3LC0yMDQ5MTk2NDc4LDEwNjIzNDc4MDMsLTE0NDA4
+MzExMDksMjA3MTUyOTE1NSwtMzU1NjM5ODZdfQ==
 -->
