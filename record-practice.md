@@ -367,7 +367,7 @@ method | description | example
 
 ```python
 > def func(y, x=10)
-> func()
+> func(y=20, )
 ```
 
 # python file purpose
@@ -437,6 +437,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3NTQwOTAxLDIwNzE1MjkxNTUsNDkwOD
-UzMTgsMjEyNjEzNzg2MywtMzU1NjM5ODZdfQ==
+eyJoaXN0b3J5IjpbLTE0NDA4MzExMDksMjc3NTQwOTAxLDIwNz
+E1MjkxNTUsNDkwODUzMTgsLTM1NTYzOTg2XX0=
 -->
