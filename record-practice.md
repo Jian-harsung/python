@@ -361,8 +361,10 @@ method | description | example
  - python 3.x: 均为str
 
 # 11 函数
-- 功能-luoji
+- 功能->逻辑->抽象
 - 形参，实参，位置传参
+- ==内定函数locals(), return sum, locals() ??==
+
 
 
 # python file purpose
@@ -432,6 +434,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDczNDQ0OSwtMTAyNjQ0MDc3NSwtMT
-Y2MDcyNTM4MSwxMjIwNjY5NDU5LC0zNTU2Mzk4Nl19
+eyJoaXN0b3J5IjpbMTkzNDA0Mjk5NywxNTU0NzM0NDQ5LC0xMD
+I2NDQwNzc1LC0xNjYwNzI1MzgxLC0zNTU2Mzk4Nl19
 -->
