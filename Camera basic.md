@@ -10,7 +10,7 @@ download python from python.org, and pip was installed as default
 python website[www.python.org]
 
 default python 解析器 CPython是官方默认的，安装好之后就已经有了。
-
+ipython是基于CPython的交互式解析器
 
 ### 1.1.2 pip
 #pip install virtualenv						# 安装最新版本
@@ -468,6 +468,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzYzNDY3LDUxNzcwOTg1LC0xNDk3ND
-E1MzRdfQ==
+eyJoaXN0b3J5IjpbLTM2NDU3ODQ4OCw1MTc3MDk4NSwtMTQ5Nz
+QxNTM0XX0=
 -->
