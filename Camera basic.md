@@ -93,6 +93,8 @@ len(对象)	| 求对象的长度 | #len(s1) / #len(l1)
 id() | 查看对象的指针 | #id(s1) / #id(l1)
 range(start, stop[, step])|返回start到stop-1的数字，start default 0|range(100),range(5,20),range(12, 1000, 8)
 
+- 内定函数locals()
+
  ## 2.3 包
 **numpy** : 科学计算
 **pandas**：
@@ -425,6 +427,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzM0MTM0NSwtMzU1NjM5ODYsLTE1MD
+eyJoaXN0b3J5IjpbMTE5NjMwNTM1MSwtMzU1NjM5ODYsLTE1MD
 Y4MDk5MzQsODUxNjI1MDIzXX0=
 -->
