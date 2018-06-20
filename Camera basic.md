@@ -383,10 +383,11 @@ method | description | example
 
 - 函数嵌套
 > def external(1):
-	> def intenal(y):
-		
+	def intenal(y):
+		return X*y
+	return local
 ```
-
+- 变量作用域：LEGB
 
 # python file purpose
 - execution
@@ -455,6 +456,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjcwNzY3NSwxMDIxMTA0NywtMzU1Nj
-M5ODYsLTE1MDY4MDk5MzQsODUxNjI1MDIzXX0=
+eyJoaXN0b3J5IjpbLTE0OTc0MTUzNF19
 -->
