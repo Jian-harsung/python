@@ -368,8 +368,10 @@ method | description | example
 ```python
 > def func(y, x=10)
 > func(y=20, x=50)		# 调用OK, 关键字参数
+
 > def func2(*args)
-> 
+> print(type(args))
+> return args[0]
 ```
 
 
@@ -440,7 +442,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDkxOTY0NzgsMzUyNTkyODg2LDEwNj
-IzNDc4MDMsLTE0NDA4MzExMDksMjA3MTUyOTE1NSwtMzU1NjM5
-ODZdfQ==
+eyJoaXN0b3J5IjpbMTAyMTEwNDcsLTIwNDkxOTY0NzgsMTA2Mj
+M0NzgwMywtMTQ0MDgzMTEwOSwyMDcxNTI5MTU1LC0zNTU2Mzk4
+Nl19
 -->
