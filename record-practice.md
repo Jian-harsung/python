@@ -158,8 +158,8 @@ tuple | 元组
 浮点数| 常规，科学计数法1.23e8,-1.23e8, 1.23e08, -1.12e-8, e同样可以是E
 字符串|'' or "", "" to cover string with ' like "I'm OK"
 -|转义字符'\\', \n:换行, \t:制表符, 
-- | 字符串前添加*r用来表示字符串内的单或双引号不转义
-- | 字符串包含多行，可以用三引号‘’‘括起来引用，也可以是三双引号"""
+- | 字符串前添加 __r__ 用来表示字符串内的单或双引号不转义
+- | 字符串包含多行，可以用三引号 __‘’‘括起来引用，也可以是三双引号"""
 
 
 # 4 string
@@ -483,11 +483,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQ3NjAxNjUsLTEyNzMxODAyODUsMT
-M0MjYwMjY0LC0xODA4MTg3NTk0LC0yMDg0NTExOTgyLC02NTcy
-NTk2MzksLTEyNTc5NTYwMDgsLTg4MjAzMzM2NSwxOTE0ODE5NT
-Q4LC0xNTA4NjA2NjYwLDExODQ1NTI1NDAsMTk1NDQzOTI3Mywz
-NTcyOTQ1MzksLTM2NDU3ODQ4OCwxODU4MTM3OTIwLC0zMTQ2MT
-EwNDgsMTU3MTI4OTA3MCw1MTc3MDk4NSwtMTY4NTYzOTQ5LDk0
-MTQ3MDI2NV19
+eyJoaXN0b3J5IjpbNzE3MDMzMzksLTEwODQ3NjAxNjUsMTM0Mj
+YwMjY0LC0xODA4MTg3NTk0LC0yMDg0NTExOTgyLC02NTcyNTk2
+MzksLTEyNTc5NTYwMDgsLTg4MjAzMzM2NSwxOTE0ODE5NTQ4LC
+0xNTA4NjA2NjYwLDExODQ1NTI1NDAsMTk1NDQzOTI3MywzNTcy
+OTQ1MzksLTM2NDU3ODQ4OCwxODU4MTM3OTIwLC0zMTQ2MTEwND
+gsMTU3MTI4OTA3MCw1MTc3MDk4NSwtMTY4NTYzOTQ5LDk0MTQ3
+MDI2NV19
 -->
