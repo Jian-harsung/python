@@ -157,7 +157,7 @@ tuple | 元组
 整数|正数，负数，0；十进制，十六进制(0x/0X)，八进制(0o/0O)
 浮点数| 常规，科学计数法1.23e8,-1.23e8, 1.23e08, -1.12e-8, e同样可以是E
 字符串|'' or "", "" to cover string with ' like "I'm OK"
--|转义字符'\\', \n:换行, \t:制表符
+-|转义字符'\\', \n:换行, \t:制表符,
 
 
 
@@ -482,11 +482,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTI0MzgxOSwtNjI2OTY1MzU5LDE3MT
-c1NTYyMzMsMzY4NjE4MzU5LC0xMjU3OTU2MDA4LC04ODIwMzMz
-NjUsMTkxNDgxOTU0OCwtMTUwODYwNjY2MCwxMTg0NTUyNTQwLD
-E5NTQ0MzkyNzMsMzU3Mjk0NTM5LC0zNjQ1Nzg0ODgsMTg1ODEz
-NzkyMCwtMzE0NjExMDQ4LDE1NzEyODkwNzAsNTE3NzA5ODUsLT
-E2ODU2Mzk0OSw5NDE0NzAyNjUsMTAzODY4NDQyNywtMTQ5NzQx
-NTM0XX0=
+eyJoaXN0b3J5IjpbMTMzNTU1OTg5NSwtOTA5MjQzODE5LC02Mj
+Y5NjUzNTksMTcxNzU1NjIzMywtMTI1Nzk1NjAwOCwtODgyMDMz
+MzY1LDE5MTQ4MTk1NDgsLTE1MDg2MDY2NjAsMTE4NDU1MjU0MC
+wxOTU0NDM5MjczLDM1NzI5NDUzOSwtMzY0NTc4NDg4LDE4NTgx
+Mzc5MjAsLTMxNDYxMTA0OCwxNTcxMjg5MDcwLDUxNzcwOTg1LC
+0xNjg1NjM5NDksOTQxNDcwMjY1LDEwMzg2ODQ0MjcsLTE0OTc0
+MTUzNF19
 -->
