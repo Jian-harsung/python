@@ -245,6 +245,7 @@ __可见，1个中文字符经过UTF-8编码后通常会占用3个字节，而1�
 
 在操作字符串时，我们经常遇到`str`和`bytes`的互相转换。为了避免乱码问题，应当始终坚持使用UTF-8编码对`str`和`bytes`进行转换。
 
+
 ## 4.2 method
 method | description | how to | output
 -----|----|----|---
@@ -546,8 +547,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTY1MTY3LC01MzQ4MjUyODksMjAwOD
-Y3NzIwMywxNjYxMDU1NTI5LC0zMTM5MzEyNjcsMTY2Mjg5NDgw
+eyJoaXN0b3J5IjpbMTI4NzkzMDI0MSwxNjc1NjUxNjcsLTUzND
+gyNTI4OSwyMDA4Njc3MjAzLC0zMTM5MzEyNjcsMTY2Mjg5NDgw
 NSwtMTU1MDcwMTQyOCwtMTkyNDg2MDA2NCwxNTY4MDUwNDUxLC
 0yMTIyOTgwOTM4LC0xNTc2MTY2NThdfQ==
 -->
