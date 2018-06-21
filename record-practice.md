@@ -224,7 +224,7 @@ command | output
 ```
 - 在bytes中，无法显示为ASCII字符的字节，用`\x##`显示。
 - 反过来，如果我们从网络或磁盘上读取了字节流，那么读到的数据就是`bytes`。要把`bytes`变为`str`，就需要用`decode()`方法：
-
+```
 
 ## 4.2 method
 method | description | how to | output
@@ -527,6 +527,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODgyMzUxNiwtMTMyNzk0MTg4OCwtMT
+eyJoaXN0b3J5IjpbLTIxMjI5ODA5MzgsLTgxODgyMzUxNiwtMT
 U3NjE2NjU4XX0=
 -->
