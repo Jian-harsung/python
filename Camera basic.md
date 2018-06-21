@@ -180,9 +180,7 @@ s = "Hello world"
 - Windows下路径反转，可以在string前加上**r**
 - #print(r"C:\Users\jikang\envp\Scripts>")
 - 多行string用三个引号括起来 **"""**
-- 
-- python 2.x 只支持ASCII字符
-- python 3.x支持Unicode，即中文字符
+
 
 以#s="python"为例的一些命令和结果
 command | output
@@ -196,6 +194,20 @@ command | output
 #s[:-1]	|'pytho'        # -1为str的最后一个
 #s[:] |'python'
 #s*2 | 'pythonpython'
+
+- python 2.x 只支持ASCII字符
+- python 3.x支持Unicode，即中文字符
+```python
+> ord('A')
+> 65
+> ord('中')
+> 20013
+> chr(66)
+> 'B'
+> chr(25991)
+> '文'
+> 
+```
 
 ## 4.2 method
 method | description | how to | output
@@ -498,6 +510,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTc2MzIzMTksMjA3NDczNiwtNzM4OT
-M2MTk3XX0=
+eyJoaXN0b3J5IjpbMTM5NzAwOTI3Ml19
 -->
