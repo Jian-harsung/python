@@ -80,8 +80,6 @@ python源文件开头
  - type(对象)		# 查看对象类型
  - dir(类型或者对象)		# dir(list)或dir(l1) 列出所有属性和方法
  - help(???)						# help(list.count)或help(l1.count) 查看方法帮助文档
- - s.format()					# 简单格式化输出
- - %									# 定制格式化输出
  - vars()							# 打印python当前系统内存缓存的变量
  - __buildins__
  - __buildin__
@@ -264,6 +262,12 @@ ord(char)	| 把字符转换为数字 | #ord('A')
 s.partition(sep) | 分割字符串 | #s.partition('y')|#('p', 'y', 'thon')
 -|-|#s.partition('y')[2]|#'thon'
 s.join(iterable)|把s插入iterable，并返回|s.join('ABC')|#'ApythonBpythonC'
+
+## 4.3 格式化
+ - s.format()					# 简单格式化输出
+ - %									# 定制格式化输出
+
+
 
 
 
@@ -559,5 +563,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTUwODI0Ml19
+eyJoaXN0b3J5IjpbNjc3MzIxNTYwXX0=
 -->
