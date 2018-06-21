@@ -239,7 +239,7 @@ command | output
 ==Python 3.x  to be checked==
 > len('ABC')
 > len(b'ABC')
-> len()
+> len(b'')
 
 ## 4.2 method
 method | description | how to | output
@@ -542,8 +542,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODY3NzIwMywxNjYxMDU1NTI5LC04OD
-gzMTgxMjUsLTMxMzkzMTI2NywxNjYyODk0ODA1LC0xNTUwNzAx
-NDI4LC0xOTI0ODYwMDY0LDE1NjgwNTA0NTEsLTIxMjI5ODA5Mz
-gsLTE1NzYxNjY1OF19
+eyJoaXN0b3J5IjpbLTUzNDgyNTI4OSwyMDA4Njc3MjAzLDE2Nj
+EwNTU1MjksLTg4ODMxODEyNSwtMzEzOTMxMjY3LDE2NjI4OTQ4
+MDUsLTE1NTA3MDE0MjgsLTE5MjQ4NjAwNjQsMTU2ODA1MDQ1MS
+wtMjEyMjk4MDkzOCwtMTU3NjE2NjU4XX0=
 -->
