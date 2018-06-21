@@ -223,6 +223,7 @@ command | output
 > '中文'.encode('ascii')			# 执行出错
 ```
 - 在`bytes`中，无法显示为ASCII字符的字节，用`\x##`显示。
+- 
 
 
 ## 4.2 method
@@ -526,5 +527,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNjgwNTIxXX0=
+eyJoaXN0b3J5IjpbLTE1NzYxNjY1OCw3OTE2ODA1MjFdfQ==
 -->
