@@ -162,7 +162,7 @@ tuple | 元组
 - | 字符串包含多行，可以用三引号 ‘’‘ 括起来引用，也可以是三双引号"""
 _ | 当然r和三引号可以组合使用
 布尔值|True, False
-
+-|
 
 # 4 string
 ## 4.1 Definition
@@ -485,5 +485,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDI0MTA3XX0=
+eyJoaXN0b3J5IjpbNDU1MTQ0MDA0XX0=
 -->
