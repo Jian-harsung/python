@@ -167,8 +167,10 @@ _ | 当然r和三引号可以组合使用
 
 弱变量语言：
 ```python
-> a 10
+> a = 10		# a为整数
 > print (a)
+> a = 'ABC'		# a为字符串
+> print(a)
 ```
 
 
@@ -493,5 +495,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc5NjgwMzNdfQ==
+eyJoaXN0b3J5IjpbMTc1Mjk3MjQyMiwtMjEzNzk2ODAzM119
 -->
