@@ -152,6 +152,12 @@ tuple | 元组
 - 对象 **.** 方法 **()**
 - 
 
+数据类型
+整数
+浮点数
+字符串
+
+
 # 4 string
 ## 4.1 Definition
 s = "Hello world"
@@ -473,5 +479,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDgxOTU0OF19
+eyJoaXN0b3J5IjpbLTgzODQ3MjgyMF19
 -->
