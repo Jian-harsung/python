@@ -211,10 +211,13 @@ command | output
 > '中文'
 ```
 - bytes数据类型用带 __b__ 的单引号或双引号表示
+```python
 > x = b'ABC'
+```
 - Unicode表示的字符串可以用encode()编码为指定的bytes
-> 
-
+```python
+> 'ABC'.encode('asci')
+```
 
 ## 4.2 method
 method | description | how to | output
@@ -517,5 +520,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjI5MDQ1XX0=
+eyJoaXN0b3J5IjpbNDk0MDIxOTE2XX0=
 -->
