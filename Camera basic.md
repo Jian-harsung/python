@@ -250,6 +250,10 @@ __可见，1个中文字符经过UTF-8编码后通常会占用3个字节，而1�
 #!/usr/bin/env python3
 #-*- coding: utf-8 -*-
 ```
+- 第一行注释是为了告诉Linux/OS X系统，这是一个Python可执行程序，Windows系统会忽略这个注释；
+- 第二行注释是为了告诉Python解释器，按照UTF-8编码读取源代码，否则，你在源代码中写的中文输出可能会有乱码。
+- 申明了UTF-8编码并不意味着你的`.py`文件就是UTF-8编码的，必须并且要确保文本编辑器正在使用UTF-8 without BOM编码
+
 
 ## 4.2 method
 method | description | how to | output
@@ -552,5 +556,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MzI0NDc3M119
+eyJoaXN0b3J5IjpbLTQ4NzY5NjQyOV19
 -->
