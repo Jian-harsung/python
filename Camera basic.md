@@ -226,7 +226,8 @@ command | output
 - 反过来，如果我们从网络或磁盘上读取了字节流，那么读到的数据就是`bytes`。要把`bytes`变为`str`，就需要用`decode()`方法：
 ```python
 > b'ABC'.decode('ascii')
-> u'ABC'
+> u'ABC'		# 2.7.13
+> 
 ```
 ```
 
@@ -531,5 +532,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODA1MDQ1MSw0OTQwMjE5MTZdfQ==
+eyJoaXN0b3J5IjpbLTE4ODYwMzQwMzksMTU2ODA1MDQ1MSw0OT
+QwMjE5MTZdfQ==
 -->
