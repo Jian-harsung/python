@@ -234,7 +234,9 @@ command | output
 - 如果`bytes`中包含无法解码的字节，`decode()`方法会报错
 - 如果`bytes`中只有一小部分无效的字节，可以传入`errors='ignore'`忽略错误的字节
 > b'\xe4\xb8\xad\xff'.decode('utf-8', errors='ignore')
-
+- 要计算`str`包含多少个字符，可以用`len()`函数
+- `len()`函数计算的是`str`的字符数，如果换成`bytes`，`len()`函数就计算字节数
+- 
 
 ## 4.2 method
 method | description | how to | output
@@ -537,6 +539,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3Njg1MjAwLDE1NjgwNTA0NTEsNDk0MD
-IxOTE2XX0=
+eyJoaXN0b3J5IjpbMTkzNzUyMzk5OCwxNTY4MDUwNDUxLDQ5ND
+AyMTkxNl19
 -->
