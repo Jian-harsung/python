@@ -279,7 +279,13 @@ s.join(iterable)|把s插入iterable，并返回|s.join('ABC')|#'ApythonBpythonC'
 - %f：浮点数
 - %s：字符串
 - %x：十六进制整数
-- 
+- 格式化整数和浮点数还可以指定是否补0和整数与小数的位数
+> print('%2d-%02d' % (3, 1))
+> print('%.2f' % 3.1415926)
+
+- 如果你不太确定应该用什么，`%s`永远起作用，它会把任何数据类型转换为字符串
+- 有些时候，字符串里面的`%`是一个普通字符怎么办？这个时候就需要转义，用`%%`来表示一个`%`
+
 
 
 # 5 List
@@ -574,5 +580,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDAzMTY3MzMsMTczODY3NTI0MV19
+eyJoaXN0b3J5IjpbLTIzODU4MDUzMiwxNzM4Njc1MjQxXX0=
 -->
