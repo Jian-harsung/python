@@ -273,8 +273,11 @@ s.join(iterable)|把s插入iterable，并返回|s.join('ABC')|#'ApythonBpythonC'
 > print('Hello %s' % 'world')
 > Hello world
 > print('Hi, %s, you have $%s.' % ('Micheal', 1000))
+> Hi, Micheal, you have $1000.
 ```
-
+- %d：
+- %s： 字符串
+- 
 
 
 # 5 List
@@ -569,6 +572,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEzMDYxMTQwLC00MTQ4NDk4MSwxNzM4Nj
-c1MjQxXX0=
+eyJoaXN0b3J5IjpbLTc0NTUwNDAxMSwtNDE0ODQ5ODEsMTczOD
+Y3NTI0MV19
 -->
