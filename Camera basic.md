@@ -164,7 +164,6 @@ _ | 当然r和三引号可以组合使用
 空值|None, None不是0
 除法|'/'和'//'两种：前为浮点除，哪怕结果为整数仍得到浮点结果，如9/3，结果为3.0(==需要确认==)
 
-
 弱变量语言：
 ```python
 > a = 10		# a为整数
@@ -497,6 +496,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDY3ODI3NDMsODA0NDc3OTM1LC05Mj
-UyOTYxMzcsOTg5MTY5MzUyLC0yMTM3OTY4MDMzXX0=
+eyJoaXN0b3J5IjpbLTczODkzNjE5N119
 -->
