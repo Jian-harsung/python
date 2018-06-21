@@ -207,9 +207,8 @@ command | output
 > chr(25991)
 > '文'
 > #如果知道字符的整数编码，还可以用十六进制写
-> '\u```
-4e2d\u6587
-``'
+> '\u4e2d\u6587'
+> '中文'
 ```
 
 ## 4.2 method
@@ -513,5 +512,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE4Njk5MTRdfQ==
+eyJoaXN0b3J5IjpbLTE0NTUwMzAwMF19
 -->
