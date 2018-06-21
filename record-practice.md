@@ -270,7 +270,9 @@ s.join(iterable)|把s插入iterable，并返回|s.join('ABC')|#'ApythonBpythonC'
 
 格式化方式和C语言是一致的，用`%`实现
 ```python
-> 
+> print('Hello %s' % 'world')
+> Hello world
+> print('Hi, %s, you have $%s.' % ('Micheal', 1000))
 ```
 
 
@@ -567,6 +569,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDg0OTgxLDE2Mjg5NTE5NzcsMTczOD
-Y3NTI0MV19
+eyJoaXN0b3J5IjpbNzEzMDYxMTQwLC00MTQ4NDk4MSwxNzM4Nj
+c1MjQxXX0=
 -->
