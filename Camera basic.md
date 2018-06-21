@@ -216,8 +216,14 @@ command | output
 ```
 - Unicode表示的字符串可以用encode()编码为指定的bytes
 ```python
-> 'ABC'.encode('asci')
+> 'ABC'.encode('ascii')
+> b'ABC'
+> '中文'.encode('uft-8')
+> b'\xe4\xb8\xad\xe6\x96\x87'
+> '中文'.encode('ascii')			# 执行出错
 ```
+
+
 
 ## 4.2 method
 method | description | how to | output
@@ -520,5 +526,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0MDIxOTE2XX0=
+eyJoaXN0b3J5IjpbMTQ0MTc3NjgwOCw0OTQwMjE5MTZdfQ==
 -->
