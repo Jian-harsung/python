@@ -180,9 +180,7 @@ s = "Hello world"
 - Windows下路径反转，可以在string前加上**r**
 - #print(r"C:\Users\jikang\envp\Scripts>")
 - 多行string用三个引号括起来 **"""**
-- 
-- python 2.x 只支持ASCII字符
-- python 3.x支持Unicode，即中文字符
+
 
 以#s="python"为例的一些命令和结果
 command | output
@@ -196,6 +194,13 @@ command | output
 #s[:-1]	|'pytho'        # -1为str的最后一个
 #s[:] |'python'
 #s*2 | 'pythonpython'
+
+- python 2.x 只支持ASCII字符
+- python 3.x支持Unicode，即中文字符
+```python
+> ord('A')
+> 65
+```
 
 ## 4.2 method
 method | description | how to | output
@@ -498,11 +503,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTc2MzIzMTksMjA3NDczNiwtNzM4OT
-M2MTk3LDk2MTMzMzgyMCwxNjEzOTMwMTk0LDgwNDQ3NzkzNSwt
-OTcwOTU0MzA0LC0xMjg5NjY2MTMxLC0xMTY2ODUyMzU0LC05Mj
-UyOTYxMzcsOTg5MTY5MzUyLDE3NTI5NzI0MjIsLTIxNDYzNzcz
-MTAsLTE5ODUyMzg4MjQsLTQ3NTUyMDg2NSwxMjQ0MTM5MDE2LC
-02MjAyNDEwNyw1NDk2NDYwMDMsLTEzODE5MjU1ODgsMTc0ODUx
-NTgyNV19
+eyJoaXN0b3J5IjpbLTk0Nzc3OTkwLDIwNzQ3MzYsLTczODkzNj
+E5Nyw5NjEzMzM4MjAsMTYxMzkzMDE5NCw4MDQ0Nzc5MzUsLTk3
+MDk1NDMwNCwtMTI4OTY2NjEzMSwtMTE2Njg1MjM1NCwtOTI1Mj
+k2MTM3LDk4OTE2OTM1MiwxNzUyOTcyNDIyLC0yMTQ2Mzc3MzEw
+LC0xOTg1MjM4ODI0LC00NzU1MjA4NjUsMTI0NDEzOTAxNiwtNj
+IwMjQxMDcsNTQ5NjQ2MDAzLC0xMzgxOTI1NTg4LDE3NDg1MTU4
+MjVdfQ==
 -->
