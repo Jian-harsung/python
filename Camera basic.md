@@ -131,10 +131,7 @@ range(start, stop[, step])|返回start到stop-1的数字，start default 0|range
 ## 2.5 Regulations
 PEP8: 
 
-
-
-# 3 shu
-术语中英对照
+## 2.6 术语中英对照
 English | Chinese
 ---------|-------
 class | 类别
@@ -151,8 +148,8 @@ tuple | 元组
 - 弱变量语言
 - 对象 **.** 属性
 - 对象 **.** 方法 **()**
-- 
 
+# 3 数据类型和变量
 数据类型|描述
 -|-
 整数|正数，负数，0；十进制，十六进制(0x/0X)，八进制(0o/0O)
@@ -500,6 +497,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc3NDUyOTUsODA0NDc3OTM1LC05Mj
+eyJoaXN0b3J5IjpbLTIwMDY3ODI3NDMsODA0NDc3OTM1LC05Mj
 UyOTYxMzcsOTg5MTY5MzUyLC0yMTM3OTY4MDMzXX0=
 -->
