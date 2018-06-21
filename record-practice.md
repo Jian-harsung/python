@@ -212,7 +212,8 @@ command | output
 ```
 - bytes数据类型用带 __b__ 的单引号或双引号表示
 > x = b'ABC'
-- Unicode表示的字符串可以用encode()
+- Unicode表示的字符串可以用encode()编码为指定的bytes
+> 
 
 
 ## 4.2 method
@@ -516,8 +517,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTAxNTA0OTAsOTgyNDY2NjExLC04Mj
-QxNjMxOTQsOTk0MzMxOTYxLC0yMDA4OTQ0MTQwLDk3NDUxOTY0
+eyJoaXN0b3J5IjpbMTU5NjI5MDQ1LC0xMDEwMTUwNDkwLDk4Mj
+Q2NjYxMSwtODI0MTYzMTk0LC0yMDA4OTQ0MTQwLDk3NDUxOTY0
 NywzNDU2MjM2MjYsLTcxNDI1Mjc5OCwtMTQ1NTAzMDAwLDMxNj
 U0OTI2MiwtMjA3MDA4MjA2NCwxNzE1MjczMjMwLC02ODE5OTIx
 NDYsMTEwNzg4NzIzNSwyMDc0NzM2LC03Mzg5MzYxOTcsOTYxMz
