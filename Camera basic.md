@@ -85,7 +85,7 @@ python源文件开头
  - vars()							# 打印python当前系统内存缓存的变量
  - __buildins__
  - __buildin__
- - 
+- 单行注释以 **#** 开头
  
 
 ## 2.2 函数
@@ -179,7 +179,6 @@ s = "Hello world"
 - sample code: #print("hello world")或#print(s)
 - Windows下路径反转，可以在string前加上**r**
 - #print(r"C:\Users\jikang\envp\Scripts>")
-- 单行注释以 **#** 开头
 - 多行string用三个引号括起来 **"""**
 - 
 - python 2.x 只支持ASCII字符
@@ -499,5 +498,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDczNiwtNzM4OTM2MTk3XX0=
+eyJoaXN0b3J5IjpbLTE4OTc2MzIzMTksMjA3NDczNiwtNzM4OT
+M2MTk3XX0=
 -->
