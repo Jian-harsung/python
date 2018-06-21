@@ -155,7 +155,7 @@ tuple | 元组
 数据类型|描述
 -|-
 整数|正数，负数，0；十进制，十六进制(0x/0X)，八进制(0o/0O)
-浮点数| 常规，科学计数法1.23
+浮点数| 常规，科学计数法1.23e8,-1.23e8, 1.23e08, -1.12e-8, e同样可以是E
 字符串
 
 
@@ -480,5 +480,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0OTg2OTg2XX0=
+eyJoaXN0b3J5IjpbMTAxMzI2ODUyOV19
 -->
