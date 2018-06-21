@@ -154,7 +154,7 @@ tuple | 元组
 
 数据类型
 整数：正数，负数，0；
-十进制，十六进制(0x)
+十进制，十六进制(0x/0X)，八进制(0o/0O)
 浮点数
 字符串
 
@@ -480,5 +480,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjc4MDYyNV19
+eyJoaXN0b3J5IjpbNzAxNjc0Njg0XX0=
 -->
