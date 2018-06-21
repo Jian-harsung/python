@@ -165,6 +165,12 @@ _ | 当然r和三引号可以组合使用
 -|运算：and, or, not(与，或，非)
 空值|None, None不是0
 
+弱变量语言：
+```python
+> a 10
+> print (a)
+```
+
 
 # 4 string
 ## 4.1 Definition
@@ -487,5 +493,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDExNDUwMV19
+eyJoaXN0b3J5IjpbLTIxMzc5NjgwMzNdfQ==
 -->
