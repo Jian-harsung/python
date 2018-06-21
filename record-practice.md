@@ -159,7 +159,7 @@ tuple | 元组
 字符串|'' or "", "" to cover string with ' like "I'm OK"
 -|转义字符'\\', \n:换行, \t:制表符, 
 - | 字符串前添加r用来表示字符串内的单或双引号不转义
-- | 字符串包含多行，可以用三引号‘’‘来引用
+- | 字符串包含多行，可以用三引号‘’‘括起来引用，也可以是三双引号"""
 
 
 # 4 string
@@ -483,11 +483,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1Njk2MjE3NSwxMzQyNjAyNjQsLTE4MD
-gxODc1OTQsLTIwODQ1MTE5ODIsLTY1NzI1OTYzOSwtMTI1Nzk1
-NjAwOCwtODgyMDMzMzY1LDE5MTQ4MTk1NDgsLTE1MDg2MDY2Nj
-AsMTE4NDU1MjU0MCwxOTU0NDM5MjczLDM1NzI5NDUzOSwtMzY0
-NTc4NDg4LDE4NTgxMzc5MjAsLTMxNDYxMTA0OCwxNTcxMjg5MD
-cwLDUxNzcwOTg1LC0xNjg1NjM5NDksOTQxNDcwMjY1LDEwMzg2
-ODQ0MjddfQ==
+eyJoaXN0b3J5IjpbLTEyNzMxODAyODUsMTM0MjYwMjY0LC0xOD
+A4MTg3NTk0LC0yMDg0NTExOTgyLC02NTcyNTk2MzksLTEyNTc5
+NTYwMDgsLTg4MjAzMzM2NSwxOTE0ODE5NTQ4LC0xNTA4NjA2Nj
+YwLDExODQ1NTI1NDAsMTk1NDQzOTI3MywzNTcyOTQ1MzksLTM2
+NDU3ODQ4OCwxODU4MTM3OTIwLC0zMTQ2MTEwNDgsMTU3MTI4OT
+A3MCw1MTc3MDk4NSwtMTY4NTYzOTQ5LDk0MTQ3MDI2NSwxMDM4
+Njg0NDI3XX0=
 -->
