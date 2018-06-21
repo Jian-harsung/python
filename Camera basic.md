@@ -133,7 +133,8 @@ PEP8:
 
 
 
-# 3 术语中英对照
+# 3 shu
+术语中英对照
 English | Chinese
 ---------|-------
 class | 类别
@@ -499,6 +500,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0NDc3OTM1LC05MjUyOTYxMzcsOTg5MT
-Y5MzUyLC0yMTM3OTY4MDMzXX0=
+eyJoaXN0b3J5IjpbLTE5Mjc3NDUyOTUsODA0NDc3OTM1LC05Mj
+UyOTYxMzcsOTg5MTY5MzUyLC0yMTM3OTY4MDMzXX0=
 -->
