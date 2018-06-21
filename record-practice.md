@@ -245,6 +245,11 @@ __可见，1个中文字符经过UTF-8编码后通常会占用3个字节，而1�
 
 在操作字符串时，我们经常遇到`str`和`bytes`的互相转换。为了避免乱码问题，应当始终坚持使用UTF-8编码对`str`和`bytes`进行转换。
 
+由于Python源代码也是一个文本文件，所以，当你的源代码中包含中文的时候，在保存源代码时，就需要务必指定保存为UTF-8编码。当Python解释器读取源代码时，为了让它按UTF-8编码读取，我们通常在文件开头写上这两行：
+```python
+#!/usr/bin/env python3
+#-*- coding: utf-8 -*-
+```
 
 ## 4.2 method
 method | description | how to | output
@@ -547,8 +552,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NzkzMDI0MSwxNjc1NjUxNjcsLTUzND
-gyNTI4OSwyMDA4Njc3MjAzLC0zMTM5MzEyNjcsMTY2Mjg5NDgw
-NSwtMTU1MDcwMTQyOCwtMTkyNDg2MDA2NCwxNTY4MDUwNDUxLC
-0yMTIyOTgwOTM4LC0xNTc2MTY2NThdfQ==
+eyJoaXN0b3J5IjpbLTU2MzI0NDc3MywxMjg3OTMwMjQxLC01Mz
+Q4MjUyODksMjAwODY3NzIwMywtMzEzOTMxMjY3LDE2NjI4OTQ4
+MDUsLTE1NTA3MDE0MjgsLTE5MjQ4NjAwNjQsMTU2ODA1MDQ1MS
+wtMjEyMjk4MDkzOCwtMTU3NjE2NjU4XX0=
 -->
