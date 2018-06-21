@@ -164,7 +164,8 @@ _ | 当然r和三引号可以组合使用
 布尔值|True, False
 -|运算：and, or, not(与，或，非)
 空值|None, None不是0
-除法|'/'和'//'两种：前为浮点除，哪怕结果为整数仍得到浮点结果，如9/3，结果为3.0
+除法|'/'和'//'两种：前为浮点除，哪怕结果为整数仍得到浮点结果，如9/3，结果为3.0(==需要确认==)
+
 
 弱变量语言：
 ```python
@@ -498,11 +499,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzEzMDUzOSwtOTcwOTU0MzA0LC0xMj
-g5NjY2MTMxLC0xMTY2ODUyMzU0LC05MjUyOTYxMzcsOTg5MTY5
-MzUyLDE3NTI5NzI0MjIsLTIxNDYzNzczMTAsLTE5ODUyMzg4Mj
-QsLTQ3NTUyMDg2NSwxMjQ0MTM5MDE2LC02MjAyNDEwNyw1NDk2
-NDYwMDMsLTEzODE5MjU1ODgsMTc0ODUxNTgyNSwtMTA4NDc2MD
-E2NSwxMzQyNjAyNjQsLTE4MDgxODc1OTQsLTIwODQ1MTE5ODIs
-LTY1NzI1OTYzOV19
+eyJoaXN0b3J5IjpbODA0NDc3OTM1LC05NzA5NTQzMDQsLTEyOD
+k2NjYxMzEsLTExNjY4NTIzNTQsLTkyNTI5NjEzNyw5ODkxNjkz
+NTIsMTc1Mjk3MjQyMiwtMjE0NjM3NzMxMCwtMTk4NTIzODgyNC
+wtNDc1NTIwODY1LDEyNDQxMzkwMTYsLTYyMDI0MTA3LDU0OTY0
+NjAwMywtMTM4MTkyNTU4OCwxNzQ4NTE1ODI1LC0xMDg0NzYwMT
+Y1LDEzNDI2MDI2NCwtMTgwODE4NzU5NCwtMjA4NDUxMTk4Miwt
+NjU3MjU5NjM5XX0=
 -->
