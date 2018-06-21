@@ -227,6 +227,7 @@ command | output
 ```python
 > b'ABC'.decode('ascii')
 > u'ABC'		# 2.7.13
+> b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')
 > 
 ```
 ```
@@ -532,6 +533,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODYwMzQwMzksMTU2ODA1MDQ1MSw0OT
-QwMjE5MTZdfQ==
+eyJoaXN0b3J5IjpbLTMyMTc1OTU3NSwxNTY4MDUwNDUxLDQ5ND
+AyMTkxNl19
 -->
