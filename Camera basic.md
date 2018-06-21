@@ -269,7 +269,8 @@ s.join(iterable)|把s插入iterable，并返回|s.join('ABC')|#'ApythonBpythonC'
  - %									# 定制格式化输出
 
 格式化方式和C语言是一致的，用`%`实现
-
+```python
+```
 
 
 
@@ -565,5 +566,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODY3NTI0MV19
+eyJoaXN0b3J5IjpbMTA0NTg1ODcxMSwxNzM4Njc1MjQxXX0=
 -->
