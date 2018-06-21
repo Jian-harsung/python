@@ -157,7 +157,7 @@ tuple | 元组
 整数|正数，负数，0；十进制，十六进制(0x/0X)，八进制(0o/0O)
 浮点数| 常规，科学计数法1.23e8,-1.23e8, 1.23e08, -1.12e-8, e同样可以是E
 字符串|'' or "", "" to cover string with ' like "I'm OK"
--|
+-|zhua
 
 
 # 4 string
@@ -481,8 +481,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjg4NTU4NzUsLTExMzg5MjE2NTAsND
-U0MzY2OTQ1LC0xMjU3OTU2MDA4LC04ODIwMzMzNjUsMTkxNDgx
+eyJoaXN0b3J5IjpbMzY4NjE4MzU5LC0yMDI4ODU1ODc1LC0xMT
+M4OTIxNjUwLC0xMjU3OTU2MDA4LC04ODIwMzMzNjUsMTkxNDgx
 OTU0OCwtMTUwODYwNjY2MCwxMTg0NTUyNTQwLDE5NTQ0MzkyNz
 MsMzU3Mjk0NTM5LC0zNjQ1Nzg0ODgsMTg1ODEzNzkyMCwtMzE0
 NjExMDQ4LDE1NzEyODkwNzAsNTE3NzA5ODUsLTE2ODU2Mzk0OS
