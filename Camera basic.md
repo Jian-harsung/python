@@ -236,7 +236,9 @@ command | output
 > b'\xe4\xb8\xad\xff'.decode('utf-8', errors='ignore')
 - 要计算`str`包含多少个字符，可以用`len()`函数
 - `len()`函数计算的是`str`的字符数，如果换成`bytes`，`len()`函数就计算字节数
-- 
+==Python 3.x  to be checked==
+> len('ABC')
+> 
 
 ## 4.2 method
 method | description | how to | output
@@ -539,6 +541,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzUyMzk5OCwxNTY4MDUwNDUxLDQ5ND
-AyMTkxNl19
+eyJoaXN0b3J5IjpbOTA4ODUwMzk3LDE1NjgwNTA0NTEsNDk0MD
+IxOTE2XX0=
 -->
