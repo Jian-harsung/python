@@ -230,7 +230,8 @@ command | output
 > b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')
 > u'\u4e2d\u6587'		# 2.7.13
 ```
-```
+==Python 3.x  to be checked== 
+
 
 ## 4.2 method
 method | description | how to | output
@@ -533,7 +534,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzkzMTI2NywtMTk0NzE2NzIzLDE2Nj
-I4OTQ4MDUsLTE1NTA3MDE0MjgsLTE5MjQ4NjAwNjQsMTU2ODA1
-MDQ1MSwtMjEyMjk4MDkzOCwtMTU3NjE2NjU4XX0=
+eyJoaXN0b3J5IjpbLTE4Nzk1NjYwNTUsLTMxMzkzMTI2NywxNj
+YyODk0ODA1LC0xNTUwNzAxNDI4LC0xOTI0ODYwMDY0LDE1Njgw
+NTA0NTEsLTIxMjI5ODA5MzgsLTE1NzYxNjY1OF19
 -->
