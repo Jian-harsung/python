@@ -231,6 +231,9 @@ command | output
 > u'\u4e2d\u6587'		# 2.7.13
 ```
 ==Python 3.x  to be checked== 
+- 如果`bytes`中包含无法解码的字节，`decode()`方法会报错
+- 如果`bytes`中只有一小部分无效的字节，可以传入`errors='ignore'`忽略错误的字节
+> b'\xe4\xb8\xad\xff'.decode('utf-8', errors='ignore')
 
 
 ## 4.2 method
@@ -534,6 +537,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzk1NjYwNTUsMTU2ODA1MDQ1MSw0OT
-QwMjE5MTZdfQ==
+eyJoaXN0b3J5IjpbNjQ3Njg1MjAwLDE1NjgwNTA0NTEsNDk0MD
+IxOTE2XX0=
 -->
