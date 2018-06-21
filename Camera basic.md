@@ -288,6 +288,11 @@ s.join(iterable)|把s插入iterable，并返回|s.join('ABC')|#'ApythonBpythonC'
 > 'growth rate: %d %%' % 7
 > 'growth rate: 7 %'
 
+字符串的`format()`方法，它会用传入的参数依次替换字符串内的占位符`{0}`、`{1}`……，
+```python
+'Hello, {0}, 成绩提升了 {1:.1f}%'.format('小明', 17.125)
+'Hello, 小明, 成绩提升了 17.1%'
+```
 
 # 5 List
 ## 5.1 Definition
@@ -581,5 +586,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY1NDc0MzkzLDE3Mzg2NzUyNDFdfQ==
+eyJoaXN0b3J5IjpbLTEwMDgwODk2NjUsMTczODY3NTI0MV19
 -->
