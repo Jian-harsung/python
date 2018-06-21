@@ -220,8 +220,9 @@ command | output
 > b'ABC'
 > '中文'.encode('uft-8')
 > b'\xe4\xb8\xad\xe6\x96\x87'
+> '中文'.encode('ascii')			# 执行出错
 ```
-
+- 在`bytes`中，无法显示为ASCII字符的字节，用`\x##`显示。
 
 
 ## 4.2 method
@@ -525,5 +526,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDc4NzkyMzddfQ==
+eyJoaXN0b3J5IjpbNzkxNjgwNTIxXX0=
 -->
