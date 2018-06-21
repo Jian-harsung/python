@@ -213,6 +213,8 @@ command | output
 - bytes数据类型用带 __b__ 的单引号或双引号表示
 > x = b'ABC'
 
+
+
 ## 4.2 method
 method | description | how to | output
 -----|----|----|---
@@ -514,11 +516,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDg5NDQxNDAsOTc0NTE5NjQ3LDM0NT
-YyMzYyNiwtNzE0MjUyNzk4LC0xNDU1MDMwMDAsMzE2NTQ5MjYy
-LC0yMDcwMDgyMDY0LDE3MTUyNzMyMzAsLTY4MTk5MjE0NiwxMT
-A3ODg3MjM1LDIwNzQ3MzYsLTczODkzNjE5Nyw5NjEzMzM4MjAs
-MTYxMzkzMDE5NCw4MDQ0Nzc5MzUsLTk3MDk1NDMwNCwtMTI4OT
-Y2NjEzMSwtMTE2Njg1MjM1NCwtOTI1Mjk2MTM3LDk4OTE2OTM1
-Ml19
+eyJoaXN0b3J5IjpbMTE1NDcyNzcwNCwtMjAwODk0NDE0MCw5Nz
+Q1MTk2NDcsMzQ1NjIzNjI2LC03MTQyNTI3OTgsLTE0NTUwMzAw
+MCwzMTY1NDkyNjIsLTIwNzAwODIwNjQsMTcxNTI3MzIzMCwtNj
+gxOTkyMTQ2LDExMDc4ODcyMzUsMjA3NDczNiwtNzM4OTM2MTk3
+LDk2MTMzMzgyMCwxNjEzOTMwMTk0LDgwNDQ3NzkzNSwtOTcwOT
+U0MzA0LC0xMjg5NjY2MTMxLC0xMTY2ODUyMzU0LC05MjUyOTYx
+MzddfQ==
 -->
