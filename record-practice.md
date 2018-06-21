@@ -276,7 +276,7 @@ s.join(iterable)|把s插入iterable，并返回|s.join('ABC')|#'ApythonBpythonC'
 > Hi, Micheal, you have $1000.
 ```
 - %d：
-- %s： 字符串
+- %s：字符串
 - 
 
 
@@ -572,6 +572,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTUwNDAxMSwtNDE0ODQ5ODEsMTczOD
-Y3NTI0MV19
+eyJoaXN0b3J5IjpbMTk2ODcyMzI4MSwtNzQ1NTA0MDExLC00MT
+Q4NDk4MSwxNzM4Njc1MjQxXX0=
 -->
