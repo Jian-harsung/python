@@ -211,6 +211,7 @@ command | output
 > '中文'
 ```
 - bytes数据类型用带 __b__ 的单引号或双引号表示
+> x = b'ABC'
 
 ## 4.2 method
 method | description | how to | output
@@ -513,5 +514,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjcyNzk5NTddfQ==
+eyJoaXN0b3J5IjpbLTIwMDg5NDQxNDBdfQ==
 -->
