@@ -285,7 +285,9 @@ s.join(iterable)|把s插入iterable，并返回|s.join('ABC')|#'ApythonBpythonC'
 
 - 如果你不太确定应该用什么，`%s`永远起作用，它会把任何数据类型转换为字符串
 - 有些时候，字符串里面的`%`是一个普通字符怎么办？这个时候就需要转义，用`%%`来表示一个`%`
->
+> ```
+'growth rate: %d %%' % 7
+```
 
 
 # 5 List
@@ -580,6 +582,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQxMzc5MDgsLTIzODU4MDUzMiwxOT
-Y4NzIzMjgxLC00MTQ4NDk4MSwxNzM4Njc1MjQxXX0=
+eyJoaXN0b3J5IjpbLTIyNzQxMzAxNiwtMTA1NDEzNzkwOCwtMj
+M4NTgwNTMyLDE5Njg3MjMyODEsLTQxNDg0OTgxLDE3Mzg2NzUy
+NDFdfQ==
 -->
