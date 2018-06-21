@@ -238,7 +238,11 @@ command | output
 - `len()`函数计算的是`str`的字符数，如果换成`bytes`，`len()`函数就计算字节数
 ==Python 3.x  to be checked==
 > len('ABC')
-> 
+> len(b'ABC')
+> len(b'中文')
+> len(b'\xe4\xb8\xad\xe6\x96\x87')
+__可见，1个中文字符经过UTF-8编码后通常会占用3个字节，而1个英文字符只占用1个字节。__
+在操作字符串时，我们经常遇到`str`和`bytes`的互相转换。为了避免乱码问题，应当始终坚持使用UTF-8编码对`str`和`bytes`进行转换。
 
 ## 4.2 method
 method | description | how to | output
@@ -541,6 +545,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4ODUwMzk3LDE1NjgwNTA0NTEsNDk0MD
-IxOTE2XX0=
+eyJoaXN0b3J5IjpbLTMxNTEwNzg3NSwxNTY4MDUwNDUxLDQ5ND
+AyMTkxNl19
 -->
