@@ -228,7 +228,7 @@ command | output
 > b'ABC'.decode('ascii')
 > u'ABC'		# 2.7.13
 > b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')
-> 
+> u'\u4e2d\u6587'
 ```
 ```
 
@@ -533,6 +533,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTc1OTU3NSwxNTY4MDUwNDUxLDQ5ND
-AyMTkxNl19
+eyJoaXN0b3J5IjpbNTYzMzk3MjMsMTU2ODA1MDQ1MSw0OTQwMj
+E5MTZdfQ==
 -->
