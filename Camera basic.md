@@ -163,7 +163,7 @@ tuple | 元组
 _ | 当然r和三引号可以组合使用
 布尔值|True, False
 -|运算：and, or, not(与，或，非)
-空值|None, 
+空值|None, None不是0
 
 
 # 4 string
@@ -487,5 +487,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5Nzc3NTAzMV19
+eyJoaXN0b3J5IjpbLTc4MDExNDUwMV19
 -->
