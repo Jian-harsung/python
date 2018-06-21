@@ -159,8 +159,8 @@ tuple | 元组
 字符串|'' or "", "" to cover string with ' like "I'm OK"
 -|转义字符'\\', \n:换行, \t:制表符, 
 - | 字符串前添加 __r__ 用来表示字符串内的单或双引号不转义
-- | 字符串包含多行，可以用三引号‘’‘括起来引用，也可以是三双引号"""
-
+- | 字符串包含多行，可以用三引号 ‘’‘ 括起来引用，也可以是三双引号"""
+_ | 当然r和三引号可以组合使用
 
 # 4 string
 ## 4.1 Definition
@@ -483,5 +483,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDAzNzU5OSwxMzQyNjAyNjRdfQ==
+eyJoaXN0b3J5IjpbNTQ5NjQ2MDAzLDEzNDI2MDI2NF19
 -->
