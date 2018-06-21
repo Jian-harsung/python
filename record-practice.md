@@ -184,6 +184,9 @@ s = "Hello world"
 - 单行注释以 **#** 开头
 - 多行string用三个引号括起来 **"""**
 
+- python 2.x 只支持ASCII字符
+- python 3.x支持Unicode，即中文字符
+
 以#s="python"为例的一些命令和结果
 command | output
 -|-
@@ -496,11 +499,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODkzNjE5Nyw5NjEzMzM4MjAsMTYxMz
-kzMDE5NCw4MDQ0Nzc5MzUsLTk3MDk1NDMwNCwtMTI4OTY2NjEz
-MSwtMTE2Njg1MjM1NCwtOTI1Mjk2MTM3LDk4OTE2OTM1MiwxNz
-UyOTcyNDIyLC0yMTQ2Mzc3MzEwLC0xOTg1MjM4ODI0LC00NzU1
-MjA4NjUsMTI0NDEzOTAxNiwtNjIwMjQxMDcsNTQ5NjQ2MDAzLC
-0xMzgxOTI1NTg4LDE3NDg1MTU4MjUsLTEwODQ3NjAxNjUsMTM0
-MjYwMjY0XX0=
+eyJoaXN0b3J5IjpbLTEwMzYzOTAyODUsLTczODkzNjE5Nyw5Nj
+EzMzM4MjAsMTYxMzkzMDE5NCw4MDQ0Nzc5MzUsLTk3MDk1NDMw
+NCwtMTI4OTY2NjEzMSwtMTE2Njg1MjM1NCwtOTI1Mjk2MTM3LD
+k4OTE2OTM1MiwxNzUyOTcyNDIyLC0yMTQ2Mzc3MzEwLC0xOTg1
+MjM4ODI0LC00NzU1MjA4NjUsMTI0NDEzOTAxNiwtNjIwMjQxMD
+csNTQ5NjQ2MDAzLC0xMzgxOTI1NTg4LDE3NDg1MTU4MjUsLTEw
+ODQ3NjAxNjVdfQ==
 -->
