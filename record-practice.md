@@ -153,7 +153,8 @@ tuple | 元组
 - 
 
 数据类型
-整数
+整数：正数，负数，0；
+十进制，十六进制(0x)，八进制
 浮点数
 字符串
 
@@ -479,7 +480,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODQ3MjgyMCwxOTE0ODE5NTQ4LC0xNT
+eyJoaXN0b3J5IjpbMTgwNTUzODk1MywxOTE0ODE5NTQ4LC0xNT
 A4NjA2NjYwLDExODQ1NTI1NDAsMTk1NDQzOTI3MywzNTcyOTQ1
 MzksLTM2NDU3ODQ4OCwxODU4MTM3OTIwLC0zMTQ2MTEwNDgsMT
 U3MTI4OTA3MCw1MTc3MDk4NSwtMTY4NTYzOTQ5LDk0MTQ3MDI2
