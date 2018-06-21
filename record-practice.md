@@ -253,6 +253,7 @@ __可见，1个中文字符经过UTF-8编码后通常会占用3个字节，而1�
 - 第一行注释是为了告诉Linux/OS X系统，这是一个Python可执行程序，Windows系统会忽略这个注释；
 - 第二行注释是为了告诉Python解释器，按照UTF-8编码读取源代码，否则，你在源代码中写的中文输出可能会有乱码。
 - 申明了UTF-8编码并不意味着你的`.py`文件就是UTF-8编码的，必须并且要确保文本编辑器正在使用UTF-8 without BOM编码
+- 如果`.py`文件本身使用UTF-8编码，并且也申明了`# -*- coding: utf-8 -*-`，打开命令提示符测试就可以正常显示中文
 
 
 ## 4.2 method
@@ -263,6 +264,8 @@ ord(char)	| 把字符转换为数字 | #ord('A')
 s.partition(sep) | 分割字符串 | #s.partition('y')|#('p', 'y', 'thon')
 -|-|#s.partition('y')[2]|#'thon'
 s.join(iterable)|把s插入iterable，并返回|s.join('ABC')|#'ApythonBpythonC'
+
+
 
 # 5 List
 ## 5.1 Definition
@@ -556,7 +559,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzY5NjQyOSwxMjg3OTMwMjQxLC01Mz
+eyJoaXN0b3J5IjpbMTMzNTUwODI0MiwxMjg3OTMwMjQxLC01Mz
 Q4MjUyODksMjAwODY3NzIwMywtMzEzOTMxMjY3LDE2NjI4OTQ4
 MDUsLTE1NTA3MDE0MjgsLTE5MjQ4NjAwNjQsMTU2ODA1MDQ1MS
 wtMjEyMjk4MDkzOCwtMTU3NjE2NjU4XX0=
