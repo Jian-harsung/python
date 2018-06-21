@@ -174,6 +174,8 @@ _ | 当然r和三引号可以组合使用
 ```
 这种变量本身类型不固定的语言称之为 __==动态语言==__，与之对应的是 __静态语言__。静态语言在定义变量时必须指定变量类型，如果赋值的时候类型不匹配，就会报错。
 
+常量：在Python中，通常用全部大写的变量名表示常量。
+
 # 4 string
 ## 4.1 Definition
 s = "Hello world"
@@ -495,5 +497,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5MTY5MzUyLC0yMTM3OTY4MDMzXX0=
+eyJoaXN0b3J5IjpbLTkyNTI5NjEzNyw5ODkxNjkzNTIsLTIxMz
+c5NjgwMzNdfQ==
 -->
