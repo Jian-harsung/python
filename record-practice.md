@@ -92,8 +92,6 @@ python源文件开头
 函数名称|解释|how to
 -|-|-
 int(100)|强制转换100|
-chr(num)	| 把数字转换为字符 | #chr(100)
-ord(char)	| 把字符转换为数字 | #ord('A')
 len(对象)	| 求对象的长度 | #len(s1) / #len(l1)
 id() | 查看对象的指针 | #id(s1) / #id(l1)
 range(start, stop[, step])|返回start到stop-1的数字，start default 0|range(100),range(5,20),range(12, 1000, 8)
@@ -183,7 +181,7 @@ s = "Hello world"
 - #print(r"C:\Users\jikang\envp\Scripts>")
 - 单行注释以 **#** 开头
 - 多行string用三个引号括起来 **"""**
-
+- 
 - python 2.x 只支持ASCII字符
 - python 3.x支持Unicode，即中文字符
 
@@ -203,6 +201,8 @@ command | output
 ## 4.2 method
 method | description | how to | output
 -----|----|----|---
+chr(num)	| 把数字转换为字符 | #chr(100)
+ord(char)	| 把字符转换为数字 | #ord('A')
 s.partition(sep) | 分割字符串 | #s.partition('y')|#('p', 'y', 'thon')
 -|-|#s.partition('y')[2]|#'thon'
 s.join(iterable)|把s插入iterable，并返回|s.join('ABC')|#'ApythonBpythonC'
@@ -499,11 +499,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzYzOTAyODUsLTczODkzNjE5Nyw5Nj
-EzMzM4MjAsMTYxMzkzMDE5NCw4MDQ0Nzc5MzUsLTk3MDk1NDMw
-NCwtMTI4OTY2NjEzMSwtMTE2Njg1MjM1NCwtOTI1Mjk2MTM3LD
-k4OTE2OTM1MiwxNzUyOTcyNDIyLC0yMTQ2Mzc3MzEwLC0xOTg1
-MjM4ODI0LC00NzU1MjA4NjUsMTI0NDEzOTAxNiwtNjIwMjQxMD
-csNTQ5NjQ2MDAzLC0xMzgxOTI1NTg4LDE3NDg1MTU4MjUsLTEw
-ODQ3NjAxNjVdfQ==
+eyJoaXN0b3J5IjpbMjA3NDczNiwtNzM4OTM2MTk3LDk2MTMzMz
+gyMCwxNjEzOTMwMTk0LDgwNDQ3NzkzNSwtOTcwOTU0MzA0LC0x
+Mjg5NjY2MTMxLC0xMTY2ODUyMzU0LC05MjUyOTYxMzcsOTg5MT
+Y5MzUyLDE3NTI5NzI0MjIsLTIxNDYzNzczMTAsLTE5ODUyMzg4
+MjQsLTQ3NTUyMDg2NSwxMjQ0MTM5MDE2LC02MjAyNDEwNyw1ND
+k2NDYwMDMsLTEzODE5MjU1ODgsMTc0ODUxNTgyNSwtMTA4NDc2
+MDE2NV19
 -->
