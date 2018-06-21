@@ -263,10 +263,12 @@ s.partition(sep) | 分割字符串 | #s.partition('y')|#('p', 'y', 'thon')
 -|-|#s.partition('y')[2]|#'thon'
 s.join(iterable)|把s插入iterable，并返回|s.join('ABC')|#'ApythonBpythonC'
 
-## 4.3 格式化
+
+## 4.3 format
  - s.format()					# 简单格式化输出
  - %									# 定制格式化输出
 
+格式化方式和C语言是一致的，用`%`实现
 
 
 
@@ -563,5 +565,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3MzIxNTYwXX0=
+eyJoaXN0b3J5IjpbMTczODY3NTI0MV19
 -->
