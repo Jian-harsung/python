@@ -238,7 +238,7 @@ command | output
 - `len()`函数计算的是`str`的字符数，如果换成`bytes`，`len()`函数就计算字节数
 ==Python 3.x  to be checked==
 > len('ABC')
-> len()
+> len(b'ABC')
 
 ## 4.2 method
 method | description | how to | output
@@ -541,7 +541,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODMxODEyNSwtMzEzOTMxMjY3LDE2Nj
-I4OTQ4MDUsLTE1NTA3MDE0MjgsLTE5MjQ4NjAwNjQsMTU2ODA1
-MDQ1MSwtMjEyMjk4MDkzOCwtMTU3NjE2NjU4XX0=
+eyJoaXN0b3J5IjpbMTY2MTA1NTUyOSwtODg4MzE4MTI1LC0zMT
+M5MzEyNjcsMTY2Mjg5NDgwNSwtMTU1MDcwMTQyOCwtMTkyNDg2
+MDA2NCwxNTY4MDUwNDUxLC0yMTIyOTgwOTM4LC0xNTc2MTY2NT
+hdfQ==
 -->
