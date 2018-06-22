@@ -311,7 +311,7 @@ count() |
 extend() |
 index(object) |# 查找并返回第一个匹配object的索引值 | 
 insert(index, object)|index未插入位置，object为插入值
-pop(index)|# 弹出index索引的object，返回该值
+pop(<index)|# 弹出index索引的object，返回该值l
 remove(value)|# 移除list中的第一个value值
 reverse(list)|翻转list|#l1.reverse()/#list.reverse(l1)
 sort()|list排序|#l1.sort()
@@ -586,7 +586,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjYxNTQzNSwtMTAwODA4OTY2NSwtMj
-I3NDEzMDE2LC0xMDU0MTM3OTA4LDE5Njg3MjMyODEsLTQxNDg0
-OTgxLDE3Mzg2NzUyNDFdfQ==
+eyJoaXN0b3J5IjpbMjkxMDc3NjE5LC0xMDA4MDg5NjY1LC0yMj
+c0MTMwMTYsLTEwNTQxMzc5MDgsMTk2ODcyMzI4MSwtNDE0ODQ5
+ODEsMTczODY3NTI0MV19
 -->
