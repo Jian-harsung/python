@@ -650,5 +650,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDc4MDg1MSwxOTA4MTQyMjUyXX0=
+eyJoaXN0b3J5IjpbLTgxMDc4MDg1MV19
 -->
