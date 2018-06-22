@@ -590,6 +590,7 @@ method | description | example
 
 ## 11.2 参数检查
 ```python
+# 自定义取绝对值函数
 def aabs(x):
   if x >= 0:
     return x
@@ -604,7 +605,7 @@ def aabs(x):
 > abs('A')
 > TypeError: bad operand type for abs(): 'str'
 > aabs('A')
-> 
+> 'A'		# python 2.x可以通过
 ```
 
 
@@ -709,5 +710,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0ODQ0MzE4LDE0MTg1OTY1OTVdfQ==
+eyJoaXN0b3J5IjpbMTY4NDczMDA4NiwxNDE4NTk2NTk1XX0=
 -->
