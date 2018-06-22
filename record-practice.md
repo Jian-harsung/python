@@ -89,9 +89,11 @@ python源文件开头
 ## 2.2 函数
 [build-in Functions](https://docs.python.org/3/library/functions.html)
 
-数据类型转换函数
-int()
-float()
+数据类型转换函数|解释|how to
+-|-|-
+int()|int('123')|123
+-|int(12.34)|12
+float('12.34')|
 
 
 函数名称|解释|how to
@@ -657,11 +659,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjUwMjM3MjYsLTc3NTU0MDk5NywtOD
-EwNzgwODUxLC00ODYxOTkyMSwxOTA4MTQyMjUyLDEwODU4MTE2
-MzksNDgyODI4NDM5LDE3NjUzNTQyMjcsLTQ1NTAxNzY1OSwtMj
-g2MjI3NDY1LDEwMzc3MTM3MjQsMTgxNzE3NTAwMiwxMTIxOTkx
-NTk0LC0xMzE4ODkyMDc2LC0xODQwODM3ODE2LC0xNDA5NjkyOT
-k0LC0xMjExMTg4MzMyLDExMjg2MDgyNywtMTE5NTk4MjM2Nywx
-MTIxNjI3MDc0XX0=
+eyJoaXN0b3J5IjpbMTQxNDU1MTc3OSwtNzc1NTQwOTk3LC04MT
+A3ODA4NTEsLTQ4NjE5OTIxLDE5MDgxNDIyNTIsMTA4NTgxMTYz
+OSw0ODI4Mjg0MzksMTc2NTM1NDIyNywtNDU1MDE3NjU5LC0yOD
+YyMjc0NjUsMTAzNzcxMzcyNCwxODE3MTc1MDAyLDExMjE5OTE1
+OTQsLTEzMTg4OTIwNzYsLTE4NDA4Mzc4MTYsLTE0MDk2OTI5OT
+QsLTEyMTExODgzMzIsMTEyODYwODI3LC0xMTk1OTgyMzY3LDEx
+MjE2MjcwNzRdfQ==
 -->
