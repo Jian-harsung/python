@@ -353,6 +353,7 @@ index|返回原组中第一次出现指定value的位置|t.index(5)|7
 > t
 > ('a', 'b', ['X', 'Y'])
 ```
+这里tuple的元素是不变的，包括第三个元素指向的里表是因为
 
 # 7 dict
 ## 7.1 Definition
@@ -604,10 +605,10 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTExODgzMzIsMTEyODYwODI3LC0xMT
-k1OTgyMzY3LDExMjE2MjcwNzQsLTk1NDA0MDEzOCwxOTAwMDk3
-MjgsLTI5MTgyMTQ3MiwtMjA4ODk4MjE3NSwtMTQ5MzgyOTUyNy
-wxNDI4NzU0MDI0LDgwNzUwNzk3OSwtMTAwODA4OTY2NSwtMjI3
-NDEzMDE2LC0xMDU0MTM3OTA4LDE5Njg3MjMyODEsLTQxNDg0OT
-gxLDE3Mzg2NzUyNDFdfQ==
+eyJoaXN0b3J5IjpbMjMwMDg1NjM0LC0xMjExMTg4MzMyLDExMj
+g2MDgyNywtMTE5NTk4MjM2NywxMTIxNjI3MDc0LC05NTQwNDAx
+MzgsMTkwMDA5NzI4LC0yOTE4MjE0NzIsLTIwODg5ODIxNzUsLT
+E0OTM4Mjk1MjcsMTQyODc1NDAyNCw4MDc1MDc5NzksLTEwMDgw
+ODk2NjUsLTIyNzQxMzAxNiwtMTA1NDEzNzkwOCwxOTY4NzIzMj
+gxLC00MTQ4NDk4MSwxNzM4Njc1MjQxXX0=
 -->
