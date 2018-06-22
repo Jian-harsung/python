@@ -617,6 +617,18 @@ def add_end(L=[]):
     L.append('END')
     return L
 ```
+正常调用（不使用默认参数）时，结果似乎不错
+```python
+> add_end([1, 2, 3])
+[1, 2, 3, 'END']
+> add_end(['x', 'y', 'z'])
+['x', 'y', 'z', 'END']
+```
+使用默认参数调用时，一开始结果也是对的
+```python
+> add_end()
+['END']
+```
 
 
 
@@ -765,5 +777,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODkyMTQ4NjhdfQ==
+eyJoaXN0b3J5IjpbNTkyNzk5NDQwXX0=
 -->
