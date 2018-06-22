@@ -647,6 +647,11 @@ def add_end(L=None):
     L.append('END')
     return L
 ```
+- 为什么要设计`str`、`None`这样的不变对象呢？因为不变对象一旦创建，对象内部的数据就不能修改，这样就减少了由于修改数据导致的错误。
+- 此外，由于对象不变，多任务环境下同时读取对象不需要加锁，同时读一点问题都没有。我们在编写程序时，如果可以设计一个不变对象，那就尽量设计成不变对象。
+
+
+
 
 ```python
 # 自定义取绝对值函数
@@ -793,5 +798,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTMzMTIzOF19
+eyJoaXN0b3J5IjpbLTE4MDUyNjk2NjhdfQ==
 -->
