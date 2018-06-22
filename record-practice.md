@@ -603,7 +603,8 @@ def power(x, n):
 - 可以定义 __默认参数__ 作为缺省情况，如经常计算平方值
 > def power(x, n=2)
 - 必选参数在前，默认参数灾后
-- 变化大的默认参数在前，变化晓得默认参数在后
+- 变化大的默认参数在前，变化小的默认参数在后
+- 如果使用了参数名，那么还可以不用按顺序调用
 
 
 ```python
@@ -751,11 +752,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTAyMjUyOSw1MDYwNzAwMTEsNjQxOD
-kzNTI3LDEyMzUyNzE4ODIsLTExNDEzNzAyMTEsMTM4NDgxMzM3
-MCwxMjg2MzEwMDc4LDI2NDk0ODM4MCwtMTI4NzQ5ODc4LC0xOD
-E4MjY1Nzg0LC0yMDE2NTEwNjI2LDk5NTUwNjAxNSwtMTYxMDkx
-OTg3NSwxNjg0NzMwMDg2LDE5MDI5NTA3NTksODE3MTAzMzI3LC
-0xMjM3ODA5NywtMTQ4MDQ5MjY2MCwxNDE4NTk2NTk1LC0xNTgw
-OTAwMjA0XX0=
+eyJoaXN0b3J5IjpbNjUxMjA5Nzc4LDUwNjA3MDAxMSw2NDE4OT
+M1MjcsMTIzNTI3MTg4MiwtMTE0MTM3MDIxMSwxMzg0ODEzMzcw
+LDEyODYzMTAwNzgsMjY0OTQ4MzgwLC0xMjg3NDk4NzgsLTE4MT
+gyNjU3ODQsLTIwMTY1MTA2MjYsOTk1NTA2MDE1LC0xNjEwOTE5
+ODc1LDE2ODQ3MzAwODYsMTkwMjk1MDc1OSw4MTcxMDMzMjcsLT
+EyMzc4MDk3LC0xNDgwNDkyNjYwLDE0MTg1OTY1OTUsLTE1ODA5
+MDAyMDRdfQ==
 -->
