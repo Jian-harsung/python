@@ -345,7 +345,8 @@ index|返回原组中第一次出现指定value的位置|t.index(5)|7
 -|t = (1)这里的括号会被解析为数学公式的小括号，Python规定，这时按数学公式计算 | t|1
 | t = ('a', 'b', ['A', 'B']),t[2][0] = 'X', t[2][1] = 'Y'|
 
-```pyt
+```python
+
 ```
 
 # 7 dict
@@ -598,9 +599,10 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTYyNzA3NCw5ODY5NzYzNzEsLTk1ND
-A0MDEzOCwxOTAwMDk3MjgsLTI5MTgyMTQ3MiwtMjA4ODk4MjE3
-NSwtMTQ5MzgyOTUyNywxNDI4NzU0MDI0LDgwNzUwNzk3OSwtMT
-AwODA4OTY2NSwtMjI3NDEzMDE2LC0xMDU0MTM3OTA4LDE5Njg3
-MjMyODEsLTQxNDg0OTgxLDE3Mzg2NzUyNDFdfQ==
+eyJoaXN0b3J5IjpbLTExOTU5ODIzNjcsMTEyMTYyNzA3NCw5OD
+Y5NzYzNzEsLTk1NDA0MDEzOCwxOTAwMDk3MjgsLTI5MTgyMTQ3
+MiwtMjA4ODk4MjE3NSwtMTQ5MzgyOTUyNywxNDI4NzU0MDI0LD
+gwNzUwNzk3OSwtMTAwODA4OTY2NSwtMjI3NDEzMDE2LC0xMDU0
+MTM3OTA4LDE5Njg3MjMyODEsLTQxNDg0OTgxLDE3Mzg2NzUyND
+FdfQ==
 -->
