@@ -639,6 +639,24 @@ def aabs(x):
 
 - 装饰器@
 - 
+## 11.4 返回值，返回多个值
+```python
+import math
+
+def move(x, y, step, angle=0):
+    nx = x + step * math.cos(angle)
+    ny = y - step * math.sin(angle)
+    return nx, ny
+```
+```python
+>>> x, y = move(100, 100, 60, math.pi / 6)
+>>> print(x, y)
+151.96152422706632 70.0
+```
+但其实这只是一种假象，Python函数返回的仍然是单一值：
+
+
+
 
 # OOP
 
@@ -710,11 +728,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDczMDA4NiwxOTAyOTUwNzU5LDgxNz
-EwMzMyNywtMTIzNzgwOTcsLTE0ODA0OTI2NjAsMTQxODU5NjU5
-NSwtMTU4MDkwMDIwNCwxOTg1MDMyMzM4LC0xNjA3NjU1MzU0LD
-U3MDE1NzQ3LC0xMzY3NTkzMzM3LDEzMTA0NDc0NTksLTQxNzAx
-OTEyNSwxNTU5MDgxMDQ0LDEyNDY5Mzk3ODgsLTE5MTcyMDYzNz
-csMTEzNjExMjU2Niw0MzIwMjA4NjQsODAzODgxNzQ2LDIwMzY0
-Njk4NzBdfQ==
+eyJoaXN0b3J5IjpbMTQ5NjEzOTk2MCwxNjg0NzMwMDg2LDE5MD
+I5NTA3NTksODE3MTAzMzI3LC0xMjM3ODA5NywtMTQ4MDQ5MjY2
+MCwxNDE4NTk2NTk1LC0xNTgwOTAwMjA0LDE5ODUwMzIzMzgsLT
+E2MDc2NTUzNTQsNTcwMTU3NDcsLTEzNjc1OTMzMzcsMTMxMDQ0
+NzQ1OSwtNDE3MDE5MTI1LDE1NTkwODEwNDQsMTI0NjkzOTc4OC
+wtMTkxNzIwNjM3NywxMTM2MTEyNTY2LDQzMjAyMDg2NCw4MDM4
+ODE3NDZdfQ==
 -->
