@@ -617,7 +617,19 @@ def add_end(L=[]):
     L.append('END')
     return L
 ```
-正常调用时，结果似乎不错
+正常调用（不使用默认参数）时，结果似乎不错
+```python
+> add_end([1, 2, 3])
+[1, 2, 3, 'END']
+> add_end(['x', 'y', 'z'])
+['x', 'y', 'z', 'END']
+```
+使用默认参数调用时，一开始结果也是对的
+```python
+> add_end()
+['END']
+```
+但是，再次调用`add_end()`时，结果就不对了
 
 
 
@@ -766,11 +778,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjgwMDY3LC0xMzA3MjY4NTI1LC0xNj
-AzNDQyMjk1LDE4MDM2NzM5NDIsLTg4OTU0NTk3NCwxMTc2NTY4
-MDE1LC0xNzU4NTM3MDIsNTA2MDcwMDExLDY0MTg5MzUyNywxMj
-M1MjcxODgyLC0xMTQxMzcwMjExLDEzODQ4MTMzNzAsMTI4NjMx
-MDA3OCwyNjQ5NDgzODAsLTEyODc0OTg3OCwtMTgxODI2NTc4NC
-wtMjAxNjUxMDYyNiw5OTU1MDYwMTUsLTE2MTA5MTk4NzUsMTY4
-NDczMDA4Nl19
+eyJoaXN0b3J5IjpbLTE0NTQxNzU1MzYsLTEzMDcyNjg1MjUsLT
+E2MDM0NDIyOTUsMTgwMzY3Mzk0MiwtODg5NTQ1OTc0LDExNzY1
+NjgwMTUsLTE3NTg1MzcwMiw1MDYwNzAwMTEsNjQxODkzNTI3LD
+EyMzUyNzE4ODIsLTExNDEzNzAyMTEsMTM4NDgxMzM3MCwxMjg2
+MzEwMDc4LDI2NDk0ODM4MCwtMTI4NzQ5ODc4LC0xODE4MjY1Nz
+g0LC0yMDE2NTEwNjI2LDk5NTUwNjAxNSwtMTYxMDkxOTg3NSwx
+Njg0NzMwMDg2XX0=
 -->
