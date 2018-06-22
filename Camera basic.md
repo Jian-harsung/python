@@ -597,6 +597,7 @@ method | description | example
 > abs('A')
 > TypeError: bad operand type for abs(): 'str'
 > aabs('A')
+> 
 ```
 
 
@@ -701,5 +702,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODU5NjU5NV19
+eyJoaXN0b3J5IjpbLTE2MTA3ODkwNTcsMTQxODU5NjU5NV19
 -->
