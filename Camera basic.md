@@ -353,6 +353,7 @@ index|返回原组中第一次出现指定value的位置|t.index(5)|7
 > t
 > ('a', 'b', ['X', 'Y'])
 ```
+这里tuple的元素是不变的，包括第三个元素指向的libi是因为
 
 # 7 dict
 ## 7.1 Definition
@@ -604,5 +605,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTExODgzMzJdfQ==
+eyJoaXN0b3J5IjpbMTIwODMzNjc0Nl19
 -->
