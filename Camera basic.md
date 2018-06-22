@@ -588,7 +588,9 @@ method | description | example
 1
 ```
 
-## 11.2 import调用
+## 11.2 参数检查
+
+## 11.3 import调用
 - import MODULE
 - import MODULE1, MODULE2, ...
 ```python
@@ -689,5 +691,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzc2ODk0ODddfQ==
+eyJoaXN0b3J5IjpbNTcwMTU3NDddfQ==
 -->
