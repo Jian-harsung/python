@@ -611,7 +611,12 @@ def enroll(name, gender, age=6, city='Beijing'):
 > enroll('Bob', 'M', 7)
 > enroll('Tom', 'M', city='Shanghai')
 ```
-
+- 这里有一个陷阱需要注意
+```python
+def add_end(L=[]):
+    L.append('END')
+    return L
+```
 
 
 
@@ -760,6 +765,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDcyNjg1MjUsLTE2MDM0NDIyOTUsLT
-MzOTk1Nzc0NV19
+eyJoaXN0b3J5IjpbLTE4ODkyMTQ4NjhdfQ==
 -->
