@@ -551,11 +551,9 @@ method | description | example
 - ==input??==
 
 # 11 函数
-## 11.1 
+## 11.1 定义和使用
 - 功能->逻辑->抽象
 - 形参，实参，位置传参
-- 函数嵌套
-- ==内定函数locals(), return sum, locals() ??==
 
 ```python
 > def func(y, x=10):
@@ -689,11 +687,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjc1OTMzMzcsMTMxMDQ0NzQ1OSwtND
-E3MDE5MTI1LDE1NTkwODEwNDQsMTI0NjkzOTc4OCwtMTkxNzIw
-NjM3NywxMTM2MTEyNTY2LDQzMjAyMDg2NCw4MDM4ODE3NDYsMj
-AzNjQ2OTg3MCwtNzc1NTQwOTk3LC04MTA3ODA4NTEsLTQ4NjE5
-OTIxLDE5MDgxNDIyNTIsMTA4NTgxMTYzOSw0ODI4Mjg0MzksMT
-c2NTM1NDIyNywtNDU1MDE3NjU5LC0yODYyMjc0NjUsMTAzNzcx
-MzcyNF19
+eyJoaXN0b3J5IjpbLTIxMjA3NzM4NjYsLTEzNjc1OTMzMzcsMT
+MxMDQ0NzQ1OSwtNDE3MDE5MTI1LDE1NTkwODEwNDQsMTI0Njkz
+OTc4OCwtMTkxNzIwNjM3NywxMTM2MTEyNTY2LDQzMjAyMDg2NC
+w4MDM4ODE3NDYsMjAzNjQ2OTg3MCwtNzc1NTQwOTk3LC04MTA3
+ODA4NTEsLTQ4NjE5OTIxLDE5MDgxNDIyNTIsMTA4NTgxMTYzOS
+w0ODI4Mjg0MzksMTc2NTM1NDIyNywtNDU1MDE3NjU5LC0yODYy
+Mjc0NjVdfQ==
 -->
