@@ -262,7 +262,7 @@ ord(char)	| 把字符转换为数字 | #ord('A')
 s.partition(sep) | 分割字符串 | #s.partition('y')|#('p', 'y', 'thon')
 -|-|#s.partition('y')[2]|#'thon'
 s.join(iterable)|把s插入iterable，并返回|s.join('ABC')|#'ApythonBpythonC'
-s
+s.replace(old, new)|用new替换s中的old，返回一个新的字符串，原来的s不变
 
 ## 4.3 format
  - s.format()					# 简单格式化输出
@@ -650,11 +650,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjE5OTIxLDE5MDgxNDIyNTIsMTA4NT
-gxMTYzOSw0ODI4Mjg0MzksMTc2NTM1NDIyNywtNDU1MDE3NjU5
-LC0yODYyMjc0NjUsMTAzNzcxMzcyNCwxODE3MTc1MDAyLDExMj
-E5OTE1OTQsLTEzMTg4OTIwNzYsLTE4NDA4Mzc4MTYsLTE0MDk2
-OTI5OTQsLTEyMTExODgzMzIsMTEyODYwODI3LC0xMTk1OTgyMz
-Y3LDExMjE2MjcwNzQsLTk1NDA0MDEzOCwxOTAwMDk3MjgsLTI5
-MTgyMTQ3Ml19
+eyJoaXN0b3J5IjpbMTM1OTg4Nzg5OCwtNDg2MTk5MjEsMTkwOD
+E0MjI1MiwxMDg1ODExNjM5LDQ4MjgyODQzOSwxNzY1MzU0MjI3
+LC00NTUwMTc2NTksLTI4NjIyNzQ2NSwxMDM3NzEzNzI0LDE4MT
+cxNzUwMDIsMTEyMTk5MTU5NCwtMTMxODg5MjA3NiwtMTg0MDgz
+NzgxNiwtMTQwOTY5Mjk5NCwtMTIxMTE4ODMzMiwxMTI4NjA4Mj
+csLTExOTU5ODIzNjcsMTEyMTYyNzA3NCwtOTU0MDQwMTM4LDE5
+MDAwOTcyOF19
 -->
