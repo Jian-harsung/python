@@ -631,11 +631,15 @@ def add_end(L=[]):
 ```
 但是，再次调用`add_end()`时，结果就不对了
 ```python
->>> add_end()
+> add_end()
 ['END', 'END']
->>> add_end()
+> add_end()
 ['END', 'END', 'END']
 ```
+原因解释如下：
+Python函数在定义的时候，默认参数`L`的值就被计算出来了，即`[]`，因为默认参数`L`也是一个变量，它指向对象`[]`，每次调用该函数，如果改变了`L`的内容，则下次调用时，默认参数的内容就变了，不再是函数定义时的`[]`了。
+- ==定义默认参数要牢记一点：默认参数必须指向不变对象！==
+
 
 
 ```python
@@ -783,8 +787,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjEzNjcyMywtMTA4MTY5Mzc1MSwtMT
-Q1NDE3NTUzNiwtMTMwNzI2ODUyNSwtMTYwMzQ0MjI5NSwxODAz
+eyJoaXN0b3J5IjpbLTExNjA4MDc5NTUsLTMzNjEzNjcyMywtMT
+A4MTY5Mzc1MSwtMTMwNzI2ODUyNSwtMTYwMzQ0MjI5NSwxODAz
 NjczOTQyLC04ODk1NDU5NzQsMTE3NjU2ODAxNSwtMTc1ODUzNz
 AyLDUwNjA3MDAxMSw2NDE4OTM1MjcsMTIzNTI3MTg4MiwtMTE0
 MTM3MDIxMSwxMzg0ODEzMzcwLDEyODYzMTAwNzgsMjY0OTQ4Mz
