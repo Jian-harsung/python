@@ -322,6 +322,23 @@ copy() | v3.x, 这里有深拷贝和浅拷贝的区别|
  - #l*2 -> ABCABC
 
 
+# 7 tuple
+## 7.1 definition
+t = (1,1,1,1,2,3,4,5,6)
+- #type(t)  -> tuple
+- #len(t) -> 9
+- #dir(t)  -> count, index
+- 原组定义好之后不可变
+
+## 7.2 method
+method | description | how to | output
+-|-|-|-
+count|计算原组中指定value出现的次数|t.count(1)|4
+-|-|-|t.count(10)|0
+index|返回原组中第一次出现指定value的位置|t.index(5)|7
+-|-|-|t.index(1)|0
+-|-|-|t.index(8)|ValueError: tuple.index(x): x not in tuple
+
 # 6 dict
 ## 6.1 Definition
 #d = {'no':1, 'name':"Jack", 'age':20, 'address':"hongmei road"， ‘more’:{'topic':'software', 'experience':10}}
@@ -355,22 +372,8 @@ method | description | how to | output
  'viewkeys' | 输出字典的键 | d.viewkeys() | dict_keys(['more', 'age', 'address', 'name', 'no'])
  'viewvalues' | 输出字典的值 | d.viewvalues() |  dict_values([{'topic': 'software', 'experience': 10}, 20, 'hongmei road', 'Jack', 1])
 
-# 7 tuple
-## 7.1 definition
-t = (1,1,1,1,2,3,4,5,6)
-- #type(t)  -> tuple
-- #len(t) -> 9
-- #dir(t)  -> count, index
-- 原组定义好之后不可变
 
-## 7.2 method
-method | description | how to | output
--|-|-|-
-count|计算原组中指定value出现的次数|t.count(1)|4
--|-|-|t.count(10)|0
-index|返回原组中第一次出现指定value的位置|t.index(5)|7
--|-|-|t.index(1)|0
--|-|-|t.index(8)|ValueError: tuple.index(x): x not in tuple
+
 
 # 8 control flow
 ## 8.1 if
@@ -586,6 +589,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg0OTM1MDYsLTEwMDgwODk2NjUsMT
-czODY3NTI0MV19
+eyJoaXN0b3J5IjpbNDk0NzQ5NjQwLC0xMDA4MDg5NjY1LDE3Mz
+g2NzUyNDFdfQ==
 -->
