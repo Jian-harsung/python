@@ -661,6 +661,8 @@ def move(x, y, step, angle=0):
 ```
 原来返回值是一个tuple！但是，在语法上，返回一个tuple可以省略括号，而多个变量可以同时接收一个tuple，按位置赋给对应的值，所以，Python的函数返回多值其实就是返回一个tuple，但写起来更方便。
 
+==ax^2^ + bx + c = 0 练习==
+
 
 # OOP
 
@@ -732,11 +734,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1NTA2MDE1LC0xNjEwOTE5ODc1LDE2OD
-Q3MzAwODYsMTkwMjk1MDc1OSw4MTcxMDMzMjcsLTEyMzc4MDk3
-LC0xNDgwNDkyNjYwLDE0MTg1OTY1OTUsLTE1ODA5MDAyMDQsMT
-k4NTAzMjMzOCwtMTYwNzY1NTM1NCw1NzAxNTc0NywtMTM2NzU5
-MzMzNywxMzEwNDQ3NDU5LC00MTcwMTkxMjUsMTU1OTA4MTA0NC
-wxMjQ2OTM5Nzg4LC0xOTE3MjA2Mzc3LDExMzYxMTI1NjYsNDMy
-MDIwODY0XX0=
+eyJoaXN0b3J5IjpbLTIzODcxNTM3Nyw5OTU1MDYwMTUsLTE2MT
+A5MTk4NzUsMTY4NDczMDA4NiwxOTAyOTUwNzU5LDgxNzEwMzMy
+NywtMTIzNzgwOTcsLTE0ODA0OTI2NjAsMTQxODU5NjU5NSwtMT
+U4MDkwMDIwNCwxOTg1MDMyMzM4LC0xNjA3NjU1MzU0LDU3MDE1
+NzQ3LC0xMzY3NTkzMzM3LDEzMTA0NDc0NTksLTQxNzAxOTEyNS
+wxNTU5MDgxMDQ0LDEyNDY5Mzk3ODgsLTE5MTcyMDYzNzcsMTEz
+NjExMjU2Nl19
 -->
