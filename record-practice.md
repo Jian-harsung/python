@@ -393,7 +393,7 @@ method | description | how to | output
 > 'name' in d1
 - dict的方法get()
 > d1.get('name')
-> d1.get('name', -1)		
+> d1.get('name', -1)		# -1w
 
 # 8 control flow
 ## 8.1 if
@@ -621,11 +621,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNzE3NTAwMiwxMTIxOTkxNTk0LC0xNj
-E0MTQ1NzY1LDI1Mzg0MDE5LC0xMzE4ODkyMDc2LC0xODQwODM3
-ODE2LC0xNDA5NjkyOTk0LC0xMjExMTg4MzMyLDExMjg2MDgyNy
-wtMTE5NTk4MjM2NywxMTIxNjI3MDc0LC05NTQwNDAxMzgsMTkw
-MDA5NzI4LC0yOTE4MjE0NzIsLTIwODg5ODIxNzUsLTE0OTM4Mj
-k1MjcsMTQyODc1NDAyNCw4MDc1MDc5NzksLTEwMDgwODk2NjUs
-LTIyNzQxMzAxNl19
+eyJoaXN0b3J5IjpbMTAzNzcxMzcyNCwxODE3MTc1MDAyLDExMj
+E5OTE1OTQsLTE2MTQxNDU3NjUsLTEzMTg4OTIwNzYsLTE4NDA4
+Mzc4MTYsLTE0MDk2OTI5OTQsLTEyMTExODgzMzIsMTEyODYwOD
+I3LC0xMTk1OTgyMzY3LDExMjE2MjcwNzQsLTk1NDA0MDEzOCwx
+OTAwMDk3MjgsLTI5MTgyMTQ3MiwtMjA4ODk4MjE3NSwtMTQ5Mz
+gyOTUyNywxNDI4NzU0MDI0LDgwNzUwNzk3OSwtMTAwODA4OTY2
+NSwtMjI3NDEzMDE2XX0=
 -->
