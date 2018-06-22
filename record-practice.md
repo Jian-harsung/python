@@ -340,7 +340,7 @@ index|返回原组中第一次出现指定value的位置|t.index(5)|7
 -|-|-|t.index(8)|ValueError: tuple.index(x): x not in tuple
 
 # 7 dict
-## 6.1 Definition
+## 7.1 Definition
 #d = {'no':1, 'name':"Jack", 'age':20, 'address':"hongmei road"， ‘more’:{'topic':'software', 'experience':10}}
 command | output | comments
 -|-|-
@@ -589,7 +589,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjczNzQ2Myw4MDc1MDc5NzksLTEwMD
-gwODk2NjUsLTIyNzQxMzAxNiwtMTA1NDEzNzkwOCwxOTY4NzIz
-MjgxLC00MTQ4NDk4MSwxNzM4Njc1MjQxXX0=
+eyJoaXN0b3J5IjpbMTQyODc1NDAyNCwtMTcyNzM3NDYzLDgwNz
+UwNzk3OSwtMTAwODA4OTY2NSwtMjI3NDEzMDE2LC0xMDU0MTM3
+OTA4LDE5Njg3MjMyODEsLTQxNDg0OTgxLDE3Mzg2NzUyNDFdfQ
+==
 -->
