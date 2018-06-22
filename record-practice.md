@@ -600,7 +600,7 @@ def power(x, n):
   return x
 ```
 > power (10, 5)		
-可以定义 __默认参数__ zu
+可以定义 __默认参数__ 作为que
 
 ```python
 # 自定义取绝对值函数
@@ -747,7 +747,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjM5OTM5OTYsLTEzNjQ1NzQwMiwyNj
+eyJoaXN0b3J5IjpbMTI4NjMxMDA3OCwtMTc2Mzk5Mzk5NiwyNj
 Q5NDgzODAsLTEyODc0OTg3OCwtMTgxODI2NTc4NCwtMjAxNjUx
 MDYyNiw5OTU1MDYwMTUsLTE2MTA5MTk4NzUsMTY4NDczMDA4Ni
 wxOTAyOTUwNzU5LDgxNzEwMzMyNywtMTIzNzgwOTcsLTE0ODA0
