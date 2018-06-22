@@ -639,7 +639,7 @@ def add_end(L=[]):
 原因解释如下：
 Python函数在定义的时候，默认参数`L`的值就被计算出来了，即`[]`，因为默认参数`L`也是一个变量，它指向对象`[]`，每次调用该函数，如果改变了`L`的内容，则下次调用时，默认参数的内容就变了，不再是函数定义时的`[]`了。
 - ==定义默认参数要牢记一点：默认参数必须指向不变对象！==
-
+要修改上面的例子，我们可以用`None`这个不变对象来实现
 
 
 ```python
@@ -787,11 +787,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjA4MDc5NTUsLTMzNjEzNjcyMywtMT
-A4MTY5Mzc1MSwtMTMwNzI2ODUyNSwtMTYwMzQ0MjI5NSwxODAz
-NjczOTQyLC04ODk1NDU5NzQsMTE3NjU2ODAxNSwtMTc1ODUzNz
-AyLDUwNjA3MDAxMSw2NDE4OTM1MjcsMTIzNTI3MTg4MiwtMTE0
-MTM3MDIxMSwxMzg0ODEzMzcwLDEyODYzMTAwNzgsMjY0OTQ4Mz
-gwLC0xMjg3NDk4NzgsLTE4MTgyNjU3ODQsLTIwMTY1MTA2MjYs
-OTk1NTA2MDE1XX0=
+eyJoaXN0b3J5IjpbLTE1NjM0MTYwMjgsLTExNjA4MDc5NTUsLT
+MzNjEzNjcyMywtMTA4MTY5Mzc1MSwtMTMwNzI2ODUyNSwtMTYw
+MzQ0MjI5NSwxODAzNjczOTQyLC04ODk1NDU5NzQsMTE3NjU2OD
+AxNSwtMTc1ODUzNzAyLDUwNjA3MDAxMSw2NDE4OTM1MjcsMTIz
+NTI3MTg4MiwtMTE0MTM3MDIxMSwxMzg0ODEzMzcwLDEyODYzMT
+AwNzgsMjY0OTQ4MzgwLC0xMjg3NDk4NzgsLTE4MTgyNjU3ODQs
+LTIwMTY1MTA2MjZdfQ==
 -->
