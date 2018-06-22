@@ -593,6 +593,7 @@ method | description | example
 > TypeError: abs() takes exactly one argument (2 given)
 > TypeError: aabs() takes exactly 1 argument (2 given)
 - 但是解析器不会检查参数类型，如果参数类型不对的时候，会出现不同的情况
+- 
 
 
 ## 11.3 import调用
@@ -696,11 +697,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDg2NDAxNywxOTg1MDMyMzM4LDYwNj
-A5MTgzNSwtMTYwNzY1NTM1NCw1NzAxNTc0NywtMTM2NzU5MzMz
-NywxMzEwNDQ3NDU5LC00MTcwMTkxMjUsMTU1OTA4MTA0NCwxMj
-Q2OTM5Nzg4LC0xOTE3MjA2Mzc3LDExMzYxMTI1NjYsNDMyMDIw
-ODY0LDgwMzg4MTc0NiwyMDM2NDY5ODcwLC03NzU1NDA5OTcsLT
-gxMDc4MDg1MSwtNDg2MTk5MjEsMTkwODE0MjI1MiwxMDg1ODEx
-NjM5XX0=
+eyJoaXN0b3J5IjpbLTE1ODA5MDAyMDQsLTc2MDg2NDAxNywxOT
+g1MDMyMzM4LC0xNjA3NjU1MzU0LDU3MDE1NzQ3LC0xMzY3NTkz
+MzM3LDEzMTA0NDc0NTksLTQxNzAxOTEyNSwxNTU5MDgxMDQ0LD
+EyNDY5Mzk3ODgsLTE5MTcyMDYzNzcsMTEzNjExMjU2Niw0MzIw
+MjA4NjQsODAzODgxNzQ2LDIwMzY0Njk4NzAsLTc3NTU0MDk5Ny
+wtODEwNzgwODUxLC00ODYxOTkyMSwxOTA4MTQyMjUyLDEwODU4
+MTE2MzldfQ==
 -->
