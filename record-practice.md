@@ -117,17 +117,8 @@ range(start, stop[, step])|返回start到stop-1的数字，start default 0|range
 **matplotlib**：
 **random**: 产生随机数
 **sys**: 
-- import MODULE
-- import MODULE1, MODULE2, ...
-> import math
-> math.pi
 
-- from MODULE import <method> /<方法>
-> from math import pi
-> pi
 
-- import MODULE as short-name
-- ==import function ???==
 
 
 [how to use **random** module](http://www.pythonforbeginners.com/random/how-to-use-the-random-module-in-python)
@@ -676,11 +667,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDUzMTc0NSwxMjQ2OTM5Nzg4LC0xOT
-E3MjA2Mzc3LDExMzYxMTI1NjYsNDMyMDIwODY0LDgwMzg4MTc0
-NiwyMDM2NDY5ODcwLC03NzU1NDA5OTcsLTgxMDc4MDg1MSwtND
-g2MTk5MjEsMTkwODE0MjI1MiwxMDg1ODExNjM5LDQ4MjgyODQz
-OSwxNzY1MzU0MjI3LC00NTUwMTc2NTksLTI4NjIyNzQ2NSwxMD
-M3NzEzNzI0LDE4MTcxNzUwMDIsMTEyMTk5MTU5NCwtMTMxODg5
-MjA3Nl19
+eyJoaXN0b3J5IjpbLTc0MTIzMTcwLC00ODQ1MzE3NDUsMTI0Nj
+kzOTc4OCwtMTkxNzIwNjM3NywxMTM2MTEyNTY2LDQzMjAyMDg2
+NCw4MDM4ODE3NDYsMjAzNjQ2OTg3MCwtNzc1NTQwOTk3LC04MT
+A3ODA4NTEsLTQ4NjE5OTIxLDE5MDgxNDIyNTIsMTA4NTgxMTYz
+OSw0ODI4Mjg0MzksMTc2NTM1NDIyNywtNDU1MDE3NjU5LC0yOD
+YyMjc0NjUsMTAzNzcxMzcyNCwxODE3MTc1MDAyLDExMjE5OTE1
+OTRdfQ==
 -->
