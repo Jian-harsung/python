@@ -350,7 +350,7 @@ command | output | comments
 #d['more'] | {'experience': 10, 'topic': 'software'} | 返回键值，为另一个字典
 #d['more']['topic'] | 'software'|按键取值
 
-## 6.2 method
+## 7.2 method
 method | description | how to | output
 -|-|-|-
  'clear' | 
@@ -589,8 +589,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODc1NDAyNCwtMTcyNzM3NDYzLDgwNz
-UwNzk3OSwtMTAwODA4OTY2NSwtMjI3NDEzMDE2LC0xMDU0MTM3
-OTA4LDE5Njg3MjMyODEsLTQxNDg0OTgxLDE3Mzg2NzUyNDFdfQ
-==
+eyJoaXN0b3J5IjpbLTE0OTM4Mjk1MjcsMTQyODc1NDAyNCwtMT
+cyNzM3NDYzLDgwNzUwNzk3OSwtMTAwODA4OTY2NSwtMjI3NDEz
+MDE2LC0xMDU0MTM3OTA4LDE5Njg3MjMyODEsLTQxNDg0OTgxLD
+E3Mzg2NzUyNDFdfQ==
 -->
