@@ -639,7 +639,7 @@ def aabs(x):
 
 - 装饰器@
 - 
-## 11.4 返回值，返回多个值
+## 11.4 返回多个值
 ```python
 import math
 
@@ -659,7 +659,7 @@ def move(x, y, step, angle=0):
 >>> print(r)
 (151.96152422706632, 70.0)
 ```
-
+原来返回值是一个tuple！但是，在语法上，返回一个tuple可以省略括号，而多个变量可以同时接收一个tuple，按位置赋给对应的值，所以，Python的函数返回多值其实就是返回一个tuple，但写起来更方便。
 
 
 # OOP
@@ -732,11 +732,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTA5MTk4NzUsMTQ5NjEzOTk2MCwxNj
-g0NzMwMDg2LDE5MDI5NTA3NTksODE3MTAzMzI3LC0xMjM3ODA5
-NywtMTQ4MDQ5MjY2MCwxNDE4NTk2NTk1LC0xNTgwOTAwMjA0LD
-E5ODUwMzIzMzgsLTE2MDc2NTUzNTQsNTcwMTU3NDcsLTEzNjc1
-OTMzMzcsMTMxMDQ0NzQ1OSwtNDE3MDE5MTI1LDE1NTkwODEwND
-QsMTI0NjkzOTc4OCwtMTkxNzIwNjM3NywxMTM2MTEyNTY2LDQz
-MjAyMDg2NF19
+eyJoaXN0b3J5IjpbOTk1NTA2MDE1LC0xNjEwOTE5ODc1LDE2OD
+Q3MzAwODYsMTkwMjk1MDc1OSw4MTcxMDMzMjcsLTEyMzc4MDk3
+LC0xNDgwNDkyNjYwLDE0MTg1OTY1OTUsLTE1ODA5MDAyMDQsMT
+k4NTAzMjMzOCwtMTYwNzY1NTM1NCw1NzAxNTc0NywtMTM2NzU5
+MzMzNywxMzEwNDQ3NDU5LC00MTcwMTkxMjUsMTU1OTA4MTA0NC
+wxMjQ2OTM5Nzg4LC0xOTE3MjA2Mzc3LDExMzYxMTI1NjYsNDMy
+MDIwODY0XX0=
 -->
