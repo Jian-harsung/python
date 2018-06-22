@@ -343,7 +343,10 @@ index|返回原组中第一次出现指定value的位置|t.index(5)|7
 定义空元组|t = ()|t|()
 定义一个元素的元组|t = (1,)|t|(1,)
 -|t = (1)这里的括号会被解析为数学公式的小括号，Python规定，这时按数学公式计算 | t|1
-一个“可变的”tuple| t = ('a', 'b', ['A', 'B'])
+| t = ('a', 'b', ['A', 'B']),t[2][0] = 'X', t[2][1] = 'Y'|
+
+```
+```
 
 # 7 dict
 ## 7.1 Definition
@@ -595,9 +598,9 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjQyMDIzMywtMzM4NjEyODkzLC05NT
-QwNDAxMzgsMTkwMDA5NzI4LC0yOTE4MjE0NzIsLTIwODg5ODIx
-NzUsLTE0OTM4Mjk1MjcsMTQyODc1NDAyNCw4MDc1MDc5NzksLT
-EwMDgwODk2NjUsLTIyNzQxMzAxNiwtMTA1NDEzNzkwOCwxOTY4
-NzIzMjgxLC00MTQ4NDk4MSwxNzM4Njc1MjQxXX0=
+eyJoaXN0b3J5IjpbOTg2OTc2MzcxLC03MTI0MjAyMzMsLTk1ND
+A0MDEzOCwxOTAwMDk3MjgsLTI5MTgyMTQ3MiwtMjA4ODk4MjE3
+NSwtMTQ5MzgyOTUyNywxNDI4NzU0MDI0LDgwNzUwNzk3OSwtMT
+AwODA4OTY2NSwtMjI3NDEzMDE2LC0xMDU0MTM3OTA4LDE5Njg3
+MjMyODEsLTQxNDg0OTgxLDE3Mzg2NzUyNDFdfQ==
 -->
