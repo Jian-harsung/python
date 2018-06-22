@@ -607,6 +607,8 @@ def power(x, n):
 - 如果使用了参数名，那么还可以不用按顺序调用
 ```python
 def enroll(name, gender, age=6, city='Beijing'):
+> enroll('Sarah', 'F')
+> enroll('Bob', 'M', 7)
 ```
 
 ```python
@@ -754,11 +756,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTExMDY2MzgsLTE5OTgzNzkxNzgsNj
-UxMjA5Nzc4LDUwNjA3MDAxMSw2NDE4OTM1MjcsMTIzNTI3MTg4
-MiwtMTE0MTM3MDIxMSwxMzg0ODEzMzcwLDEyODYzMTAwNzgsMj
-Y0OTQ4MzgwLC0xMjg3NDk4NzgsLTE4MTgyNjU3ODQsLTIwMTY1
-MTA2MjYsOTk1NTA2MDE1LC0xNjEwOTE5ODc1LDE2ODQ3MzAwOD
-YsMTkwMjk1MDc1OSw4MTcxMDMzMjcsLTEyMzc4MDk3LC0xNDgw
-NDkyNjYwXX0=
+eyJoaXN0b3J5IjpbMTY3OTQyNTA1NiwtMTI1MTEwNjYzOCwtMT
+k5ODM3OTE3OCw1MDYwNzAwMTEsNjQxODkzNTI3LDEyMzUyNzE4
+ODIsLTExNDEzNzAyMTEsMTM4NDgxMzM3MCwxMjg2MzEwMDc4LD
+I2NDk0ODM4MCwtMTI4NzQ5ODc4LC0xODE4MjY1Nzg0LC0yMDE2
+NTEwNjI2LDk5NTUwNjAxNSwtMTYxMDkxOTg3NSwxNjg0NzMwMD
+g2LDE5MDI5NTA3NTksODE3MTAzMzI3LC0xMjM3ODA5NywtMTQ4
+MDQ5MjY2MF19
 -->
