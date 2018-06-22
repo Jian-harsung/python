@@ -425,7 +425,8 @@ else:
 > print('count %s' % a)
 > a += 1
 会打印从10开始的3累加到100的数字
-- beark语句，只能用在循环体中
+- beark语句，只能用在循环体中，跳出循环体
+```python
 > a = 10
 > while a  <= 100
 > if a % 3 == 0:
@@ -433,7 +434,9 @@ else:
 > else:
 > print('count %s' % a)
 > a += 1
+```
 此时只打印10，11. 当a累加到12时，对3取余为零，就满足了if判断条件，就会执行break跳出.
+
 
 # 9 file access
 - 判断文件是否存在：
@@ -605,11 +608,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDA4Mzc4MTYsLTE0MDk2OTI5OTQsLT
-EyMTExODgzMzIsMTEyODYwODI3LC0xMTk1OTgyMzY3LDExMjE2
-MjcwNzQsLTk1NDA0MDEzOCwxOTAwMDk3MjgsLTI5MTgyMTQ3Mi
-wtMjA4ODk4MjE3NSwtMTQ5MzgyOTUyNywxNDI4NzU0MDI0LDgw
-NzUwNzk3OSwtMTAwODA4OTY2NSwtMjI3NDEzMDE2LC0xMDU0MT
-M3OTA4LDE5Njg3MjMyODEsLTQxNDg0OTgxLDE3Mzg2NzUyNDFd
-fQ==
+eyJoaXN0b3J5IjpbMTYzOTI5NzU1NSwtMTg0MDgzNzgxNiwtMT
+QwOTY5Mjk5NCwtMTIxMTE4ODMzMiwxMTI4NjA4MjcsLTExOTU5
+ODIzNjcsMTEyMTYyNzA3NCwtOTU0MDQwMTM4LDE5MDAwOTcyOC
+wtMjkxODIxNDcyLC0yMDg4OTgyMTc1LC0xNDkzODI5NTI3LDE0
+Mjg3NTQwMjQsODA3NTA3OTc5LC0xMDA4MDg5NjY1LC0yMjc0MT
+MwMTYsLTEwNTQxMzc5MDgsMTk2ODcyMzI4MSwtNDE0ODQ5ODEs
+MTczODY3NTI0MV19
 -->
