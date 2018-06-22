@@ -87,6 +87,8 @@ python源文件开头
  
 
 ## 2.2 函数
+[build-in Functions](https://docs.python.org/3/library/functions.html)
+
 函数名称|解释|how to
 -|-|-
 int('2018')|强制转换2018|
@@ -650,5 +652,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDc4MDg1MV19
+eyJoaXN0b3J5IjpbLTE1NzE1NjEzMDAsLTgxMDc4MDg1MV19
 -->
