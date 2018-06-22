@@ -418,9 +418,9 @@ set可以看成数学意义上的无序和无重复元素的集合，因此，�
 ```python
 > s1 = set([1, 2, 3])
 > s2 = set([2, 3, 4])
-> s1 & s2
+> s1 & s2					# & 交集
 {2, 3}
-> s1 | s2
+> s1 | s2					# | 并集
 {1, 2, 3, 4}
 ```
 
@@ -650,11 +650,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA3NjE3NTYsMTA4NTgxMTYzOSw0OD
-I4Mjg0MzksMTc2NTM1NDIyNywtNDU1MDE3NjU5LC0yODYyMjc0
-NjUsMTAzNzcxMzcyNCwxODE3MTc1MDAyLDExMjE5OTE1OTQsLT
-EzMTg4OTIwNzYsLTE4NDA4Mzc4MTYsLTE0MDk2OTI5OTQsLTEy
-MTExODgzMzIsMTEyODYwODI3LC0xMTk1OTgyMzY3LDExMjE2Mj
-cwNzQsLTk1NDA0MDEzOCwxOTAwMDk3MjgsLTI5MTgyMTQ3Miwt
-MjA4ODk4MjE3NV19
+eyJoaXN0b3J5IjpbMTkwODE0MjI1MiwxMDg1ODExNjM5LDQ4Mj
+gyODQzOSwxNzY1MzU0MjI3LC00NTUwMTc2NTksLTI4NjIyNzQ2
+NSwxMDM3NzEzNzI0LDE4MTcxNzUwMDIsMTEyMTk5MTU5NCwtMT
+MxODg5MjA3NiwtMTg0MDgzNzgxNiwtMTQwOTY5Mjk5NCwtMTIx
+MTE4ODMzMiwxMTI4NjA4MjcsLTExOTU5ODIzNjcsMTEyMTYyNz
+A3NCwtOTU0MDQwMTM4LDE5MDAwOTcyOCwtMjkxODIxNDcyLC0y
+MDg4OTgyMTc1XX0=
 -->
