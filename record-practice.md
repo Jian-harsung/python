@@ -341,7 +341,7 @@ index|返回原组中第一次出现指定value的位置|t.index(5)|7
 -|-|-|t.index(1)|0
 -|-|-|t.index(8)|ValueError: tuple.index(x): x not in tuple
 定义空元组|t = ()|t|()
-d
+
 
 # 7 dict
 ## 7.1 Definition
@@ -593,8 +593,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTY1NTIyLC01NTAwMTc4MDgsLTE0OT
-M4Mjk1MjcsMTQyODc1NDAyNCw4MDc1MDc5NzksLTEwMDgwODk2
-NjUsLTIyNzQxMzAxNiwtMTA1NDEzNzkwOCwxOTY4NzIzMjgxLC
-00MTQ4NDk4MSwxNzM4Njc1MjQxXX0=
+eyJoaXN0b3J5IjpbLTU1MDAxNzgwOCwxNjkxNjU1MjIsLTU1MD
+AxNzgwOCwtMTQ5MzgyOTUyNywxNDI4NzU0MDI0LDgwNzUwNzk3
+OSwtMTAwODA4OTY2NSwtMjI3NDEzMDE2LC0xMDU0MTM3OTA4LD
+E5Njg3MjMyODEsLTQxNDg0OTgxLDE3Mzg2NzUyNDFdfQ==
 -->
