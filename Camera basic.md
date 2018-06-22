@@ -408,7 +408,8 @@ method | description | how to | output
 > s
 {1, 2, 3}
 ```
-
+传入的参数`[1, 2, 3]`是一个list，而显示的`{1, 2, 3}`只是告诉你这个set内部有1，2，3这3个元素，显示的顺序也不表示set是有序的`
+- 重复元素在set中自动被过滤
 
 
 # 8 control flow
@@ -637,5 +638,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNjE5Mjc3NiwxNzY1MzU0MjI3XX0=
+eyJoaXN0b3J5IjpbNTEwOTEzMDEsMTc2NTM1NDIyN119
 -->
