@@ -262,7 +262,7 @@ ord(char)	| 把字符转换为数字 | #ord('A')
 s.partition(sep) | 分割字符串 | #s.partition('y')|#('p', 'y', 'thon')
 -|-|#s.partition('y')[2]|#'thon'
 s.join(iterable)|把s插入iterable，并返回|s.join('ABC')|#'ApythonBpythonC'
-s.replace(old, new)|用new替换s中的old，返回一个新的字符串，原来的s不变
+s.replace(old, new)|用new替换s中的old，返回一个新的字符串，原来的s不变|s.replace('a', 'A')|'Abc',但是s仍为'abc'
 
 ## 4.3 format
  - s.format()					# 简单格式化输出
@@ -650,7 +650,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTg4Nzg5OCwtNDg2MTk5MjEsMTkwOD
+eyJoaXN0b3J5IjpbLTgxMDc4MDg1MSwtNDg2MTk5MjEsMTkwOD
 E0MjI1MiwxMDg1ODExNjM5LDQ4MjgyODQzOSwxNzY1MzU0MjI3
 LC00NTUwMTc2NTksLTI4NjIyNzQ2NSwxMDM3NzEzNzI0LDE4MT
 cxNzUwMDIsMTEyMTk5MTU5NCwtMTMxODg5MjA3NiwtMTg0MDgz
