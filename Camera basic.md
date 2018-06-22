@@ -436,6 +436,15 @@ else:
 > a += 1
 ```
 此时只打印10，11. 当a累加到12时，对3取余为零，就满足了if判断条件，就会执行break跳出.
+- 在循环过程中，也可以通过`continue`语句，跳过当前的这次循环，直接开始下一次循环
+```python
+n = 0
+while n < 10:
+    n = n + 1
+    if n % 2 == 0: # 如果n是偶数，执行continue语句
+        continue # continue语句会直接继续下一轮循环，后续的print()语句不会执行
+    print(n)
+```
 
 
 # 9 file access
@@ -608,6 +617,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTI5NzU1NSwtMTg0MDgzNzgxNiwtMT
-QwOTY5Mjk5NF19
+eyJoaXN0b3J5IjpbLTEzMTg4OTIwNzYsLTE4NDA4Mzc4MTYsLT
+E0MDk2OTI5OTRdfQ==
 -->
