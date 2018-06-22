@@ -117,17 +117,8 @@ range(start, stop[, step])|返回start到stop-1的数字，start default 0|range
 **matplotlib**：
 **random**: 产生随机数
 **sys**: 
-- import MODULE
-- import MODULE1, MODULE2, ...
-> import math
-> math.pi
 
-- from MODULE import <method> /<方法>
-> from math import pi
-> pi
 
-- import MODULE as short-name
-- ==import function ???==
 
 
 [how to use **random** module](http://www.pythonforbeginners.com/random/how-to-use-the-random-module-in-python)
@@ -599,7 +590,19 @@ method | description | example
 ```
 
 ## 11.2 import调用
-
+- import MODULE
+- import MODULE1, MODULE2, ...
+```python
+> import math
+> math.pi
+```
+- from MODULE import <method> /<方法>
+```python
+> from math import pi
+> pi
+```
+- import MODULE as short-name
+- ==import file_name import function ???==
 
 - 变量作用域：LEGB (Local, EEEEE, GLobal, Buildin:本地，嵌套，全局，内置)
 
@@ -676,5 +679,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDUzMTc0NV19
+eyJoaXN0b3J5IjpbLTkzODYyNjY2Ml19
 -->
