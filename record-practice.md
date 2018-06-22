@@ -399,6 +399,9 @@ method | description | how to | output
 - 通过key计算位置的算法称为哈希算法（Hash）
 - 
 
+# 8 set
+
+
 # 8 control flow
 ## 8.1 if
 6种判断条件：<, <=, >, >=, ==, !=
@@ -625,7 +628,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyODI4NDM5LDEzODQ3ODgxNDYsMTc2NT
+eyJoaXN0b3J5IjpbMTU3Mjg5Njg4NCw0ODI4Mjg0MzksMTc2NT
 M1NDIyNywtNDU1MDE3NjU5LC0yODYyMjc0NjUsMTAzNzcxMzcy
 NCwxODE3MTc1MDAyLDExMjE5OTE1OTQsLTEzMTg4OTIwNzYsLT
 E4NDA4Mzc4MTYsLTE0MDk2OTI5OTQsLTEyMTExODgzMzIsMTEy
