@@ -605,7 +605,7 @@ def power(x, n):
 - 必选参数在前，默认参数灾后
 - 变化大的默认参数在前，变化小的默认参数在后
 - 如果使用了参数名，那么还可以不用按顺序调用
-```
+```python
 def enroll(name, gender, age=6, city='Beijing'):
 ```
 
@@ -754,11 +754,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTgzNzkxNzgsNjUxMjA5Nzc4LDUwNj
-A3MDAxMSw2NDE4OTM1MjcsMTIzNTI3MTg4MiwtMTE0MTM3MDIx
-MSwxMzg0ODEzMzcwLDEyODYzMTAwNzgsMjY0OTQ4MzgwLC0xMj
-g3NDk4NzgsLTE4MTgyNjU3ODQsLTIwMTY1MTA2MjYsOTk1NTA2
-MDE1LC0xNjEwOTE5ODc1LDE2ODQ3MzAwODYsMTkwMjk1MDc1OS
-w4MTcxMDMzMjcsLTEyMzc4MDk3LC0xNDgwNDkyNjYwLDE0MTg1
-OTY1OTVdfQ==
+eyJoaXN0b3J5IjpbLTEyNTExMDY2MzgsLTE5OTgzNzkxNzgsNj
+UxMjA5Nzc4LDUwNjA3MDAxMSw2NDE4OTM1MjcsMTIzNTI3MTg4
+MiwtMTE0MTM3MDIxMSwxMzg0ODEzMzcwLDEyODYzMTAwNzgsMj
+Y0OTQ4MzgwLC0xMjg3NDk4NzgsLTE4MTgyNjU3ODQsLTIwMTY1
+MTA2MjYsOTk1NTA2MDE1LC0xNjEwOTE5ODc1LDE2ODQ3MzAwOD
+YsMTkwMjk1MDc1OSw4MTcxMDMzMjcsLTEyMzc4MDk3LC0xNDgw
+NDkyNjYwXX0=
 -->
