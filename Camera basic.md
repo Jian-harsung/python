@@ -612,6 +612,9 @@ def enroll(name, gender, age=6, city='Beijing'):
 > enroll('Tom', 'M', city='Shanghai')
 ```
 
+
+
+
 ```python
 # 自定义取绝对值函数
 def aabs(x):
@@ -757,5 +760,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDM0NDIyOTUsLTMzOTk1Nzc0NV19
+eyJoaXN0b3J5IjpbLTEzMDcyNjg1MjUsLTE2MDM0NDIyOTUsLT
+MzOTk1Nzc0NV19
 -->
