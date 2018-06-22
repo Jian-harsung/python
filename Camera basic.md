@@ -590,8 +590,16 @@ method | description | example
 
 ## 11.2 参数检查
 必选参数外，还可以使用默认参数、可变参数和关键字参数
-weizhi
+位置参数
+```python
+def power(x, n):
+  s = 1
+  while n > 0:
+    n = n-1
+    s = s*x
+    
 
+```
 
 ```python
 # 自定义取绝对值函数
@@ -738,5 +746,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1MDMwNzc4XX0=
+eyJoaXN0b3J5IjpbOTIxOTMwNTU4XX0=
 -->
