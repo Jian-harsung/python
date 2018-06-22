@@ -611,7 +611,7 @@ method | description | example
 > def nop():
     pass
 ```
-
+`pass`可以用来作为占位符，比如现在还没想好怎么写函数的代码，就可以先放一个`pass`，让代码能运行起来。
 
 
 - 变量作用域：LEGB (Local, EEEEE, GLobal, Buildin:本地，嵌套，全局，内置)
@@ -689,5 +689,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDQ0NzQ1OV19
+eyJoaXN0b3J5IjpbLTEzNjc1OTMzMzddfQ==
 -->
