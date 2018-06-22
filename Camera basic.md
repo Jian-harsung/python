@@ -590,7 +590,9 @@ method | description | example
 
 ## 11.2 参数检查
 - 参数个数不对，Python解释器会自动检查出来，并抛出`TypeError`
-
+> TypeError: abs() takes exactly one argument (2 given)
+> TypeError: aabs() takes exactly 1 argument (2 given)
+- 但是解析器不会检查参数类型，如果参数类型不对的时候，会出现butong
 
 
 ## 11.3 import调用
@@ -694,5 +696,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc2NTUzNTRdfQ==
+eyJoaXN0b3J5IjpbLTk2MTgzNDIwN119
 -->
