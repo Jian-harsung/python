@@ -330,6 +330,7 @@ t = (1,1,1,1,2,3,4,5,6)
 - #dir(t)  -> count, index
 - tuple元组一旦初始化就不能修改
 - 不可变的tuple有什么意义？因为tuple不可变，所以代码更安全。如果可能，能用tuple代替list就尽量用tuple。
+- tuple所谓的“不变”是说，tuple的每个元素，指向永远不变。
 
 ## 6.2 method
 method | description | how to | output
@@ -590,5 +591,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjY2MDU2MDFdfQ==
+eyJoaXN0b3J5IjpbLTIxMDY2OTE2N119
 -->
