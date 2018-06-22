@@ -396,7 +396,11 @@ method | description | how to | output
 > d1.get('name', -1)			# 或者返回自定义值-1
 
 - dict的key必须是**不可变对象**
+- 通过key计算位置的算法称为哈希算法（Hash）
 - 
+
+# 8 set
+
 
 # 8 control flow
 ## 8.1 if
@@ -624,5 +628,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODI2NDcxNDIsMTc2NTM1NDIyN119
+eyJoaXN0b3J5IjpbMTU3Mjg5Njg4NCwxNzY1MzU0MjI3XX0=
 -->
