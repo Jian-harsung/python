@@ -597,9 +597,10 @@ def power(x, n):
   while n > 0:
     n = n-1
     s = s*x
-    
-
+  return x
 ```
+> power (10, 5)		
+可以定义 __默认参数__ 
 
 ```python
 # 自定义取绝对值函数
@@ -746,5 +747,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxOTMwNTU4XX0=
+eyJoaXN0b3J5IjpbLTMzOTk1Nzc0NV19
 -->
