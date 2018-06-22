@@ -589,6 +589,8 @@ method | description | example
 ```
 
 ## 11.2 参数检查
+必选参数外，还可以使用默认参数、可变参数和关键字参数
+
 ```python
 # 自定义取绝对值函数
 def aabs(x):
@@ -734,6 +736,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODcxNTM3Nyw5OTU1MDYwMTUsMTY4ND
-czMDA4NiwxNDE4NTk2NTk1XX0=
+eyJoaXN0b3J5IjpbLTIwMTY1MTA2MjYsOTk1NTA2MDE1LDE2OD
+Q3MzAwODYsMTQxODU5NjU5NV19
 -->
