@@ -400,7 +400,9 @@ method | description | how to | output
 - 
 
 # 8 set
-
+- set和dict类似，也是一组key的集合，但不存储value。
+- 由于key不能重复，所以，在set中，没有重复的key。
+- 要创建一个set，需要提供一个list作为输入集合
 
 # 8 control flow
 ## 8.1 if
@@ -628,5 +630,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3Mjg5Njg4NCwxNzY1MzU0MjI3XX0=
+eyJoaXN0b3J5IjpbLTg3MDIwNzYxNCwxNzY1MzU0MjI3XX0=
 -->
