@@ -590,7 +590,7 @@ method | description | example
 
 ## 11.2 参数检查
 ```python
-# 自定义ju
+# 自定义取绝对值函数
 def aabs(x):
   if x >= 0:
     return x
@@ -605,7 +605,7 @@ def aabs(x):
 > abs('A')
 > TypeError: bad operand type for abs(): 'str'
 > aabs('A')
-> 
+> 'A'		# python 2.x可以通过
 ```
 
 
@@ -710,11 +710,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjk1MDc1OSw4MTcxMDMzMjcsLTEyMz
-c4MDk3LC0xNDgwNDkyNjYwLDY4NDg0NDMxOCwxNDE4NTk2NTk1
-LC0xNTgwOTAwMjA0LDE5ODUwMzIzMzgsLTE2MDc2NTUzNTQsNT
-cwMTU3NDcsLTEzNjc1OTMzMzcsMTMxMDQ0NzQ1OSwtNDE3MDE5
-MTI1LDE1NTkwODEwNDQsMTI0NjkzOTc4OCwtMTkxNzIwNjM3Ny
-wxMTM2MTEyNTY2LDQzMjAyMDg2NCw4MDM4ODE3NDYsMjAzNjQ2
-OTg3MF19
+eyJoaXN0b3J5IjpbMTY4NDczMDA4NiwxOTAyOTUwNzU5LDgxNz
+EwMzMyNywtMTIzNzgwOTcsLTE0ODA0OTI2NjAsMTQxODU5NjU5
+NSwtMTU4MDkwMDIwNCwxOTg1MDMyMzM4LC0xNjA3NjU1MzU0LD
+U3MDE1NzQ3LC0xMzY3NTkzMzM3LDEzMTA0NDc0NTksLTQxNzAx
+OTEyNSwxNTU5MDgxMDQ0LDEyNDY5Mzk3ODgsLTE5MTcyMDYzNz
+csMTEzNjExMjU2Niw0MzIwMjA4NjQsODAzODgxNzQ2LDIwMzY0
+Njk4NzBdfQ==
 -->
