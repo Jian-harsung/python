@@ -89,7 +89,7 @@ python源文件开头
 ## 2.2 函数
 函数名称|解释|how to
 -|-|-
-int(100)|强制转换100|
+int('2018')|强制转换2018|
 len(对象)	| 求对象的长度 | #len(s1) / #len(l1)
 id() | 查看对象的指针 | #id(s1) / #id(l1)
 range(start, stop[, step])|返回start到stop-1的数字，start default 0|range(100),range(5,20),range(12, 1000, 8)
@@ -605,5 +605,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk2OTI5OTRdfQ==
+eyJoaXN0b3J5IjpbLTE4NDA4Mzc4MTYsLTE0MDk2OTI5OTRdfQ
+==
 -->
