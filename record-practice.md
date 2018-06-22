@@ -598,6 +598,9 @@ method | description | example
 1
 ```
 
+## 11.2 import调用
+
+
 - 变量作用域：LEGB (Local, EEEEE, GLobal, Buildin:本地，嵌套，全局，内置)
 
 - 装饰器@
@@ -673,7 +676,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTE5MjMxNSwxMjQ2OTM5Nzg4LC0xOT
+eyJoaXN0b3J5IjpbLTQ4NDUzMTc0NSwxMjQ2OTM5Nzg4LC0xOT
 E3MjA2Mzc3LDExMzYxMTI1NjYsNDMyMDIwODY0LDgwMzg4MTc0
 NiwyMDM2NDY5ODcwLC03NzU1NDA5OTcsLTgxMDc4MDg1MSwtND
 g2MTk5MjEsMTkwODE0MjI1MiwxMDg1ODExNjM5LDQ4MjgyODQz
