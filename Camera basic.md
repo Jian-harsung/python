@@ -343,8 +343,15 @@ index|返回原组中第一次出现指定value的位置|t.index(5)|7
 定义空元组|t = ()|t|()
 定义一个元素的元组|t = (1,)|t|(1,)
 -|t = (1)这里的括号会被解析为数学公式的小括号，Python规定，这时按数学公式计算 | t|1
-| t = ('a', 'b', ['A', 'B']),t[2][0] = 'X', t[2][1] = 'Y'|
+| |
 
+一个“可变的”tuple
+```python
+> t = ('a', 'b', ['A', 'B'])
+> t[2][0] = 'X'
+> t[2][1] = 'Y'
+> t
+> ('a', 'b', ['X', 'Y'])
 ```
 
 # 7 dict
@@ -597,5 +604,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDg4ODEwMTldfQ==
+eyJoaXN0b3J5IjpbLTEyMTExODgzMzJdfQ==
 -->
