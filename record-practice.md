@@ -413,6 +413,7 @@ method | description | how to | output
 - `add(key)`      方法添加元素
 - `remove(key)`方法删除元素
 
+set可以看成数学意义上的无序和无重复元素的集合，因此，两个set可以做数学意义上的交集、并集等操作
 
 # 8 control flow
 ## 8.1 if
@@ -640,11 +641,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTA4NTY3MywxMDg1ODExNjM5LDQ4Mj
-gyODQzOSwxNzY1MzU0MjI3LC00NTUwMTc2NTksLTI4NjIyNzQ2
-NSwxMDM3NzEzNzI0LDE4MTcxNzUwMDIsMTEyMTk5MTU5NCwtMT
-MxODg5MjA3NiwtMTg0MDgzNzgxNiwtMTQwOTY5Mjk5NCwtMTIx
-MTE4ODMzMiwxMTI4NjA4MjcsLTExOTU5ODIzNjcsMTEyMTYyNz
-A3NCwtOTU0MDQwMTM4LDE5MDAwOTcyOCwtMjkxODIxNDcyLC0y
-MDg4OTgyMTc1XX0=
+eyJoaXN0b3J5IjpbLTE4MTgzOTcyMTcsMTA4NTgxMTYzOSw0OD
+I4Mjg0MzksMTc2NTM1NDIyNywtNDU1MDE3NjU5LC0yODYyMjc0
+NjUsMTAzNzcxMzcyNCwxODE3MTc1MDAyLDExMjE5OTE1OTQsLT
+EzMTg4OTIwNzYsLTE4NDA4Mzc4MTYsLTE0MDk2OTI5OTQsLTEy
+MTExODgzMzIsMTEyODYwODI3LC0xMTk1OTgyMzY3LDExMjE2Mj
+cwNzQsLTk1NDA0MDEzOCwxOTAwMDk3MjgsLTI5MTgyMTQ3Miwt
+MjA4ODk4MjE3NV19
 -->
