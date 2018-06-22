@@ -392,8 +392,8 @@ method | description | how to | output
 - 通过in判断
 > 'name' in d1
 - dict的方法get()
-> d1.get('name')
-> d1.get('name', -1)		# 
+> d1.get('name')					# 如果不存在返回，返回None
+> d1.get('name', -1)			# 或者返回自定义值-1
 
 # 8 control flow
 ## 8.1 if
@@ -621,11 +621,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NjIyNzQ2NSwxMDM3NzEzNzI0LDE4MT
-cxNzUwMDIsMTEyMTk5MTU5NCwtMTYxNDE0NTc2NSwtMTMxODg5
-MjA3NiwtMTg0MDgzNzgxNiwtMTQwOTY5Mjk5NCwtMTIxMTE4OD
-MzMiwxMTI4NjA4MjcsLTExOTU5ODIzNjcsMTEyMTYyNzA3NCwt
-OTU0MDQwMTM4LDE5MDAwOTcyOCwtMjkxODIxNDcyLC0yMDg4OT
-gyMTc1LC0xNDkzODI5NTI3LDE0Mjg3NTQwMjQsODA3NTA3OTc5
-LC0xMDA4MDg5NjY1XX0=
+eyJoaXN0b3J5IjpbLTQ1NTAxNzY1OSwtMjg2MjI3NDY1LDEwMz
+c3MTM3MjQsMTgxNzE3NTAwMiwxMTIxOTkxNTk0LC0xMzE4ODky
+MDc2LC0xODQwODM3ODE2LC0xNDA5NjkyOTk0LC0xMjExMTg4Mz
+MyLDExMjg2MDgyNywtMTE5NTk4MjM2NywxMTIxNjI3MDc0LC05
+NTQwNDAxMzgsMTkwMDA5NzI4LC0yOTE4MjE0NzIsLTIwODg5OD
+IxNzUsLTE0OTM4Mjk1MjcsMTQyODc1NDAyNCw4MDc1MDc5Nzks
+LTEwMDgwODk2NjVdfQ==
 -->
