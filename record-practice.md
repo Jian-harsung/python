@@ -590,8 +590,9 @@ method | description | example
 
 ## 11.2 参数检查
 - 参数个数不对，Python解释器会自动检查出来，并抛出`TypeError`
-> takes exactly 1 argument (2 given)
-> 
+> TypeError: abs() takes exactly one argument (2 given)
+> TypeError: aabs() takes exactly 1 argument (2 given)
+- 但是解析器不会检查参数类型，如果参数类型不对的时候，会出现不同的情况
 
 
 ## 11.3 import调用
@@ -695,11 +696,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTAzMjMzOCw2MDYwOTE4MzUsLTE2MD
-c2NTUzNTQsNTcwMTU3NDcsLTEzNjc1OTMzMzcsMTMxMDQ0NzQ1
-OSwtNDE3MDE5MTI1LDE1NTkwODEwNDQsMTI0NjkzOTc4OCwtMT
-kxNzIwNjM3NywxMTM2MTEyNTY2LDQzMjAyMDg2NCw4MDM4ODE3
-NDYsMjAzNjQ2OTg3MCwtNzc1NTQwOTk3LC04MTA3ODA4NTEsLT
-Q4NjE5OTIxLDE5MDgxNDIyNTIsMTA4NTgxMTYzOSw0ODI4Mjg0
-MzldfQ==
+eyJoaXN0b3J5IjpbLTc2MDg2NDAxNywxOTg1MDMyMzM4LDYwNj
+A5MTgzNSwtMTYwNzY1NTM1NCw1NzAxNTc0NywtMTM2NzU5MzMz
+NywxMzEwNDQ3NDU5LC00MTcwMTkxMjUsMTU1OTA4MTA0NCwxMj
+Q2OTM5Nzg4LC0xOTE3MjA2Mzc3LDExMzYxMTI1NjYsNDMyMDIw
+ODY0LDgwMzg4MTc0NiwyMDM2NDY5ODcwLC03NzU1NDA5OTcsLT
+gxMDc4MDg1MSwtNDg2MTk5MjEsMTkwODE0MjI1MiwxMDg1ODEx
+NjM5XX0=
 -->
