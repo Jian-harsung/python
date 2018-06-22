@@ -608,7 +608,8 @@ def power(x, n):
 ```python
 def enroll(name, gender, age=6, city='Beijing'):
 > enroll('Sarah', 'F')
-> enroll('Bob', '')
+> enroll('Bob', 'M', 7)
+> enroll('Tom', 'M', city='Shanghai')
 ```
 
 ```python
@@ -756,5 +757,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjIwMDUxNCwtMzM5OTU3NzQ1XX0=
+eyJoaXN0b3J5IjpbLTE2MDM0NDIyOTUsLTMzOTk1Nzc0NV19
 -->
