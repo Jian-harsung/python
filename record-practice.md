@@ -410,6 +410,7 @@ method | description | how to | output
 ```
 传入的参数`[1, 2, 3]`是一个list，而显示的`{1, 2, 3}`只是告诉你这个set内部有1，2，3这3个元素，显示的顺序也不表示set是有序的`
 - 重复元素在set中自动被过滤
+- add()方法z
 
 
 # 8 control flow
@@ -638,11 +639,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwOTEzMDEsNDgyODI4NDM5LDE3NjUzNT
-QyMjcsLTQ1NTAxNzY1OSwtMjg2MjI3NDY1LDEwMzc3MTM3MjQs
-MTgxNzE3NTAwMiwxMTIxOTkxNTk0LC0xMzE4ODkyMDc2LC0xOD
-QwODM3ODE2LC0xNDA5NjkyOTk0LC0xMjExMTg4MzMyLDExMjg2
-MDgyNywtMTE5NTk4MjM2NywxMTIxNjI3MDc0LC05NTQwNDAxMz
-gsMTkwMDA5NzI4LC0yOTE4MjE0NzIsLTIwODg5ODIxNzUsLTE0
-OTM4Mjk1MjddfQ==
+eyJoaXN0b3J5IjpbLTEwMTIwNDcxOTQsNDgyODI4NDM5LDE3Nj
+UzNTQyMjcsLTQ1NTAxNzY1OSwtMjg2MjI3NDY1LDEwMzc3MTM3
+MjQsMTgxNzE3NTAwMiwxMTIxOTkxNTk0LC0xMzE4ODkyMDc2LC
+0xODQwODM3ODE2LC0xNDA5NjkyOTk0LC0xMjExMTg4MzMyLDEx
+Mjg2MDgyNywtMTE5NTk4MjM2NywxMTIxNjI3MDc0LC05NTQwND
+AxMzgsMTkwMDA5NzI4LC0yOTE4MjE0NzIsLTIwODg5ODIxNzUs
+LTE0OTM4Mjk1MjddfQ==
 -->
