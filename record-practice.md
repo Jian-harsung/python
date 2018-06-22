@@ -609,7 +609,7 @@ def power(x, n):
 def enroll(name, gender, age=6, city='Beijing'):
 > enroll('Sarah', 'F')
 > enroll('Bob', 'M', 7)
-> enroll
+> enroll('Tom')
 ```
 
 ```python
@@ -757,11 +757,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg1MzcwMiwxNjc5NDI1MDU2LC0xMj
-UxMTA2NjM4LC0xOTk4Mzc5MTc4LDUwNjA3MDAxMSw2NDE4OTM1
-MjcsMTIzNTI3MTg4MiwtMTE0MTM3MDIxMSwxMzg0ODEzMzcwLD
-EyODYzMTAwNzgsMjY0OTQ4MzgwLC0xMjg3NDk4NzgsLTE4MTgy
-NjU3ODQsLTIwMTY1MTA2MjYsOTk1NTA2MDE1LC0xNjEwOTE5OD
-c1LDE2ODQ3MzAwODYsMTkwMjk1MDc1OSw4MTcxMDMzMjcsLTEy
-Mzc4MDk3XX0=
+eyJoaXN0b3J5IjpbMTE3NjU2ODAxNSwtMTc1ODUzNzAyLDE2Nz
+k0MjUwNTYsLTEyNTExMDY2MzgsNTA2MDcwMDExLDY0MTg5MzUy
+NywxMjM1MjcxODgyLC0xMTQxMzcwMjExLDEzODQ4MTMzNzAsMT
+I4NjMxMDA3OCwyNjQ5NDgzODAsLTEyODc0OTg3OCwtMTgxODI2
+NTc4NCwtMjAxNjUxMDYyNiw5OTU1MDYwMTUsLTE2MTA5MTk4Nz
+UsMTY4NDczMDA4NiwxOTAyOTUwNzU5LDgxNzEwMzMyNywtMTIz
+NzgwOTddfQ==
 -->
