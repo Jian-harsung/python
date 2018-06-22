@@ -589,6 +589,14 @@ method | description | example
 		return X*y
 	return local
 ```
+
+函数名其实就是指向一个函数对象的引用，完全可以把函数名赋给一个变量，相当于给这个函数起了一个“别名”
+```python
+> a = abs # 变量a指向abs函数
+> a(-1) # 所以也可以通过a调用abs函数
+1
+```
+
 - 变量作用域：LEGB (Local, EEEEE, GLobal, Buildin:本地，嵌套，全局，内置)
 
 - 装饰器@
@@ -664,11 +672,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTcyMDYzNzcsMTEzNjExMjU2Niw0Mz
-IwMjA4NjQsODAzODgxNzQ2LDIwMzY0Njk4NzAsLTc3NTU0MDk5
-NywtODEwNzgwODUxLC00ODYxOTkyMSwxOTA4MTQyMjUyLDEwOD
-U4MTE2MzksNDgyODI4NDM5LDE3NjUzNTQyMjcsLTQ1NTAxNzY1
-OSwtMjg2MjI3NDY1LDEwMzc3MTM3MjQsMTgxNzE3NTAwMiwxMT
-IxOTkxNTk0LC0xMzE4ODkyMDc2LC0xODQwODM3ODE2LC0xNDA5
-NjkyOTk0XX0=
+eyJoaXN0b3J5IjpbMTI0NjkzOTc4OCwtMTkxNzIwNjM3NywxMT
+M2MTEyNTY2LDQzMjAyMDg2NCw4MDM4ODE3NDYsMjAzNjQ2OTg3
+MCwtNzc1NTQwOTk3LC04MTA3ODA4NTEsLTQ4NjE5OTIxLDE5MD
+gxNDIyNTIsMTA4NTgxMTYzOSw0ODI4Mjg0MzksMTc2NTM1NDIy
+NywtNDU1MDE3NjU5LC0yODYyMjc0NjUsMTAzNzcxMzcyNCwxOD
+E3MTc1MDAyLDExMjE5OTE1OTQsLTEzMTg4OTIwNzYsLTE4NDA4
+Mzc4MTZdfQ==
 -->
