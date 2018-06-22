@@ -589,6 +589,9 @@ method | description | example
 ```
 
 ## 11.2 参数检查
+- 参数个数不对，Python解释器会自动检查出来，并抛出`TypeError`
+
+
 
 ## 11.3 import调用
 - import MODULE
@@ -691,5 +694,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwMTU3NDddfQ==
+eyJoaXN0b3J5IjpbLTE2MDc2NTUzNTRdfQ==
 -->
