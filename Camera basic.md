@@ -418,9 +418,9 @@ set可以看成数学意义上的无序和无重复元素的集合，因此，�
 ```python
 > s1 = set([1, 2, 3])
 > s2 = set([2, 3, 4])
-> s1 & s2
+> s1 & s2					# & 交集
 {2, 3}
-> s1 | s2
+> s1 | s2					# | 并集
 {1, 2, 3, 4}
 ```
 
@@ -650,5 +650,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA3NjE3NTZdfQ==
+eyJoaXN0b3J5IjpbMTkwODE0MjI1Ml19
 -->
