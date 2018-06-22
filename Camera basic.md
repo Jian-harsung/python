@@ -388,7 +388,9 @@ method | description | how to | output
  'viewkeys' | 输出字典的键 | d.viewkeys() | dict_keys(['more', 'age', 'address', 'name', 'no'])
  'viewvalues' | 输出字典的值 | d.viewvalues() |  dict_values([{'topic': 'software', 'experience': 10}, 20, 'hongmei road', 'Jack', 1])
 
-
+- 查找key是不是在dict的方法有二：
+- 通过in判断：key in d
+- 
 
 
 # 8 control flow
@@ -617,6 +619,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg4OTIwNzYsLTE4NDA4Mzc4MTYsLT
-E0MDk2OTI5OTRdfQ==
+eyJoaXN0b3J5IjpbNTA0MTc5MzM0LC0xMzE4ODkyMDc2LC0xOD
+QwODM3ODE2LC0xNDA5NjkyOTk0XX0=
 -->
