@@ -611,7 +611,13 @@ def enroll(name, gender, age=6, city='Beijing'):
 > enroll('Bob', 'M', 7)
 > enroll('Tom', 'M', city='Shanghai')
 ```
-
+- 这里有一个陷阱需要注意
+```python
+def add_end(L=[]):
+    L.append('END')
+    return L
+```
+正常调用时，结果似乎不错
 
 
 
@@ -760,11 +766,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDcyNjg1MjUsLTE2MDM0NDIyOTUsMT
-gwMzY3Mzk0MiwtODg5NTQ1OTc0LDExNzY1NjgwMTUsLTE3NTg1
-MzcwMiw1MDYwNzAwMTEsNjQxODkzNTI3LDEyMzUyNzE4ODIsLT
-ExNDEzNzAyMTEsMTM4NDgxMzM3MCwxMjg2MzEwMDc4LDI2NDk0
-ODM4MCwtMTI4NzQ5ODc4LC0xODE4MjY1Nzg0LC0yMDE2NTEwNj
-I2LDk5NTUwNjAxNSwtMTYxMDkxOTg3NSwxNjg0NzMwMDg2LDE5
-MDI5NTA3NTldfQ==
+eyJoaXN0b3J5IjpbMjExNjgwMDY3LC0xMzA3MjY4NTI1LC0xNj
+AzNDQyMjk1LDE4MDM2NzM5NDIsLTg4OTU0NTk3NCwxMTc2NTY4
+MDE1LC0xNzU4NTM3MDIsNTA2MDcwMDExLDY0MTg5MzUyNywxMj
+M1MjcxODgyLC0xMTQxMzcwMjExLDEzODQ4MTMzNzAsMTI4NjMx
+MDA3OCwyNjQ5NDgzODAsLTEyODc0OTg3OCwtMTgxODI2NTc4NC
+wtMjAxNjUxMDYyNiw5OTU1MDYwMTUsLTE2MTA5MTk4NzUsMTY4
+NDczMDA4Nl19
 -->
