@@ -89,6 +89,11 @@ python源文件开头
 ## 2.2 函数
 [build-in Functions](https://docs.python.org/3/library/functions.html)
 
+数据类型转换函数
+int()
+float()
+
+
 函数名称|解释|how to
 -|-|-
 int('2018')|强制转换2018|
@@ -652,7 +657,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzE1NjEzMDAsLTc3NTU0MDk5NywtOD
+eyJoaXN0b3J5IjpbLTEyNjUwMjM3MjYsLTc3NTU0MDk5NywtOD
 EwNzgwODUxLC00ODYxOTkyMSwxOTA4MTQyMjUyLDEwODU4MTE2
 MzksNDgyODI4NDM5LDE3NjUzNTQyMjcsLTQ1NTAxNzY1OSwtMj
 g2MjI3NDY1LDEwMzc3MTM3MjQsMTgxNzE3NTAwMiwxMTIxOTkx
