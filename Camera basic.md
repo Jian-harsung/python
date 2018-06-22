@@ -600,7 +600,11 @@ def power(x, n):
   return x
 ```
 > power (10, 5)		
-可以定义 __默认参数__ 
+- 可以定义 __默认参数__ 作为缺省情况，如经常计算平方值
+> def power(x, n=2)
+- 必选参数在前，默认参数灾后
+- 变化大的
+
 
 ```python
 # 自定义取绝对值函数
@@ -747,5 +751,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTk1Nzc0NV19
+eyJoaXN0b3J5IjpbMTYwMDIwNzgzNiwtMzM5OTU3NzQ1XX0=
 -->
