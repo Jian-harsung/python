@@ -392,8 +392,8 @@ method | description | how to | output
 - 通过in判断
 > 'name' in d1
 - dict的方法get()
-> d1.get('name')
-> d1.get
+> d1.get('name')					# 如果不存在返回，返回None
+> d1.get('name', -1)			# 或者返回自定义值-1
 
 # 8 control flow
 ## 8.1 if
@@ -621,6 +621,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzNTM4MjYyLC0xMzE4ODkyMDc2LC0xOD
-QwODM3ODE2LC0xNDA5NjkyOTk0XX0=
+eyJoaXN0b3J5IjpbLTQ1NTAxNzY1OSwtMTMxODg5MjA3NiwtMT
+g0MDgzNzgxNiwtMTQwOTY5Mjk5NF19
 -->
