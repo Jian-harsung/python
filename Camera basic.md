@@ -560,6 +560,7 @@ method | description | example
 - ==input??==
 
 # 11 函数
+## 
 - 功能->逻辑->抽象
 - 形参，实参，位置传参
 - 函数嵌套
@@ -672,5 +673,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjkzOTc4OF19
+eyJoaXN0b3J5IjpbOTY5NjY4MTgwXX0=
 -->
