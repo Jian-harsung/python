@@ -603,7 +603,7 @@ def power(x, n):
 - 可以定义 __默认参数__ 作为缺省情况，如经常计算平方值
 > def power(x, n=2)
 - 必选参数在前，默认参数灾后
-- 变化大的默认参数在前，变化晓得默认参数zai后
+- 变化大的默认参数在前，变化晓得默认参数在后
 
 
 ```python
@@ -751,8 +751,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2MDcwMDExLDY0MTg5MzUyNywxMjM1Mj
-cxODgyLC0xMTQxMzcwMjExLDExOTMyODkwODIsMTM4NDgxMzM3
+eyJoaXN0b3J5IjpbMTY0OTAyMjUyOSw1MDYwNzAwMTEsNjQxOD
+kzNTI3LDEyMzUyNzE4ODIsLTExNDEzNzAyMTEsMTM4NDgxMzM3
 MCwxMjg2MzEwMDc4LDI2NDk0ODM4MCwtMTI4NzQ5ODc4LC0xOD
 E4MjY1Nzg0LC0yMDE2NTEwNjI2LDk5NTUwNjAxNSwtMTYxMDkx
 OTg3NSwxNjg0NzMwMDg2LDE5MDI5NTA3NTksODE3MTAzMzI3LC
