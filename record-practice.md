@@ -591,9 +591,15 @@ method | description | example
 ## 11.2 参数检查
 必选参数外，还可以使用默认参数、可变参数和关键字参数
 位置参数
+```python
+def power(x, n):
+  s = 1
+  while n > 0:
+    n = n-1
+    s = s*x
+  retr
 
-def power(x, n)
-
+```
 
 ```python
 # 自定义取绝对值函数
@@ -740,11 +746,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0OTQ4MzgwLC0xMjg3NDk4NzgsLTE4MT
-gyNjU3ODQsLTEwNTMzMjE4MTAsODkzMDc5NjU5LC0yMDE2NTEw
-NjI2LDk5NTUwNjAxNSwtMTYxMDkxOTg3NSwxNjg0NzMwMDg2LD
-E5MDI5NTA3NTksODE3MTAzMzI3LC0xMjM3ODA5NywtMTQ4MDQ5
-MjY2MCwxNDE4NTk2NTk1LC0xNTgwOTAwMjA0LDE5ODUwMzIzMz
-gsLTE2MDc2NTUzNTQsNTcwMTU3NDcsLTEzNjc1OTMzMzcsMTMx
-MDQ0NzQ1OV19
+eyJoaXN0b3J5IjpbLTgzNjg3NTg1NywyNjQ5NDgzODAsLTEyOD
+c0OTg3OCwtMTgxODI2NTc4NCwtMTA1MzMyMTgxMCwtMjAxNjUx
+MDYyNiw5OTU1MDYwMTUsLTE2MTA5MTk4NzUsMTY4NDczMDA4Ni
+wxOTAyOTUwNzU5LDgxNzEwMzMyNywtMTIzNzgwOTcsLTE0ODA0
+OTI2NjAsMTQxODU5NjU5NSwtMTU4MDkwMDIwNCwxOTg1MDMyMz
+M4LC0xNjA3NjU1MzU0LDU3MDE1NzQ3LC0xMzY3NTkzMzM3LDEz
+MTA0NDc0NTldfQ==
 -->
