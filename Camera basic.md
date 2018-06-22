@@ -89,9 +89,11 @@ python源文件开头
 ## 2.2 函数
 [build-in Functions](https://docs.python.org/3/library/functions.html)
 
-数据类型转换函数
-int()
-float()
+数据类型转换函数|解释|how to
+-|-|-
+int()|int('123')|123
+-|int(12.34)|12
+float('12.3')|
 
 
 函数名称|解释|how to
@@ -657,5 +659,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjUwMjM3MjYsLTgxMDc4MDg1MV19
+eyJoaXN0b3J5IjpbLTE3ODY5MTcxODUsLTgxMDc4MDg1MV19
 -->
