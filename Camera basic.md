@@ -603,7 +603,8 @@ def power(x, n):
 - 可以定义 __默认参数__ 作为缺省情况，如经常计算平方值
 > def power(x, n=2)
 - 必选参数在前，默认参数灾后
-- 变化大的默认参数在前，变化晓得默认参数在后
+- 变化大的默认参数在前，变化小的默认参数在后
+- 如果使用了参数名，那么还可以不用按顺序调用
 
 
 ```python
@@ -751,5 +752,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTAyMjUyOSwtMzM5OTU3NzQ1XX0=
+eyJoaXN0b3J5IjpbNjUxMjA5Nzc4LC0zMzk5NTc3NDVdfQ==
 -->
