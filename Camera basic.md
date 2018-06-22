@@ -590,6 +590,8 @@ method | description | example
 
 ## 11.2 参数检查
 必选参数外，还可以使用默认参数、可变参数和关键字参数
+weizhi
+
 
 ```python
 # 自定义取绝对值函数
@@ -736,5 +738,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY1MTA2MjZdfQ==
+eyJoaXN0b3J5IjpbODA1MDMwNzc4XX0=
 -->
