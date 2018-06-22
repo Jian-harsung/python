@@ -310,7 +310,7 @@ append() |
 count() |
 extend() |
 index(object) |# 查找并返回第一个匹配object的索引值 | 
-insert(index, object)|
+insert(index, object)|index未插入位置，object为插入值
 pop(index)|# 弹出index索引的object，返回该值
 remove(value)|# 移除list中的第一个value值
 reverse(list)|翻转list|#l1.reverse()/#list.reverse(l1)
@@ -586,7 +586,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDgwODk2NjUsLTIyNzQxMzAxNiwtMT
-A1NDEzNzkwOCwxOTY4NzIzMjgxLC00MTQ4NDk4MSwxNzM4Njc1
-MjQxXX0=
+eyJoaXN0b3J5IjpbMTkwNjYxNTQzNSwtMTAwODA4OTY2NSwtMj
+I3NDEzMDE2LC0xMDU0MTM3OTA4LDE5Njg3MjMyODEsLTQxNDg0
+OTgxLDE3Mzg2NzUyNDFdfQ==
 -->
