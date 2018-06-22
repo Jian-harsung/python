@@ -340,6 +340,8 @@ count|计算原组中指定value出现的次数|t.count(1)|4
 index|返回原组中第一次出现指定value的位置|t.index(5)|7
 -|-|-|t.index(1)|0
 -|-|-|t.index(8)|ValueError: tuple.index(x): x not in tuple
+定义空元组|t = ()|t|()
+
 
 # 7 dict
 ## 7.1 Definition
@@ -591,7 +593,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDY2OTE2NywtMTQ5MzgyOTUyNywxND
+eyJoaXN0b3J5IjpbLTU1MDAxNzgwOCwtMTQ5MzgyOTUyNywxND
 I4NzU0MDI0LDgwNzUwNzk3OSwtMTAwODA4OTY2NSwtMjI3NDEz
 MDE2LC0xMDU0MTM3OTA4LDE5Njg3MjMyODEsLTQxNDg0OTgxLD
 E3Mzg2NzUyNDFdfQ==
