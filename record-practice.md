@@ -589,6 +589,13 @@ method | description | example
 ```
 
 ## 11.2 参数检查
+```python
+def aabs(x):
+  if x >= 0:
+    return x
+  else:
+    return -x
+```
 - 参数个数不对，Python解释器会自动检查出来，并抛出`TypeError`
 > TypeError: abs() takes exactly one argument (2 given)
 > TypeError: aabs() takes exactly 1 argument (2 given)
@@ -702,11 +709,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTA3ODkwNTcsMTQxODU5NjU5NSwtMT
-U4MDkwMDIwNCwxOTg1MDMyMzM4LC0xNjA3NjU1MzU0LDU3MDE1
-NzQ3LC0xMzY3NTkzMzM3LDEzMTA0NDc0NTksLTQxNzAxOTEyNS
-wxNTU5MDgxMDQ0LDEyNDY5Mzk3ODgsLTE5MTcyMDYzNzcsMTEz
-NjExMjU2Niw0MzIwMjA4NjQsODAzODgxNzQ2LDIwMzY0Njk4Nz
-AsLTc3NTU0MDk5NywtODEwNzgwODUxLC00ODYxOTkyMSwxOTA4
-MTQyMjUyXX0=
+eyJoaXN0b3J5IjpbNjg0ODQ0MzE4LDE0MTg1OTY1OTUsLTE1OD
+A5MDAyMDQsMTk4NTAzMjMzOCwtMTYwNzY1NTM1NCw1NzAxNTc0
+NywtMTM2NzU5MzMzNywxMzEwNDQ3NDU5LC00MTcwMTkxMjUsMT
+U1OTA4MTA0NCwxMjQ2OTM5Nzg4LC0xOTE3MjA2Mzc3LDExMzYx
+MTI1NjYsNDMyMDIwODY0LDgwMzg4MTc0NiwyMDM2NDY5ODcwLC
+03NzU1NDA5OTcsLTgxMDc4MDg1MSwtNDg2MTk5MjEsMTkwODE0
+MjI1Ml19
 -->
