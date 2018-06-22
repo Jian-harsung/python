@@ -93,7 +93,12 @@ python源文件开头
 -|-|-
 int()|int('123')|123
 -|int(12.34)|12
-float('12.3')|
+float()|float('12.34')|12.34
+str()|str(12.3)|'1.23'
+-|str(100)|'100'
+bool()|bool(1)|True
+-|bool('')|False
+
 
 
 函数名称|解释|how to
@@ -659,5 +664,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY5MTcxODUsLTgxMDc4MDg1MV19
+eyJoaXN0b3J5IjpbLTE5MTcyMDYzNzcsLTgxMDc4MDg1MV19
 -->
