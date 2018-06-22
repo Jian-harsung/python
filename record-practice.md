@@ -555,6 +555,7 @@ method | description | example
 - 功能->逻辑->抽象
 - 形参，实参，位置传参
 
+
 ```python
 > def func(y, x=10):
 > func(y=20, x=50)		# 调用OK, 关键字参数
@@ -611,7 +612,8 @@ method | description | example
 ```
 `pass`可以用来作为占位符，比如现在还没想好怎么写函数的代码，就可以先放一个`pass`，让代码能运行起来。
 
-
+- 函数嵌套
+- ==内定函数locals(), return sum, locals() ??==
 - 变量作用域：LEGB (Local, EEEEE, GLobal, Buildin:本地，嵌套，全局，内置)
 
 - 装饰器@
@@ -687,7 +689,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA3NzM4NjYsLTEzNjc1OTMzMzcsMT
+eyJoaXN0b3J5IjpbLTEzMzc2ODk0ODcsLTEzNjc1OTMzMzcsMT
 MxMDQ0NzQ1OSwtNDE3MDE5MTI1LDE1NTkwODEwNDQsMTI0Njkz
 OTc4OCwtMTkxNzIwNjM3NywxMTM2MTEyNTY2LDQzMjAyMDg2NC
 w4MDM4ODE3NDYsMjAzNjQ2OTg3MCwtNzc1NTQwOTk3LC04MTA3
