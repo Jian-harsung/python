@@ -402,6 +402,7 @@ method | description | how to | output
 # 8 set
 - set和dict类似，也是一组key的集合，但不存储value。
 - 由于key不能重复，所以，在set中，没有重复的key。
+- set和dict的唯一区别仅在于没有存储对应的value
 - 要创建一个set，需要提供一个list作为输入集合
 ```python
 > s = set([1, 2, 3])
@@ -414,6 +415,14 @@ method | description | how to | output
 - `remove(key)`方法删除元素
 
 set可以看成数学意义上的无序和无重复元素的集合，因此，两个set可以做数学意义上的交集、并集等操作
+```python
+> s1 = set([1, 2, 3])
+> s2 = set([2, 3, 4])
+> s1 & s2
+{2, 3}
+> s1 | s2
+{1, 2, 3, 4}
+```
 
 # 8 control flow
 ## 8.1 if
@@ -641,7 +650,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTgzOTcyMTcsMTA4NTgxMTYzOSw0OD
+eyJoaXN0b3J5IjpbLTE0MDA3NjE3NTYsMTA4NTgxMTYzOSw0OD
 I4Mjg0MzksMTc2NTM1NDIyNywtNDU1MDE3NjU5LC0yODYyMjc0
 NjUsMTAzNzcxMzcyNCwxODE3MTc1MDAyLDExMjE5OTE1OTQsLT
 EzMTg4OTIwNzYsLTE4NDA4Mzc4MTYsLTE0MDk2OTI5OTQsLTEy
