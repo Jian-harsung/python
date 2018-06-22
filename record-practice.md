@@ -379,7 +379,7 @@ method | description | how to | output
  'iterkeys'|
  'itervalues'|
  'keys'|
- 'pop'|
+ 'pop'|删除键值
  'popitem'|
  'setdefault'|
  'update'|
@@ -621,11 +621,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTAxNzY1OSwtMjg2MjI3NDY1LDEwMz
-c3MTM3MjQsMTgxNzE3NTAwMiwxMTIxOTkxNTk0LC0xMzE4ODky
-MDc2LC0xODQwODM3ODE2LC0xNDA5NjkyOTk0LC0xMjExMTg4Mz
-MyLDExMjg2MDgyNywtMTE5NTk4MjM2NywxMTIxNjI3MDc0LC05
-NTQwNDAxMzgsMTkwMDA5NzI4LC0yOTE4MjE0NzIsLTIwODg5OD
-IxNzUsLTE0OTM4Mjk1MjcsMTQyODc1NDAyNCw4MDc1MDc5Nzks
-LTEwMDgwODk2NjVdfQ==
+eyJoaXN0b3J5IjpbMTc2NTM1NDIyNywtNDU1MDE3NjU5LC0yOD
+YyMjc0NjUsMTAzNzcxMzcyNCwxODE3MTc1MDAyLDExMjE5OTE1
+OTQsLTEzMTg4OTIwNzYsLTE4NDA4Mzc4MTYsLTE0MDk2OTI5OT
+QsLTEyMTExODgzMzIsMTEyODYwODI3LC0xMTk1OTgyMzY3LDEx
+MjE2MjcwNzQsLTk1NDA0MDEzOCwxOTAwMDk3MjgsLTI5MTgyMT
+Q3MiwtMjA4ODk4MjE3NSwtMTQ5MzgyOTUyNywxNDI4NzU0MDI0
+LDgwNzUwNzk3OV19
 -->
