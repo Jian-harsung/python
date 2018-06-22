@@ -389,9 +389,11 @@ method | description | how to | output
  'viewvalues' | 输出字典的值 | d.viewvalues() |  dict_values([{'topic': 'software', 'experience': 10}, 20, 'hongmei road', 'Jack', 1])
 
 - 查找key是不是在dict的方法有二：
-- 通过in判断：key in d
+- 通过in判断
+> 'name' in d1
 - dict的方法get()
-
+> d1.get('name')
+> d1.get('n')
 
 # 8 control flow
 ## 8.1 if
@@ -619,8 +621,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzODQwMTksMjMzODQ3ODkwLC03MzI1Nj
-gzNDQsLTIwNDE1Njg5ODAsLTEzMTg4OTIwNzYsLTE4NDA4Mzc4
+eyJoaXN0b3J5IjpbLTE2MTQxNDU3NjUsMjUzODQwMTksMjMzOD
+Q3ODkwLC03MzI1NjgzNDQsLTEzMTg4OTIwNzYsLTE4NDA4Mzc4
 MTYsLTE0MDk2OTI5OTQsLTEyMTExODgzMzIsMTEyODYwODI3LC
 0xMTk1OTgyMzY3LDExMjE2MjcwNzQsLTk1NDA0MDEzOCwxOTAw
 MDk3MjgsLTI5MTgyMTQ3MiwtMjA4ODk4MjE3NSwtMTQ5MzgyOT
