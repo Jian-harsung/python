@@ -322,15 +322,15 @@ copy() | v3.x, 这里有深拷贝和浅拷贝的区别|
  - #l*2 -> ABCABC
 
 
-# 7 tuple
-## 7.1 definition
+# 6 tuple 元组
+## 6.1 definition
 t = (1,1,1,1,2,3,4,5,6)
 - #type(t)  -> tuple
 - #len(t) -> 9
 - #dir(t)  -> count, index
-- 原组定义好之后不可变
+- tuple元组一旦初始化就不能修改
 
-## 7.2 method
+## 6.2 method
 method | description | how to | output
 -|-|-|-
 count|计算原组中指定value出现的次数|t.count(1)|4
@@ -589,8 +589,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTM4Mjk1MjcsMTQyODc1NDAyNCwtMT
-cyNzM3NDYzLDgwNzUwNzk3OSwtMTAwODA4OTY2NSwtMjI3NDEz
-MDE2LC0xMDU0MTM3OTA4LDE5Njg3MjMyODEsLTQxNDg0OTgxLD
-E3Mzg2NzUyNDFdfQ==
+eyJoaXN0b3J5IjpbOTE0NjcyNDgwLC0xNDkzODI5NTI3LDE0Mj
+g3NTQwMjQsODA3NTA3OTc5LC0xMDA4MDg5NjY1LC0yMjc0MTMw
+MTYsLTEwNTQxMzc5MDgsMTk2ODcyMzI4MSwtNDE0ODQ5ODEsMT
+czODY3NTI0MV19
 -->
