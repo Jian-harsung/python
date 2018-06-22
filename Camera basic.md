@@ -639,6 +639,20 @@ def aabs(x):
 
 - 装饰器@
 - 
+## 11.4 返回值，返回多个值
+```python
+import math
+
+def move(x, y, step, angle=0):
+    nx = x + step * math.cos(angle)
+    ny = y - step * math.sin(angle)
+    return nx, ny
+```
+```python
+>>> x, y = move(100, 100, 60, math.pi / 6)
+>>> print(x, y)
+151.96152422706632 70.0
+```
 
 # OOP
 
@@ -710,5 +724,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDczMDA4NiwxNDE4NTk2NTk1XX0=
+eyJoaXN0b3J5IjpbLTEzMzEyNTUzNTcsMTY4NDczMDA4NiwxND
+E4NTk2NTk1XX0=
 -->
