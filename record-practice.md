@@ -602,7 +602,7 @@ method | description | example
 > pi
 ```
 - import MODULE as short-name
-- ==from file_name import function ???==
+- from file_name import function 
 
 - 变量作用域：LEGB (Local, EEEEE, GLobal, Buildin:本地，嵌套，全局，内置)
 
@@ -679,11 +679,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3MTM4NDIxLC03NDEyMzE3MCwxMjQ2OT
-M5Nzg4LC0xOTE3MjA2Mzc3LDExMzYxMTI1NjYsNDMyMDIwODY0
-LDgwMzg4MTc0NiwyMDM2NDY5ODcwLC03NzU1NDA5OTcsLTgxMD
-c4MDg1MSwtNDg2MTk5MjEsMTkwODE0MjI1MiwxMDg1ODExNjM5
-LDQ4MjgyODQzOSwxNzY1MzU0MjI3LC00NTUwMTc2NTksLTI4Nj
-IyNzQ2NSwxMDM3NzEzNzI0LDE4MTcxNzUwMDIsMTEyMTk5MTU5
-NF19
+eyJoaXN0b3J5IjpbMTkzNzE2MzgxOCw5MzcxMzg0MjEsLTc0MT
+IzMTcwLDEyNDY5Mzk3ODgsLTE5MTcyMDYzNzcsMTEzNjExMjU2
+Niw0MzIwMjA4NjQsODAzODgxNzQ2LDIwMzY0Njk4NzAsLTc3NT
+U0MDk5NywtODEwNzgwODUxLC00ODYxOTkyMSwxOTA4MTQyMjUy
+LDEwODU4MTE2MzksNDgyODI4NDM5LDE3NjUzNTQyMjcsLTQ1NT
+AxNzY1OSwtMjg2MjI3NDY1LDEwMzc3MTM3MjQsMTgxNzE3NTAw
+Ml19
 -->
