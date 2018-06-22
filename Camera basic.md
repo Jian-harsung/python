@@ -379,7 +379,7 @@ method | description | how to | output
  'iterkeys'|
  'itervalues'|
  'keys'|
- 'pop'|
+ 'pop'|删除键值
  'popitem'|
  'setdefault'|
  'update'|
@@ -621,5 +621,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTAxNzY1OV19
+eyJoaXN0b3J5IjpbMTc2NTM1NDIyN119
 -->
