@@ -590,7 +590,8 @@ method | description | example
 
 ## 11.2 参数检查
 - 参数个数不对，Python解释器会自动检查出来，并抛出`TypeError`
-》 
+> takes exactly 1 argument (2 given)
+> 
 
 
 ## 11.3 import调用
@@ -694,8 +695,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2MDkxODM1LC0xNjA3NjU1MzU0LC01Nj
-gyNzgxMTAsNTcwMTU3NDcsLTEzNjc1OTMzMzcsMTMxMDQ0NzQ1
+eyJoaXN0b3J5IjpbMTk4NTAzMjMzOCw2MDYwOTE4MzUsLTE2MD
+c2NTUzNTQsNTcwMTU3NDcsLTEzNjc1OTMzMzcsMTMxMDQ0NzQ1
 OSwtNDE3MDE5MTI1LDE1NTkwODEwNDQsMTI0NjkzOTc4OCwtMT
 kxNzIwNjM3NywxMTM2MTEyNTY2LDQzMjAyMDg2NCw4MDM4ODE3
 NDYsMjAzNjQ2OTg3MCwtNzc1NTQwOTk3LC04MTA3ODA4NTEsLT
