@@ -606,6 +606,13 @@ method | description | example
 > file_name.py定义了函数function
 > file2.py调用：from file_name import function
 
+- 空函数和pass语句
+```python
+> def nop():
+    pass
+```
+
+
 
 - 变量作用域：LEGB (Local, EEEEE, GLobal, Buildin:本地，嵌套，全局，内置)
 
@@ -682,5 +689,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxNjU0NTg4XX0=
+eyJoaXN0b3J5IjpbMTMxMDQ0NzQ1OV19
 -->
