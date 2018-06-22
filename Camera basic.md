@@ -551,11 +551,9 @@ method | description | example
 - ==input??==
 
 # 11 函数
-## 11.1 
+## 11.1 定义和使用
 - 功能->逻辑->抽象
 - 形参，实参，位置传参
-- 函数嵌套
-- ==内定函数locals(), return sum, locals() ??==
 
 ```python
 > def func(y, x=10):
@@ -689,5 +687,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjc1OTMzMzddfQ==
+eyJoaXN0b3J5IjpbLTIxMjA3NzM4NjZdfQ==
 -->
