@@ -603,7 +603,10 @@ method | description | example
 ```
 - import MODULE as short-name
 - from file_name import function
-> file_name.py定义了函数func
+> file_name.py定义了函数function
+> file2.py调用：from file_name import function
+
+
 - 变量作用域：LEGB (Local, EEEEE, GLobal, Buildin:本地，嵌套，全局，内置)
 
 - 装饰器@
@@ -679,7 +682,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzAxOTEyNSw1NTQ5Nzg3NjEsMTU1OT
+eyJoaXN0b3J5IjpbMzQxNjU0NTg4LC00MTcwMTkxMjUsMTU1OT
 A4MTA0NCwxMjQ2OTM5Nzg4LC0xOTE3MjA2Mzc3LDExMzYxMTI1
 NjYsNDMyMDIwODY0LDgwMzg4MTc0NiwyMDM2NDY5ODcwLC03Nz
 U1NDA5OTcsLTgxMDc4MDg1MSwtNDg2MTk5MjEsMTkwODE0MjI1
