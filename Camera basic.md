@@ -560,7 +560,7 @@ method | description | example
 - ==input??==
 
 # 11 函数
-## 
+## 11.1 
 - 功能->逻辑->抽象
 - 形参，实参，位置传参
 - 函数嵌套
@@ -597,6 +597,9 @@ method | description | example
 > a(-1) # 所以也可以通过a调用abs函数
 1
 ```
+
+## 11.2 import调用
+
 
 - 变量作用域：LEGB (Local, EEEEE, GLobal, Buildin:本地，嵌套，全局，内置)
 
@@ -673,5 +676,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5NjY4MTgwXX0=
+eyJoaXN0b3J5IjpbLTQ4NDUzMTc0NV19
 -->
