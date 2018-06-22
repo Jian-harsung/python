@@ -593,7 +593,11 @@ method | description | example
 > TypeError: abs() takes exactly one argument (2 given)
 > TypeError: aabs() takes exactly 1 argument (2 given)
 - 但是解析器不会检查参数类型，如果参数类型不对的时候，会出现不同的情况
-- 
+```python
+> abs('A')
+> TypeError: bad operand type for abs(): 'str'
+> aabs('A')
+```
 
 
 ## 11.3 import调用
@@ -697,7 +701,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA5MDAyMDQsLTc2MDg2NDAxNywxOT
+eyJoaXN0b3J5IjpbMTQxODU5NjU5NSwtMTU4MDkwMDIwNCwxOT
 g1MDMyMzM4LC0xNjA3NjU1MzU0LDU3MDE1NzQ3LC0xMzY3NTkz
 MzM3LDEzMTA0NDc0NTksLTQxNzAxOTEyNSwxNTU5MDgxMDQ0LD
 EyNDY5Mzk3ODgsLTE5MTcyMDYzNzcsMTEzNjExMjU2Niw0MzIw
