@@ -413,6 +413,7 @@ method | description | how to | output
 - `add(key)`      方法添加元素
 - `remove(key)`方法删除元素
 
+set可以看成数学意义上的无序和无重复元素的集合，因此，两个set可以做数学意义上的交集、并集等操作
 
 # 8 control flow
 ## 8.1 if
@@ -640,5 +641,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTA4NTY3M119
+eyJoaXN0b3J5IjpbLTE4MTgzOTcyMTddfQ==
 -->
