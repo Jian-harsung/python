@@ -73,7 +73,7 @@ to be updated
 - site-packages: ??
 
 > dist-packages VS site-packages
-dist-packages是Debian的特定惯例，包括U
+dist-packages是Debian的特定惯例，包括Ubuntu
 
 查找python的包(lib)安装路径
 ```python
@@ -809,8 +809,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwOTM5MjI2LDY1ODE5Mzk4MCwtMTg2MT
-Q2NDQyMywtMzk1Mjc5NzQzLC0xODA1MjY5NjY4LC0xNTYzNDE2
+eyJoaXN0b3J5IjpbLTMwMjE3NDUwMCw3ODA5MzkyMjYsNjU4MT
+kzOTgwLC0xODYxNDY0NDIzLC0xODA1MjY5NjY4LC0xNTYzNDE2
 MDI4LC0zMzYxMzY3MjMsLTEwODE2OTM3NTEsLTEzMDcyNjg1Mj
 UsLTE2MDM0NDIyOTUsMTgwMzY3Mzk0MiwtODg5NTQ1OTc0LDEx
 NzY1NjgwMTUsLTE3NTg1MzcwMiw1MDYwNzAwMTEsNjQxODkzNT
