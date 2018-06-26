@@ -752,6 +752,14 @@ def move(x, y, step, angle=0):
 # OOP
 
 
+# GUI
+> Tkinter on python 2.x
+> tkinter on python 3.x
+
+> import Tkinter
+> 
+
+
 # python file purpose
 - execution
 - import as module
@@ -819,5 +827,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwODc4NDQ3XX0=
+eyJoaXN0b3J5IjpbODM4NDQzNTc2LDM5MDg3ODQ0N119
 -->
