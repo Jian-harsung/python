@@ -73,7 +73,8 @@ to be updated
 - site-packages: ??
 
 > dist-packages VS site-packages
-dist-packages是Debian的特定惯例，包括Ubuntu，如果shi
+dist-packages是Debian的特定惯例，包括Ubuntu，如果使用软件按转管理器安装，模块就会被安装在这里；
+site-packages是手动安装python包的路径。主要目的是为了减少
 
 查找python的包(lib)安装路径
 ```python
@@ -809,11 +810,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTg1MzEzNCwtMzAyMTc0NTAwLDc4MD
-kzOTIyNiw2NTgxOTM5ODAsLTE4NjE0NjQ0MjMsLTE4MDUyNjk2
-NjgsLTE1NjM0MTYwMjgsLTMzNjEzNjcyMywtMTA4MTY5Mzc1MS
-wtMTMwNzI2ODUyNSwtMTYwMzQ0MjI5NSwxODAzNjczOTQyLC04
-ODk1NDU5NzQsMTE3NjU2ODAxNSwtMTc1ODUzNzAyLDUwNjA3MD
-AxMSw2NDE4OTM1MjcsMTIzNTI3MTg4MiwtMTE0MTM3MDIxMSwx
-Mzg0ODEzMzcwXX0=
+eyJoaXN0b3J5IjpbNTIyMTg1NzY0LDEzMjE4NTMxMzQsLTMwMj
+E3NDUwMCw3ODA5MzkyMjYsNjU4MTkzOTgwLC0xODA1MjY5NjY4
+LC0xNTYzNDE2MDI4LC0zMzYxMzY3MjMsLTEwODE2OTM3NTEsLT
+EzMDcyNjg1MjUsLTE2MDM0NDIyOTUsMTgwMzY3Mzk0MiwtODg5
+NTQ1OTc0LDExNzY1NjgwMTUsLTE3NTg1MzcwMiw1MDYwNzAwMT
+EsNjQxODkzNTI3LDEyMzUyNzE4ODIsLTExNDEzNzAyMTEsMTM4
+NDgxMzM3MF19
 -->
