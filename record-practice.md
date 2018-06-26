@@ -752,6 +752,14 @@ def move(x, y, step, angle=0):
 # OOP
 
 
+# GUI
+> Tkinter on python 2.x
+> tkinter on python 3.x
+
+> import Tkinter
+> T
+
+
 # python file purpose
 - execution
 - import as module
@@ -819,11 +827,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwODc4NDQ3LDIwMDMxOTQ1NzYsLTYwMz
-c5NTA0MCwtMTc0NzA3NTEwMywtMjAxNzk3NDIxNywtMTk0ODA2
-NDUwMCwtMTgwNTI2OTY2OCwtMTU2MzQxNjAyOCwtMzM2MTM2Nz
-IzLC0xMDgxNjkzNzUxLC0xMzA3MjY4NTI1LC0xNjAzNDQyMjk1
-LDE4MDM2NzM5NDIsLTg4OTU0NTk3NCwxMTc2NTY4MDE1LC0xNz
-U4NTM3MDIsNTA2MDcwMDExLDY0MTg5MzUyNywxMjM1MjcxODgy
-LC0xMTQxMzcwMjExXX0=
+eyJoaXN0b3J5IjpbMTMxODk0NDc1OCwzOTA4Nzg0NDcsMjAwMz
+E5NDU3NiwtNjAzNzk1MDQwLC0xNzQ3MDc1MTAzLC0yMDE3OTc0
+MjE3LC0xOTQ4MDY0NTAwLC0xODA1MjY5NjY4LC0xNTYzNDE2MD
+I4LC0zMzYxMzY3MjMsLTEwODE2OTM3NTEsLTEzMDcyNjg1MjUs
+LTE2MDM0NDIyOTUsMTgwMzY3Mzk0MiwtODg5NTQ1OTc0LDExNz
+Y1NjgwMTUsLTE3NTg1MzcwMiw1MDYwNzAwMTEsNjQxODkzNTI3
+LDEyMzUyNzE4ODJdfQ==
 -->
