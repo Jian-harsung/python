@@ -75,7 +75,7 @@ to be updated
 > dist-packages VS site-packages
 
 dist-packages是Debian的特定惯例，包括Ubuntu，如果使用软件按转管理器安装，模块就会被安装在这里；
-site-packages是手动安装python包的路径。所以Windows系统看到的默认就只有site-packages.
+site-packages是手动安装python包的路径。所以Windows系统看到的默认就只有site-packages （python/lib/site-packages）.
 
 主要目的是为了减少系统安装包和用户自定义安装之间的冲突。
 
@@ -819,5 +819,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MjE5MTUzLDYxNjgxMzIwOF19
+eyJoaXN0b3J5IjpbMjAwMzE5NDU3Niw2MTY4MTMyMDhdfQ==
 -->
