@@ -73,19 +73,28 @@ to be updated
 - site-packages: ??
 
 > dist-packages VS site-packages
+
 dist-packages是Debian的特定惯例，包括Ubuntu，如果使用软件按转管理器安装，模块就会被安装在这里；
 site-packages是手动安装python包的路径。zhuyaom
 
-查找python的包(lib)安装路径
+主要目的是为了减少系统安装包和用户自定义安装之间的冲突。
+
+这段代码用来查找python的包(lib)安装路径
 ```python
 > from distutils.sysconfig import get_python_lib
 > print(get_python_lib())
 ```
-/usr/lib/python3/dist-packages
+Ubuntu会输出：/usr/lib/python3/dist-packages
+还有一个办法输出python的相关路径
+```python
+> import sys
+> print(sys.path)
+```
 
 
 python源文件开头
 ==#!/usr/bin/env python== 
+==#!/usr/bin/env python3== 
 
 # 2 常用命令, 函数和包
  ## 2.1 命令
@@ -810,5 +819,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2ODEzMjA4XX0=
+eyJoaXN0b3J5IjpbLTQ2NzA3OTg0Niw2MTY4MTMyMDhdfQ==
 -->
