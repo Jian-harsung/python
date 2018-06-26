@@ -85,7 +85,7 @@ site-packages是手动安装python包的路径。所以Windows系统看到的默
 > print(get_python_lib())
 ```
 Ubuntu会输出：/usr/lib/python3/dist-packages
-还有一个办法输出python的相关路径
+还有一个办法输出python的包相关路径
 ```python
 > import sys
 > print(sys.path)
@@ -819,5 +819,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzE5NDU3Niw2MTY4MTMyMDhdfQ==
+eyJoaXN0b3J5IjpbMzkwODc4NDQ3LDIwMDMxOTQ1NzYsNjE2OD
+EzMjA4XX0=
 -->
