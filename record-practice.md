@@ -74,7 +74,7 @@ to be updated
 
 > dist-packages VS site-packages
 dist-packages是Debian的特定惯例，包括Ubuntu，如果使用软件按转管理器安装，模块就会被安装在这里；
-site-packages是手动安装python包的路径。主要目的是为了减少系统安装b
+site-packages是手动安装python包的路径。主要目的是为了减少系统安装包和yonghuz
 
 查找python的包(lib)安装路径
 ```python
@@ -810,11 +810,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDgwNjQ1MDAsLTE1NDUwNzc3NTYsNT
-IyMTg1NzY0LDEzMjE4NTMxMzQsLTMwMjE3NDUwMCwtMTgwNTI2
-OTY2OCwtMTU2MzQxNjAyOCwtMzM2MTM2NzIzLC0xMDgxNjkzNz
-UxLC0xMzA3MjY4NTI1LC0xNjAzNDQyMjk1LDE4MDM2NzM5NDIs
-LTg4OTU0NTk3NCwxMTc2NTY4MDE1LC0xNzU4NTM3MDIsNTA2MD
-cwMDExLDY0MTg5MzUyNywxMjM1MjcxODgyLC0xMTQxMzcwMjEx
-LDEzODQ4MTMzNzBdfQ==
+eyJoaXN0b3J5IjpbLTIwMTc5NzQyMTcsLTE5NDgwNjQ1MDAsLT
+E1NDUwNzc3NTYsNTIyMTg1NzY0LDEzMjE4NTMxMzQsLTE4MDUy
+Njk2NjgsLTE1NjM0MTYwMjgsLTMzNjEzNjcyMywtMTA4MTY5Mz
+c1MSwtMTMwNzI2ODUyNSwtMTYwMzQ0MjI5NSwxODAzNjczOTQy
+LC04ODk1NDU5NzQsMTE3NjU2ODAxNSwtMTc1ODUzNzAyLDUwNj
+A3MDAxMSw2NDE4OTM1MjcsMTIzNTI3MTg4MiwtMTE0MTM3MDIx
+MSwxMzg0ODEzMzcwXX0=
 -->
