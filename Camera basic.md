@@ -72,6 +72,10 @@ to be updated
 - lib: ??
 - site-packages: ??
 
+
+/usr/lib/python3/dist-packages
+
+
 python源文件开头
 ==#!/usr/bin/env python== 
 
@@ -798,5 +802,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDUyNjk2NjhdfQ==
+eyJoaXN0b3J5IjpbMTU1NDc4NjA5Ml19
 -->
