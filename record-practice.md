@@ -72,7 +72,7 @@ to be updated
 - lib: ??
 - site-packages: ??
 
-查找python的安装路径
+查找python的包安装路径
 ```python
 > from distutils.sysconfig import get_python_lib
 > print(get_python_lib())
@@ -806,11 +806,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODU5OTM1ODIsLTE4MzU1NjQ4MjIsMz
-Q3MTIwNDY3LC0xODA1MjY5NjY4LC0xNTYzNDE2MDI4LC0zMzYx
-MzY3MjMsLTEwODE2OTM3NTEsLTEzMDcyNjg1MjUsLTE2MDM0ND
-IyOTUsMTgwMzY3Mzk0MiwtODg5NTQ1OTc0LDExNzY1NjgwMTUs
-LTE3NTg1MzcwMiw1MDYwNzAwMTEsNjQxODkzNTI3LDEyMzUyNz
-E4ODIsLTExNDEzNzAyMTEsMTM4NDgxMzM3MCwxMjg2MzEwMDc4
-LDI2NDk0ODM4MF19
+eyJoaXN0b3J5IjpbLTM5NTI3OTc0MywtMTk4NTk5MzU4MiwtMT
+gzNTU2NDgyMiwzNDcxMjA0NjcsLTE4MDUyNjk2NjgsLTE1NjM0
+MTYwMjgsLTMzNjEzNjcyMywtMTA4MTY5Mzc1MSwtMTMwNzI2OD
+UyNSwtMTYwMzQ0MjI5NSwxODAzNjczOTQyLC04ODk1NDU5NzQs
+MTE3NjU2ODAxNSwtMTc1ODUzNzAyLDUwNjA3MDAxMSw2NDE4OT
+M1MjcsMTIzNTI3MTg4MiwtMTE0MTM3MDIxMSwxMzg0ODEzMzcw
+LDEyODYzMTAwNzhdfQ==
 -->
