@@ -73,15 +73,16 @@ to be updated
 - site-packages: ??
 
 > dist-packages VS site-packages
-dist-packages是Debian的特定惯例，包括Ubuntu，如果使用软件按转管理器安装，模块就会被安装在这里；
-site-packages是手动安装python包的路径。主要目的是为了减少系统安装包和用户自定义安装zh
 
-查找python的包(lib)安装路径
+dist-packages是Debian的特定惯例，包括Ubuntu，如果使用软件按转管理器安装，模块就会被安装在这里；
+site-packages是手动安装python包的路径。主要目的是为了减少系统安装包和用户自定义安装之间的冲突。
+
+这段代码用来查找python的包(lib)安装路径
 ```python
 > from distutils.sysconfig import get_python_lib
 > print(get_python_lib())
 ```
-/usr/lib/python3/dist-packages
+Ubuntu会输出：/usr/lib/python3/dist-packages
 
 
 python源文件开头
@@ -810,11 +811,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDcwNzUxMDMsLTIwMTc5NzQyMTcsLT
-E5NDgwNjQ1MDAsLTE1NDUwNzc3NTYsNTIyMTg1NzY0LC0xODA1
-MjY5NjY4LC0xNTYzNDE2MDI4LC0zMzYxMzY3MjMsLTEwODE2OT
-M3NTEsLTEzMDcyNjg1MjUsLTE2MDM0NDIyOTUsMTgwMzY3Mzk0
-MiwtODg5NTQ1OTc0LDExNzY1NjgwMTUsLTE3NTg1MzcwMiw1MD
-YwNzAwMTEsNjQxODkzNTI3LDEyMzUyNzE4ODIsLTExNDEzNzAy
-MTEsMTM4NDgxMzM3MF19
+eyJoaXN0b3J5IjpbLTExMDgzOTUwNTQsLTE3NDcwNzUxMDMsLT
+IwMTc5NzQyMTcsLTE5NDgwNjQ1MDAsLTE1NDUwNzc3NTYsLTE4
+MDUyNjk2NjgsLTE1NjM0MTYwMjgsLTMzNjEzNjcyMywtMTA4MT
+Y5Mzc1MSwtMTMwNzI2ODUyNSwtMTYwMzQ0MjI5NSwxODAzNjcz
+OTQyLC04ODk1NDU5NzQsMTE3NjU2ODAxNSwtMTc1ODUzNzAyLD
+UwNjA3MDAxMSw2NDE4OTM1MjcsMTIzNTI3MTg4MiwtMTE0MTM3
+MDIxMSwxMzg0ODEzMzcwXX0=
 -->
