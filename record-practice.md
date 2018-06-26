@@ -75,7 +75,7 @@ to be updated
 > dist-packages VS site-packages
 
 dist-packages是Debian的特定惯例，包括Ubuntu，如果使用软件按转管理器安装，模块就会被安装在这里；
-site-packages是手动安装python包的路径。zhuyaom
+site-packages是手动安装python包的路径。所以Windows系统看到的默认就只有site-packages.
 
 主要目的是为了减少系统安装包和用户自定义安装之间的冲突。
 
@@ -819,11 +819,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NzA3OTg0NiwtNjAzNzk1MDQwLC0xNz
-Q3MDc1MTAzLC0yMDE3OTc0MjE3LC0xOTQ4MDY0NTAwLC0xODA1
-MjY5NjY4LC0xNTYzNDE2MDI4LC0zMzYxMzY3MjMsLTEwODE2OT
-M3NTEsLTEzMDcyNjg1MjUsLTE2MDM0NDIyOTUsMTgwMzY3Mzk0
-MiwtODg5NTQ1OTc0LDExNzY1NjgwMTUsLTE3NTg1MzcwMiw1MD
-YwNzAwMTEsNjQxODkzNTI3LDEyMzUyNzE4ODIsLTExNDEzNzAy
-MTEsMTM4NDgxMzM3MF19
+eyJoaXN0b3J5IjpbLTU3MjE5MTUzLC02MDM3OTUwNDAsLTE3ND
+cwNzUxMDMsLTIwMTc5NzQyMTcsLTE5NDgwNjQ1MDAsLTE4MDUy
+Njk2NjgsLTE1NjM0MTYwMjgsLTMzNjEzNjcyMywtMTA4MTY5Mz
+c1MSwtMTMwNzI2ODUyNSwtMTYwMzQ0MjI5NSwxODAzNjczOTQy
+LC04ODk1NDU5NzQsMTE3NjU2ODAxNSwtMTc1ODUzNzAyLDUwNj
+A3MDAxMSw2NDE4OTM1MjcsMTIzNTI3MTg4MiwtMTE0MTM3MDIx
+MSwxMzg0ODEzMzcwXX0=
 -->
