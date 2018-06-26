@@ -72,7 +72,10 @@ to be updated
 - lib: ??
 - site-packages: ??
 
+> dist-packages VS site-packages
+dist-packages是De
 
+查找python的包(lib)安装路径
 ```python
 > from distutils.sysconfig import get_python_lib
 > print(get_python_lib())
@@ -806,5 +809,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODcyMjk0XX0=
+eyJoaXN0b3J5IjpbLTEwMjEwNjU3NTFdfQ==
 -->
