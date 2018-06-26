@@ -73,6 +73,10 @@ to be updated
 - site-packages: ??
 
 
+```python
+> from distutils.sysconfig import get_python_lib
+> print(get_python_lib())
+```
 /usr/lib/python3/dist-packages
 
 
@@ -802,5 +806,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDc4NjA5Ml19
+eyJoaXN0b3J5IjpbLTc5ODcyMjk0XX0=
 -->
