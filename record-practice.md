@@ -72,7 +72,11 @@ to be updated
 - lib: ??
 - site-packages: ??
 
-
+查找
+```python
+> from distutils.sysconfig import get_python_lib
+> print(get_python_lib())
+```
 /usr/lib/python3/dist-packages
 
 
@@ -802,11 +806,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDc4NjA5MiwtMTgwNTI2OTY2OCwtMT
-U2MzQxNjAyOCwtMzM2MTM2NzIzLC0xMDgxNjkzNzUxLC0xMzA3
-MjY4NTI1LC0xNjAzNDQyMjk1LDE4MDM2NzM5NDIsLTg4OTU0NT
-k3NCwxMTc2NTY4MDE1LC0xNzU4NTM3MDIsNTA2MDcwMDExLDY0
-MTg5MzUyNywxMjM1MjcxODgyLC0xMTQxMzcwMjExLDEzODQ4MT
-MzNzAsMTI4NjMxMDA3OCwyNjQ5NDgzODAsLTEyODc0OTg3OCwt
-MTgxODI2NTc4NF19
+eyJoaXN0b3J5IjpbMzQ3MTIwNDY3LC0xODA1MjY5NjY4LC0xNT
+YzNDE2MDI4LC0zMzYxMzY3MjMsLTEwODE2OTM3NTEsLTEzMDcy
+Njg1MjUsLTE2MDM0NDIyOTUsMTgwMzY3Mzk0MiwtODg5NTQ1OT
+c0LDExNzY1NjgwMTUsLTE3NTg1MzcwMiw1MDYwNzAwMTEsNjQx
+ODkzNTI3LDEyMzUyNzE4ODIsLTExNDEzNzAyMTEsMTM4NDgxMz
+M3MCwxMjg2MzEwMDc4LDI2NDk0ODM4MCwtMTI4NzQ5ODc4LC0x
+ODE4MjY1Nzg0XX0=
 -->
