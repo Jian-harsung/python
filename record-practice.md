@@ -73,7 +73,7 @@ to be updated
 - site-packages: ??
 
 > dist-packages VS site-packages
-dist-packages是Debian的特定惯例，包括Ubuntu
+dist-packages是Debian的特定惯例，包括Ubuntu，如果shi
 
 查找python的包(lib)安装路径
 ```python
@@ -809,11 +809,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMjE3NDUwMCw3ODA5MzkyMjYsNjU4MT
-kzOTgwLC0xODYxNDY0NDIzLC0xODA1MjY5NjY4LC0xNTYzNDE2
-MDI4LC0zMzYxMzY3MjMsLTEwODE2OTM3NTEsLTEzMDcyNjg1Mj
-UsLTE2MDM0NDIyOTUsMTgwMzY3Mzk0MiwtODg5NTQ1OTc0LDEx
-NzY1NjgwMTUsLTE3NTg1MzcwMiw1MDYwNzAwMTEsNjQxODkzNT
-I3LDEyMzUyNzE4ODIsLTExNDEzNzAyMTEsMTM4NDgxMzM3MCwx
-Mjg2MzEwMDc4XX0=
+eyJoaXN0b3J5IjpbMTMyMTg1MzEzNCwtMzAyMTc0NTAwLDc4MD
+kzOTIyNiw2NTgxOTM5ODAsLTE4NjE0NjQ0MjMsLTE4MDUyNjk2
+NjgsLTE1NjM0MTYwMjgsLTMzNjEzNjcyMywtMTA4MTY5Mzc1MS
+wtMTMwNzI2ODUyNSwtMTYwMzQ0MjI5NSwxODAzNjczOTQyLC04
+ODk1NDU5NzQsMTE3NjU2ODAxNSwtMTc1ODUzNzAyLDUwNjA3MD
+AxMSw2NDE4OTM1MjcsMTIzNTI3MTg4MiwtMTE0MTM3MDIxMSwx
+Mzg0ODEzMzcwXX0=
 -->
