@@ -73,7 +73,8 @@ to be updated
 - site-packages: ??
 
 > dist-packages VS site-packages
-dist-packages是De
+dist-packages是Debian的特定惯例，包括Ubuntu，如果使用软件按转管理器安装，模块就会被安装在这里；
+site-packages是手动安装python包的路径。zhuyaom
 
 查找python的包(lib)安装路径
 ```python
@@ -809,5 +810,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEwNjU3NTFdfQ==
+eyJoaXN0b3J5IjpbNjE2ODEzMjA4XX0=
 -->
