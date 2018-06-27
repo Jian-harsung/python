@@ -824,9 +824,18 @@ def person(name, age, city, job):
     # 缺少 *，city和job被视为位置参数
     pass
 ```
+### 12.2.5 参数组合
+在Python中定义函数，可以用必选参数、默认参数、可变参数、关键字参数和命名关键字参数，这5种参数都可以组合使用。但是请注意，参数定义的顺序必须是：
+- 必选参数、默认参数、可变参数、命名关键字参数和关键字参数。
+比如定义一个函数，包含上述若干种参数：
+```python
+def f1(a, b, c=0, *args, **kw):
+    print('a =', a, 'b =', b, 'c =', c, 'args =', args, 'kw =', kw)
 
-
-
+def f2(a, b, c=0, *, d, **kw):
+    print('a =', a, 'b =', b, 'c =', c, 'd =', d, 'kw =', kw)
+```
+在函数调用的时候，Python解释器自动按照参数位置和参数名把对应的参数传进去。
 
 
 
@@ -999,11 +1008,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzg4NzMzODIsMjM4MjM4MDIwLC0yNj
-YyMzI4NDgsLTcwMTE0MjQ1NCwtOTEyNjQ0MjkwLC0xMjUyOTgy
-Nzc2LDEwNDY5Njg5NTUsMTY4MDY5NzA1NywtMzcwOTgyMDczLD
-EyMzAxNzI3MzYsMTU3NTIzOTY4MiwtOTEzODIyNDI2LDE2ODUx
-MDgxODMsLTQxODU1MjM3LDk1Njg2ODc4LDE1MzM4NTkwNTcsMj
-A3NzkwOTM2MywtMTMzNTMwNDg0OSwtNjI2MzUxNzk3LDEyMTg2
-MTY4MDFdfQ==
+eyJoaXN0b3J5IjpbLTE4NjExMDA1MTcsLTE1Mzg4NzMzODIsMj
+M4MjM4MDIwLC0yNjYyMzI4NDgsLTcwMTE0MjQ1NCwtOTEyNjQ0
+MjkwLC0xMjUyOTgyNzc2LDEwNDY5Njg5NTUsMTY4MDY5NzA1Ny
+wtMzcwOTgyMDczLDEyMzAxNzI3MzYsMTU3NTIzOTY4MiwtOTEz
+ODIyNDI2LDE2ODUxMDgxODMsLTQxODU1MjM3LDk1Njg2ODc4LD
+E1MzM4NTkwNTcsMjA3NzkwOTM2MywtMTMzNTMwNDg0OSwtNjI2
+MzUxNzk3XX0=
 -->
