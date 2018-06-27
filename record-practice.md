@@ -708,9 +708,15 @@ def calc(*numbers):
         sum = sum + n * n
     return sum
 ```
-
-
-
+- 定义可变参数和定义一个list或tuple参数相比，仅仅在参数前面加了一个`*`号。
+- 在函数内部，参数`numbers`接收到的是一个tuple，因此，函数代码完全不变。
+- 但是，调用该函数时，可以传入任意个参数，包括0个参数：
+```python
+>>> calc(1, 2)
+5
+>>> calc()
+0
+```
 
 
 
@@ -885,11 +891,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyODY0MDk4LDEyMzAxNzI3MzYsMTU3NT
-IzOTY4MiwtOTEzODIyNDI2LDE2ODUxMDgxODMsLTQxODU1MjM3
-LDk1Njg2ODc4LDE1MzM4NTkwNTcsMjA3NzkwOTM2MywtMTMzNT
-MwNDg0OSwtNjI2MzUxNzk3LDEyMTg2MTY4MDEsLTIyMDU4MDA4
-OSwxMzE4OTQ0NzU4LDM5MDg3ODQ0NywyMDAzMTk0NTc2LC02MD
-M3OTUwNDAsLTE3NDcwNzUxMDMsLTIwMTc5NzQyMTcsLTE5NDgw
-NjQ1MDBdfQ==
+eyJoaXN0b3J5IjpbLTg5MDU5OTk4NCwxMjMwMTcyNzM2LDE1Nz
+UyMzk2ODIsLTkxMzgyMjQyNiwxNjg1MTA4MTgzLC00MTg1NTIz
+Nyw5NTY4Njg3OCwxNTMzODU5MDU3LDIwNzc5MDkzNjMsLTEzMz
+UzMDQ4NDksLTYyNjM1MTc5NywxMjE4NjE2ODAxLC0yMjA1ODAw
+ODksMTMxODk0NDc1OCwzOTA4Nzg0NDcsMjAwMzE5NDU3NiwtNj
+AzNzk1MDQwLC0xNzQ3MDc1MTAzLC0yMDE3OTc0MjE3LC0xOTQ4
+MDY0NTAwXX0=
 -->
