@@ -750,8 +750,10 @@ name: Bob age: 35 other: {'city': 'Beijing'}
 >>> person('Adam', 45, gender='M', job='Engineer')
 name: Adam age: 45 other: {'gender': 'M', 'job': 'Engineer'}
 ```
+关键字参数有什么用？它可以扩展函数的功能。
+比如，在`person`函数里，我们保证能接收到`name`和`age`这两个参数，但是，如果调用者愿意提供更多的参数，我们也能收到。试想你正在做一个用户注册的功能，除了用户名和年龄是必填项外，其他都是可选项，利用关键字参数来定义这个函数就能满足注册的需求。
 
-
+和可变参数类似，也可以先组装出一个dict，然后，把该dict转换为关键字参数传进去：
 
 
 
@@ -913,11 +915,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODA2MTM4NTksLTEyNTI5ODI3NzYsMT
-A0Njk2ODk1NSwxNjgwNjk3MDU3LC0zNzA5ODIwNzMsMTIzMDE3
-MjczNiwxNTc1MjM5NjgyLC05MTM4MjI0MjYsMTY4NTEwODE4My
-wtNDE4NTUyMzcsOTU2ODY4NzgsMTUzMzg1OTA1NywyMDc3OTA5
-MzYzLC0xMzM1MzA0ODQ5LC02MjYzNTE3OTcsMTIxODYxNjgwMS
-wtMjIwNTgwMDg5LDEzMTg5NDQ3NTgsMzkwODc4NDQ3LDIwMDMx
-OTQ1NzZdfQ==
+eyJoaXN0b3J5IjpbMzgxMzk0MjAzLC0xMjUyOTgyNzc2LDEwND
+Y5Njg5NTUsMTY4MDY5NzA1NywtMzcwOTgyMDczLDEyMzAxNzI3
+MzYsMTU3NTIzOTY4MiwtOTEzODIyNDI2LDE2ODUxMDgxODMsLT
+QxODU1MjM3LDk1Njg2ODc4LDE1MzM4NTkwNTcsMjA3NzkwOTM2
+MywtMTMzNTMwNDg0OSwtNjI2MzUxNzk3LDEyMTg2MTY4MDEsLT
+IyMDU4MDA4OSwxMzE4OTQ0NzU4LDM5MDg3ODQ0NywyMDAzMTk0
+NTc2XX0=
 -->
