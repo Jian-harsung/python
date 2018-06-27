@@ -624,12 +624,12 @@ def power(x, n):
 ```
 > power (10, 5)		
 
-### 11.2.2 默认参数
+### 11.2.2 默认参数和关键参数
 - 可以定义 __默认参数__ 作为缺省情况，如经常计算平方值
 > def power(x, n=2)
 - 必选参数在前，默认参数灾后
 - 变化大的默认参数在前，变化小的默认参数在后
-- 如果使用了参数名，那么还可以不用按顺序调用
+- 如果使用了参数名（），那么还可以不用按顺序调用
 ```python
 def enroll(name, gender, age=6, city='Beijing'):
 > enroll('Sarah', 'F')
@@ -831,11 +831,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODYwNzMxOTAsLTE1MzI0NzMzMjQsLT
-E5MzU2MDEyNTUsLTEzMzUzMDQ4NDksLTYyNjM1MTc5NywxMjE4
-NjE2ODAxLC0yMjA1ODAwODksMTMxODk0NDc1OCwzOTA4Nzg0ND
-csMjAwMzE5NDU3NiwtNjAzNzk1MDQwLC0xNzQ3MDc1MTAzLC0y
-MDE3OTc0MjE3LC0xOTQ4MDY0NTAwLC0xODA1MjY5NjY4LC0xNT
-YzNDE2MDI4LC0zMzYxMzY3MjMsLTEwODE2OTM3NTEsLTEzMDcy
-Njg1MjUsLTE2MDM0NDIyOTVdfQ==
+eyJoaXN0b3J5IjpbMTMyMzIwNTAxNiwtMTY4NjA3MzE5MCwtMT
+UzMjQ3MzMyNCwtMTMzNTMwNDg0OSwtNjI2MzUxNzk3LDEyMTg2
+MTY4MDEsLTIyMDU4MDA4OSwxMzE4OTQ0NzU4LDM5MDg3ODQ0Ny
+wyMDAzMTk0NTc2LC02MDM3OTUwNDAsLTE3NDcwNzUxMDMsLTIw
+MTc5NzQyMTcsLTE5NDgwNjQ1MDAsLTE4MDUyNjk2NjgsLTE1Nj
+M0MTYwMjgsLTMzNjEzNjcyMywtMTA4MTY5Mzc1MSwtMTMwNzI2
+ODUyNSwtMTYwMzQ0MjI5NV19
 -->
