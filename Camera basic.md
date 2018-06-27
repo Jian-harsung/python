@@ -768,6 +768,61 @@ name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}
 -  `**extra`表示把`extra`这个dict的所有key-value用关键字参数传入到函数的`**kw`参数，`kw`将获得一个dict，注意`kw`获得的dict是`extra`的一份拷贝，对`kw`的改动不会影响到函数外的`extra`。
 
 #### 命名关键字参数
+对于关键字参数，函数的调用者可以传入任意不受限制的关键字参数。至于到底传入了哪些，就需要在函数内部通过`kw`检查。
+仍以`person()`函数为例，我们希望检查是否有`city`和`job`参数：
+```python
+def person(name, age, **kw):
+    if 'city' in kw:
+        # 有city参数
+        pass
+    if 'job' in kw:
+        # 有job参数
+        pass
+    print('name:', name, 'age:', age, 'other:', kw)
+```
+但是调用者仍可以传入不受限制的关键字参数：
+```python
+>>> person('Jack', 24, city='Beijing', addr='Chaoyang', zipcode=123456)
+```
+如果要限制关键字参数的名字，就可以用命名关键字参数，例如，只接收`city`和`job`作为关键字参数。这种方式定义的函数如下：
+```
+def person(name, age, *, city, job):
+    print(name, age, city, job)
+```
+和关键字参数`**kw`不同，命名关键字参数需要一个特殊分隔符`*`，`*`后面的参数被视为命名关键字参数。
+
+调用方式如下：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ```python
@@ -923,5 +978,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTIyNTE5MCwtNzAxMTQyNDU0XX0=
+eyJoaXN0b3J5IjpbMjA5NjAzODc1MSwtNzAxMTQyNDU0XX0=
 -->
