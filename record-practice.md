@@ -767,8 +767,10 @@ name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}
 ```
 -  `**extra`表示把`extra`这个dict的所有key-value用关键字参数传入到函数的`**kw`参数，`kw`将获得一个dict，注意`kw`获得的dict是`extra`的一份拷贝，对`kw`的改动不会影响到函数外的`extra`。
 
-命名关键字参数
+#### 命名关键字参数
+对于关键字参数，函数的调用者可以传入任意不受限制的关键字参数。至于到底传入了哪些，就需要在函数内部通过`kw`检查。
 
+仍以`person()`函数为例，我们希望检查是否有`city`和`job`参数：
 
 ```python
 # 自定义取绝对值函数
@@ -923,11 +925,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMTE0MjQ1NCwtOTEyNjQ0MjkwLC0xMj
-UyOTgyNzc2LDEwNDY5Njg5NTUsMTY4MDY5NzA1NywtMzcwOTgy
-MDczLDEyMzAxNzI3MzYsMTU3NTIzOTY4MiwtOTEzODIyNDI2LD
-E2ODUxMDgxODMsLTQxODU1MjM3LDk1Njg2ODc4LDE1MzM4NTkw
-NTcsMjA3NzkwOTM2MywtMTMzNTMwNDg0OSwtNjI2MzUxNzk3LD
-EyMTg2MTY4MDEsLTIyMDU4MDA4OSwxMzE4OTQ0NzU4LDM5MDg3
-ODQ0N119
+eyJoaXN0b3J5IjpbMTM0OTA1NTU1NCwtNzAxMTQyNDU0LC05MT
+I2NDQyOTAsLTEyNTI5ODI3NzYsMTA0Njk2ODk1NSwxNjgwNjk3
+MDU3LC0zNzA5ODIwNzMsMTIzMDE3MjczNiwxNTc1MjM5NjgyLC
+05MTM4MjI0MjYsMTY4NTEwODE4MywtNDE4NTUyMzcsOTU2ODY4
+NzgsMTUzMzg1OTA1NywyMDc3OTA5MzYzLC0xMzM1MzA0ODQ5LC
+02MjYzNTE3OTcsMTIxODYxNjgwMSwtMjIwNTgwMDg5LDEzMTg5
+NDQ3NThdfQ==
 -->
