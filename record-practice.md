@@ -881,7 +881,7 @@ a = 1 b = 2 c = 3 d = 88 kw = {'x': '#'}
 所以，对于任意函数，都可以通过类似`func(*args, **kw)`的形式调用它，无论它的参数是如何定义的。
 - ==虽然可以组合多达5种参数，但不要同时使用太多的组合，否则函数接口的可理解性很差。==
 
-
+小姐
 
 
 ## 11.3 import调用
@@ -1017,11 +1017,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0MTg1NjY4LDE1NDE3MDc4ODAsLTEwND
-M3NzgxMDIsODg0MTExMTc4LDg1Mjg2MzM4OCwtMTUzODg3MzM4
-MiwyMzgyMzgwMjAsLTI2NjIzMjg0OCwtNzAxMTQyNDU0LC05MT
-I2NDQyOTAsLTEyNTI5ODI3NzYsMTA0Njk2ODk1NSwxNjgwNjk3
-MDU3LC0zNzA5ODIwNzMsMTIzMDE3MjczNiwxNTc1MjM5NjgyLC
-05MTM4MjI0MjYsMTY4NTEwODE4MywtNDE4NTUyMzcsOTU2ODY4
-NzhdfQ==
+eyJoaXN0b3J5IjpbLTE4MjM3OTQyMzcsNTc0MTg1NjY4LDE1ND
+E3MDc4ODAsLTEwNDM3NzgxMDIsODg0MTExMTc4LDg1Mjg2MzM4
+OCwtMTUzODg3MzM4MiwyMzgyMzgwMjAsLTI2NjIzMjg0OCwtNz
+AxMTQyNDU0LC05MTI2NDQyOTAsLTEyNTI5ODI3NzYsMTA0Njk2
+ODk1NSwxNjgwNjk3MDU3LC0zNzA5ODIwNzMsMTIzMDE3MjczNi
+wxNTc1MjM5NjgyLC05MTM4MjI0MjYsMTY4NTEwODE4MywtNDE4
+NTUyMzddfQ==
 -->
