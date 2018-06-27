@@ -679,7 +679,7 @@ def add_end(L=None):
 可变参数就是传入的参数个数是可变的，可以是1个、2个到任意个，还可以是0个。
 以给定一组数字a, b, c, ...计算a^2^+b^2^+c^2^+...
  做法一：把参数定义为list或tuple
-```
+```python
 def calc(numbers):
     sum = 0
     for n in numbers:
@@ -841,11 +841,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTQ4ODAwMiwxNjg1MTA4MTgzLC00MT
-g1NTIzNywtMTkzNTQ0NDQ4NSw5NTgwMDU2MzEsOTU2ODY4Nzgs
-MTUzMzg1OTA1NywyMDc3OTA5MzYzLC0xMzM1MzA0ODQ5LC02Mj
-YzNTE3OTcsMTIxODYxNjgwMSwtMjIwNTgwMDg5LDEzMTg5NDQ3
-NTgsMzkwODc4NDQ3LDIwMDMxOTQ1NzYsLTYwMzc5NTA0MCwtMT
-c0NzA3NTEwMywtMjAxNzk3NDIxNywtMTk0ODA2NDUwMCwtMTgw
-NTI2OTY2OF19
+eyJoaXN0b3J5IjpbLTkxMzgyMjQyNiwxNDU1NDg4MDAyLDE2OD
+UxMDgxODMsLTQxODU1MjM3LC0xOTM1NDQ0NDg1LDk1Njg2ODc4
+LDE1MzM4NTkwNTcsMjA3NzkwOTM2MywtMTMzNTMwNDg0OSwtNj
+I2MzUxNzk3LDEyMTg2MTY4MDEsLTIyMDU4MDA4OSwxMzE4OTQ0
+NzU4LDM5MDg3ODQ0NywyMDAzMTk0NTc2LC02MDM3OTUwNDAsLT
+E3NDcwNzUxMDMsLTIwMTc5NzQyMTcsLTE5NDgwNjQ1MDAsLTE4
+MDUyNjk2NjhdfQ==
 -->
