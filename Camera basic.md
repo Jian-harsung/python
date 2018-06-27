@@ -677,7 +677,7 @@ def add_end(L=None):
 
 ### 11.2.3 可变参数
 可变参数就是传入的参数个数是可变的，可以是1个、2个到任意个，还可以是0个。
-
+以给定一组数字a, b, c, ...计算a^2^+
 
 
 
@@ -835,5 +835,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2ODY4NzgsLTEzMzUzMDQ4NDldfQ==
+eyJoaXN0b3J5IjpbODI2NjgzMTMxLDk1Njg2ODc4LC0xMzM1Mz
+A0ODQ5XX0=
 -->
