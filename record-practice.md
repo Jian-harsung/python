@@ -769,7 +769,6 @@ name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}
 
 #### 命名关键字参数
 对于关键字参数，函数的调用者可以传入任意不受限制的关键字参数。至于到底传入了哪些，就需要在函数内部通过`kw`检查。
-
 仍以`person()`函数为例，我们希望检查是否有`city`和`job`参数：
 
 ```python
@@ -925,11 +924,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTA1NTU1NCwtNzAxMTQyNDU0LC05MT
-I2NDQyOTAsLTEyNTI5ODI3NzYsMTA0Njk2ODk1NSwxNjgwNjk3
-MDU3LC0zNzA5ODIwNzMsMTIzMDE3MjczNiwxNTc1MjM5NjgyLC
-05MTM4MjI0MjYsMTY4NTEwODE4MywtNDE4NTUyMzcsOTU2ODY4
-NzgsMTUzMzg1OTA1NywyMDc3OTA5MzYzLC0xMzM1MzA0ODQ5LC
-02MjYzNTE3OTcsMTIxODYxNjgwMSwtMjIwNTgwMDg5LDEzMTg5
-NDQ3NThdfQ==
+eyJoaXN0b3J5IjpbLTI2NjIzMjg0OCwxMzQ5MDU1NTU0LC03MD
+ExNDI0NTQsLTkxMjY0NDI5MCwtMTI1Mjk4Mjc3NiwxMDQ2OTY4
+OTU1LDE2ODA2OTcwNTcsLTM3MDk4MjA3MywxMjMwMTcyNzM2LD
+E1NzUyMzk2ODIsLTkxMzgyMjQyNiwxNjg1MTA4MTgzLC00MTg1
+NTIzNyw5NTY4Njg3OCwxNTMzODU5MDU3LDIwNzc5MDkzNjMsLT
+EzMzUzMDQ4NDksLTYyNjM1MTc5NywxMjE4NjE2ODAxLC0yMjA1
+ODAwODldfQ==
 -->
