@@ -882,24 +882,6 @@ a = 1 b = 2 c = 3 d = 88 kw = {'x': '#'}
 - ==虽然可以组合多达5种参数，但不要同时使用太多的组合，否则函数接口的可理解性很差。==
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
-
-
 ## 11.3 import调用
 - import MODULE
 - import MODULE1, MODULE2, ...
@@ -1033,7 +1015,7 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDM3NzgxMDIsMTg5MTM0MTk4MCw4OD
+eyJoaXN0b3J5IjpbMTU0MTcwNzg4MCwtMTA0Mzc3ODEwMiw4OD
 QxMTExNzgsODUyODYzMzg4LC0xNTM4ODczMzgyLDIzODIzODAy
 MCwtMjY2MjMyODQ4LC03MDExNDI0NTQsLTkxMjY0NDI5MCwtMT
 I1Mjk4Mjc3NiwxMDQ2OTY4OTU1LDE2ODA2OTcwNTcsLTM3MDk4
