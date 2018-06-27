@@ -64,10 +64,12 @@ to be updated
 
 ## 1.2 Linux
 to be updated
+
 ### virtualenv 
-- active, 
-- deactive, 
+- pip install virtualenv
+- virtualenv envp
 - source activate
+- deactive
 - rm -rf project
 
 安装路径
@@ -1070,6 +1072,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDAxNzY2NzMsLTEzNzAwODYwMzAsLT
-E0OTEwODc4MCwtNDg5MjA2NTY5XX0=
+eyJoaXN0b3J5IjpbLTE2MzEzNTM4MzEsLTEwNDAxNzY2NzMsLT
+EzNzAwODYwMzAsLTE0OTEwODc4MCwtNDg5MjA2NTY5XX0=
 -->
