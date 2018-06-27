@@ -624,6 +624,24 @@ def power(x, n):
 ```
 > power (10, 5)		
 
+```python
+# 自定义取绝对值函数
+def aabs(x):
+  if x >= 0:
+    return x
+  else:
+    return -x
+```
+- 参数个数不对，Python解释器会自动检查出来，并抛出`TypeError`
+> TypeError: abs() takes exactly one argument (2 given)
+> TypeError: aabs() takes exactly 1 argument (2 given)
+- 但是解析器不会检查参数类型，如果参数类型不对的时候，会出现不同的情况
+```python
+> abs('A')
+> TypeError: bad operand type for abs(): 'str'
+> aabs('A')
+> 'A'		# python 2.x可以通过
+
 ### 11.2.2 默认参数
 - 可以定义 __默认参数__ 作为缺省情况，如经常计算平方值
 > def power(x, n=2)
@@ -876,23 +894,8 @@ a = 1 b = 2 c = 3 d = 88 kw = {'x': '#'}
 
 
 
-```python
-# 自定义取绝对值函数
-def aabs(x):
-  if x >= 0:
-    return x
-  else:
-    return -x
-```
-- 参数个数不对，Python解释器会自动检查出来，并抛出`TypeError`
-> TypeError: abs() takes exactly one argument (2 given)
-> TypeError: aabs() takes exactly 1 argument (2 given)
-- 但是解析器不会检查参数类型，如果参数类型不对的时候，会出现不同的情况
-```python
-> abs('A')
-> TypeError: bad operand type for abs(): 'str'
-> aabs('A')
-> 'A'		# python 2.x可以通过
+
+
 ```
 
 
@@ -1029,5 +1032,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjIzMzk3OCwtMTUzODg3MzM4Ml19
+eyJoaXN0b3J5IjpbLTEzNTQ3MDE5MzYsLTE1Mzg4NzMzODJdfQ
+==
 -->
