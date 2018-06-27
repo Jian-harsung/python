@@ -613,7 +613,7 @@ method | description | example
 
 ## 11.2 参数检查
 必选参数外，还可以使用默认参数、可变参数和关键字参数
-位置参数
+### 11.2.1 位置参数
 ```python
 def power(x, n):
   s = 1
@@ -623,6 +623,8 @@ def power(x, n):
   return x
 ```
 > power (10, 5)		
+
+
 - 可以定义 __默认参数__ 作为缺省情况，如经常计算平方值
 > def power(x, n=2)
 - 必选参数在前，默认参数灾后
@@ -829,11 +831,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzUzMDQ4NDksLTYyNjM1MTc5NywxMj
-E4NjE2ODAxLC0yMjA1ODAwODksMTMxODk0NDc1OCwzOTA4Nzg0
-NDcsMjAwMzE5NDU3NiwtNjAzNzk1MDQwLC0xNzQ3MDc1MTAzLC
-0yMDE3OTc0MjE3LC0xOTQ4MDY0NTAwLC0xODA1MjY5NjY4LC0x
-NTYzNDE2MDI4LC0zMzYxMzY3MjMsLTEwODE2OTM3NTEsLTEzMD
-cyNjg1MjUsLTE2MDM0NDIyOTUsMTgwMzY3Mzk0MiwtODg5NTQ1
-OTc0LDExNzY1NjgwMTVdfQ==
+eyJoaXN0b3J5IjpbLTE5MzU2MDEyNTUsLTEzMzUzMDQ4NDksLT
+YyNjM1MTc5NywxMjE4NjE2ODAxLC0yMjA1ODAwODksMTMxODk0
+NDc1OCwzOTA4Nzg0NDcsMjAwMzE5NDU3NiwtNjAzNzk1MDQwLC
+0xNzQ3MDc1MTAzLC0yMDE3OTc0MjE3LC0xOTQ4MDY0NTAwLC0x
+ODA1MjY5NjY4LC0xNTYzNDE2MDI4LC0zMzYxMzY3MjMsLTEwOD
+E2OTM3NTEsLTEzMDcyNjg1MjUsLTE2MDM0NDIyOTUsMTgwMzY3
+Mzk0MiwtODg5NTQ1OTc0XX0=
 -->
