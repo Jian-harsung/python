@@ -894,6 +894,9 @@ a = 1 b = 2 c = 3 d = 88 kw = {'x': '#'}
 - 命名的关键字参数是为了限制调用者可以传入的参数名，同时可以提供默认值。
 - 定义命名的关键字参数在没有可变参数的情况下不要忘了写分隔符`*`，否则定义的将是位置参数。
 
+### 12.2.6 递归函数
+如果一个函数在内部调用自身本身，这个函数就是递归函数。
+
 
 ## 11.3 import调用
 - import MODULE
@@ -1028,5 +1031,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4OTIwNjU2OV19
+eyJoaXN0b3J5IjpbLTgzNTIzMzM1NiwtNDg5MjA2NTY5XX0=
 -->
