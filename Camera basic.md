@@ -824,9 +824,17 @@ def person(name, age, city, job):
     # 缺少 *，city和job被视为位置参数
     pass
 ```
+### 12.2.5 参数组合
+在Python中定义函数，可以用必选参数、默认参数、可变参数、关键字参数和命名关键字参数，这5种参数都可以组合使用。但是请注意，参数定义的顺序必须是：
+- 必选参数、默认参数、可变参数、命名关键字参数和关键字参数。
+比如定义一个函数，包含上述若干种参数：
+```python
+def f1(a, b, c=0, *args, **kw):
+    print('a =', a, 'b =', b, 'c =', c, 'args =', args, 'kw =', kw)
 
-
-
+def f2(a, b, c=0, *, d, **kw):
+    print('a =', a, 'b =', b, 'c =', c, 'd =', d, 'kw =', kw)
+```
 
 
 
@@ -999,5 +1007,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzg4NzMzODJdfQ==
+eyJoaXN0b3J5IjpbMTc0NTMyNTIxMCwtMTUzODg3MzM4Ml19
 -->
