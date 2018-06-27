@@ -750,7 +750,7 @@ name: Bob age: 35 other: {'city': 'Beijing'}
 >>> person('Adam', 45, gender='M', job='Engineer')
 name: Adam age: 45 other: {'gender': 'M', 'job': 'Engineer'}
 ```
-关键字参数有什么用？它可以扩展函数的功能。
+- 关键字参数有什么用？它可以扩展函数的功能。
 比如，在`person`函数里，我们保证能接收到`name`和`age`这两个参数，但是，如果调用者愿意提供更多的参数，我们也能收到。试想你正在做一个用户注册的功能，除了用户名和年龄是必填项外，其他都是可选项，利用关键字参数来定义这个函数就能满足注册的需求。
 
 和可变参数类似，也可以先组装出一个dict，然后，把该dict转换为关键字参数传进去：
@@ -759,9 +759,13 @@ name: Adam age: 45 other: {'gender': 'M', 'job': 'Engineer'}
 >>> person('Jack', 24, city=extra['city'], job=extra['job'])
 name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}
 ```
-
-
-
+当然，上面复杂的调用可以用简化的写法：
+```python
+>>> extra = {'city': 'Beijing', 'job': 'Engineer'}
+>>> person('Jack', 24, **extra)
+name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}
+```
+-  `**extra`表示把`extra`这个dict的所有key-value用关键字参数传入到函数的`**kw`参数，`kw`将获得一个dict，注意`kw`获得的dict是`extra`的一份拷贝，对`kw`的改动不会影响到函数外的`extra`。
 
 
 
@@ -919,11 +923,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjY0NDI5MCwtMTI1Mjk4Mjc3NiwxMD
-Q2OTY4OTU1LDE2ODA2OTcwNTcsLTM3MDk4MjA3MywxMjMwMTcy
-NzM2LDE1NzUyMzk2ODIsLTkxMzgyMjQyNiwxNjg1MTA4MTgzLC
-00MTg1NTIzNyw5NTY4Njg3OCwxNTMzODU5MDU3LDIwNzc5MDkz
-NjMsLTEzMzUzMDQ4NDksLTYyNjM1MTc5NywxMjE4NjE2ODAxLC
-0yMjA1ODAwODksMTMxODk0NDc1OCwzOTA4Nzg0NDcsMjAwMzE5
-NDU3Nl19
+eyJoaXN0b3J5IjpbLTk1ODg5MjY4NCwtOTEyNjQ0MjkwLC0xMj
+UyOTgyNzc2LDEwNDY5Njg5NTUsMTY4MDY5NzA1NywtMzcwOTgy
+MDczLDEyMzAxNzI3MzYsMTU3NTIzOTY4MiwtOTEzODIyNDI2LD
+E2ODUxMDgxODMsLTQxODU1MjM3LDk1Njg2ODc4LDE1MzM4NTkw
+NTcsMjA3NzkwOTM2MywtMTMzNTMwNDg0OSwtNjI2MzUxNzk3LD
+EyMTg2MTY4MDEsLTIyMDU4MDA4OSwxMzE4OTQ0NzU4LDM5MDg3
+ODQ0N119
 -->
