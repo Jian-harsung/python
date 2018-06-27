@@ -738,9 +738,18 @@ def calc(*numbers):
 def person(name, age, **kw):
     print('name:', name, 'age:', age, 'other:', kw)
 ```
-
-
-
+函数`person`除了必选参数`name`和`age`外，还接受关键字参数`kw`。在调用该函数时，可以只传入必选参数：
+```
+>>> person('Michael', 30)
+name: Michael age: 30 other: {}
+```
+也可以传入任意个数的关键字参数：
+```python
+>>> person('Bob', 35, city='Beijing')
+name: Bob age: 35 other: {'city': 'Beijing'}
+>>> person('Adam', 45, gender='M', job='Engineer')
+name: Adam age: 45 other: {'gender': 'M', 'job': 'Engineer'}
+```
 
 
 
@@ -904,11 +913,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTI5ODI3NzYsMTA0Njk2ODk1NSwtNT
-k2NTg3MTAwLDE2ODA2OTcwNTcsLTM3MDk4MjA3MywxMjMwMTcy
-NzM2LDE1NzUyMzk2ODIsLTkxMzgyMjQyNiwxNjg1MTA4MTgzLC
-00MTg1NTIzNyw5NTY4Njg3OCwxNTMzODU5MDU3LDIwNzc5MDkz
-NjMsLTEzMzUzMDQ4NDksLTYyNjM1MTc5NywxMjE4NjE2ODAxLC
-0yMjA1ODAwODksMTMxODk0NDc1OCwzOTA4Nzg0NDcsMjAwMzE5
-NDU3Nl19
+eyJoaXN0b3J5IjpbLTEzODA2MTM4NTksLTEyNTI5ODI3NzYsMT
+A0Njk2ODk1NSwxNjgwNjk3MDU3LC0zNzA5ODIwNzMsMTIzMDE3
+MjczNiwxNTc1MjM5NjgyLC05MTM4MjI0MjYsMTY4NTEwODE4My
+wtNDE4NTUyMzcsOTU2ODY4NzgsMTUzMzg1OTA1NywyMDc3OTA5
+MzYzLC0xMzM1MzA0ODQ5LC02MjYzNTE3OTcsMTIxODYxNjgwMS
+wtMjIwNTgwMDg5LDEzMTg5NDQ3NTgsMzkwODc4NDQ3LDIwMDMx
+OTQ1NzZdfQ==
 -->
