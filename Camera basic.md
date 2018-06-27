@@ -207,9 +207,9 @@ def func():
     global total
     total = 10
 ```
-> print(total)
+> print(total)		# 0
 > func()
-> print(total)
+> print(total)		# 10
 
 # 4 string
 ## 4.1 Definition
@@ -1070,6 +1070,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTMyMTEsLTE0OTEwODc4MCwtNDg5Mj
-A2NTY5XX0=
+eyJoaXN0b3J5IjpbLTEzNzAwODYwMzAsLTE0OTEwODc4MCwtND
+g5MjA2NTY5XX0=
 -->
