@@ -771,6 +771,44 @@ name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}
 对于关键字参数，函数的调用者可以传入任意不受限制的关键字参数。至于到底传入了哪些，就需要在函数内部通过`kw`检查。
 仍以`person()`函数为例，我们希望检查是否有`city`和`job`参数：
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```python
 # 自定义取绝对值函数
 def aabs(x):
@@ -924,11 +962,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjIzMjg0OCwxMzQ5MDU1NTU0LC03MD
-ExNDI0NTQsLTkxMjY0NDI5MCwtMTI1Mjk4Mjc3NiwxMDQ2OTY4
-OTU1LDE2ODA2OTcwNTcsLTM3MDk4MjA3MywxMjMwMTcyNzM2LD
-E1NzUyMzk2ODIsLTkxMzgyMjQyNiwxNjg1MTA4MTgzLC00MTg1
-NTIzNyw5NTY4Njg3OCwxNTMzODU5MDU3LDIwNzc5MDkzNjMsLT
-EzMzUzMDQ4NDksLTYyNjM1MTc5NywxMjE4NjE2ODAxLC0yMjA1
-ODAwODldfQ==
+eyJoaXN0b3J5IjpbMjM4MjM4MDIwLC0yNjYyMzI4NDgsMTM0OT
+A1NTU1NCwtNzAxMTQyNDU0LC05MTI2NDQyOTAsLTEyNTI5ODI3
+NzYsMTA0Njk2ODk1NSwxNjgwNjk3MDU3LC0zNzA5ODIwNzMsMT
+IzMDE3MjczNiwxNTc1MjM5NjgyLC05MTM4MjI0MjYsMTY4NTEw
+ODE4MywtNDE4NTUyMzcsOTU2ODY4NzgsMTUzMzg1OTA1NywyMD
+c3OTA5MzYzLC0xMzM1MzA0ODQ5LC02MjYzNTE3OTcsMTIxODYx
+NjgwMV19
 -->
