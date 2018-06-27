@@ -708,9 +708,15 @@ def calc(*numbers):
         sum = sum + n * n
     return sum
 ```
-
-
-
+- 定义可变参数和定义一个list或tuple参数相比，仅仅在参数前面加了一个`*`号。
+- 在函数内部，参数`numbers`接收到的是一个tuple，因此，函数代码完全不变。
+- 但是，调用该函数时，可以传入任意个参数，包括0个参数：
+```python
+>>> calc(1, 2)
+5
+>>> calc()
+0
+```
 
 
 
@@ -885,6 +891,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyODY0MDk4LDEyMzAxNzI3MzYsOTU2OD
-Y4NzgsLTEzMzUzMDQ4NDldfQ==
+eyJoaXN0b3J5IjpbLTg5MDU5OTk4NCwxMjMwMTcyNzM2LDk1Nj
+g2ODc4LC0xMzM1MzA0ODQ5XX0=
 -->
