@@ -896,7 +896,18 @@ a = 1 b = 2 c = 3 d = 88 kw = {'x': '#'}
 
 ### 12.2.6 递归函数
 如果一个函数在内部调用自身本身，这个函数就是递归函数。
+计算阶乘`n! = 1 x 2 x 3 x ... x n`，用函数`fact(n)`表示
+fact(n) = n! = 1 x 2 x 3 x ... x (n-1) x n = (n-1)! x n = fact(n-1) x n
+```
+def fact(n):
+    if n==1:
+        return 1
+    return n * fact(n - 1)
+```
+==使用递归函数需要注意防止栈溢出。==
+解决递归调用栈溢出的方法是通过**尾递归**优化，事实上尾递归和循环的效果是一样的，所以，把循环看成是一种特殊的尾递归函数也是可以的。
 
+尾递归是指，在函数返回的时候，调用自身本身，并且，return语句不能包含表达式。这样，编译器或者解释器就可以把尾递归做优化，使递归本身无论调用多少次，都只占用一个栈帧，不会出现栈溢出的情况。
 
 ## 11.3 import调用
 - import MODULE
@@ -1031,5 +1042,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTIzMzM1NiwtNDg5MjA2NTY5XX0=
+eyJoaXN0b3J5IjpbMTgyNzM0NjExOCwtNDg5MjA2NTY5XX0=
 -->
