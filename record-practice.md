@@ -894,6 +894,9 @@ a = 1 b = 2 c = 3 d = 88 kw = {'x': '#'}
 - 命名的关键字参数是为了限制调用者可以传入的参数名，同时可以提供默认值。
 - 定义命名的关键字参数在没有可变参数的情况下不要忘了写分隔符`*`，否则定义的将是位置参数。
 
+### 12.2.6 递归函数
+如果一个函数在内部调用自身本身，这个函数就是递归函数。
+
 
 ## 11.3 import调用
 - import MODULE
@@ -1028,11 +1031,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4OTIwNjU2OSw4MzQ3Mjg3MjcsLTE4Mj
-M3OTQyMzcsMTU0MTcwNzg4MCwtMTA0Mzc3ODEwMiw4ODQxMTEx
-NzgsODUyODYzMzg4LC0xNTM4ODczMzgyLDIzODIzODAyMCwtMj
-Y2MjMyODQ4LC03MDExNDI0NTQsLTkxMjY0NDI5MCwtMTI1Mjk4
-Mjc3NiwxMDQ2OTY4OTU1LDE2ODA2OTcwNTcsLTM3MDk4MjA3My
-wxMjMwMTcyNzM2LDE1NzUyMzk2ODIsLTkxMzgyMjQyNiwxNjg1
-MTA4MTgzXX0=
+eyJoaXN0b3J5IjpbLTgzNTIzMzM1NiwtNDg5MjA2NTY5LDgzND
+cyODcyNywtMTgyMzc5NDIzNywxNTQxNzA3ODgwLC0xMDQzNzc4
+MTAyLDg4NDExMTE3OCw4NTI4NjMzODgsLTE1Mzg4NzMzODIsMj
+M4MjM4MDIwLC0yNjYyMzI4NDgsLTcwMTE0MjQ1NCwtOTEyNjQ0
+MjkwLC0xMjUyOTgyNzc2LDEwNDY5Njg5NTUsMTY4MDY5NzA1Ny
+wtMzcwOTgyMDczLDEyMzAxNzI3MzYsMTU3NTIzOTY4MiwtOTEz
+ODIyNDI2XX0=
 -->
