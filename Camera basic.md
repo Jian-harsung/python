@@ -952,7 +952,8 @@ def fact_iter(num, product):
 > pi
 ```
 
-- from pythonze
+folder/file
+- from pythonzenity.python_zenity import Password
 
 - import MODULE as short-name
 - from file_name import function
@@ -1075,5 +1076,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0MDgyMjY1LDM0MzM3ODQ2N119
+eyJoaXN0b3J5IjpbMTY4OTIyNjg1OCwzNDMzNzg0NjddfQ==
 -->
