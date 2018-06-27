@@ -734,7 +734,7 @@ def calc(*numbers):
 ### 12.2.4 关键字参数
 可变参数允许你传入0个或任意个参数，这些可变参数在函数调用时自动组装为一个tuple。
 而 __关键字参数__ 允许你传入0个或任意个 __含参数名__ 的参数，这些关键字参数在函数内部自动组装为一个 __dict__ 。请看示例：
-```
+```py
 def person(name, age, **kw):
     print('name:', name, 'age:', age, 'other:', kw)
 ```
@@ -904,11 +904,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NjU4NzEwMCwxNjgwNjk3MDU3LC0xMz
-A0OTAzNDIzLC0zNzA5ODIwNzMsMTIzMDE3MjczNiwxNTc1MjM5
-NjgyLC05MTM4MjI0MjYsMTY4NTEwODE4MywtNDE4NTUyMzcsOT
-U2ODY4NzgsMTUzMzg1OTA1NywyMDc3OTA5MzYzLC0xMzM1MzA0
-ODQ5LC02MjYzNTE3OTcsMTIxODYxNjgwMSwtMjIwNTgwMDg5LD
-EzMTg5NDQ3NTgsMzkwODc4NDQ3LDIwMDMxOTQ1NzYsLTYwMzc5
-NTA0MF19
+eyJoaXN0b3J5IjpbMTA0Njk2ODk1NSwtNTk2NTg3MTAwLDE2OD
+A2OTcwNTcsLTM3MDk4MjA3MywxMjMwMTcyNzM2LDE1NzUyMzk2
+ODIsLTkxMzgyMjQyNiwxNjg1MTA4MTgzLC00MTg1NTIzNyw5NT
+Y4Njg3OCwxNTMzODU5MDU3LDIwNzc5MDkzNjMsLTEzMzUzMDQ4
+NDksLTYyNjM1MTc5NywxMjE4NjE2ODAxLC0yMjA1ODAwODksMT
+MxODk0NDc1OCwzOTA4Nzg0NDcsMjAwMzE5NDU3NiwtNjAzNzk1
+MDQwXX0=
 -->
