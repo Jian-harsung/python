@@ -688,9 +688,9 @@ def calc(numbers):
 ```
 对应的调用的时候，就需要传入list或tuple
 ```python
->>> calc([1, 2, 3])
+>>> calc([1, 2, 3])				# list
 14
->>> calc((1, 3, 5, 7))
+>>> calc((1, 3, 5, 7))			# tuple
 84
 ```
 
@@ -849,6 +849,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMTgwODU2LDk1Njg2ODc4LC0xMzM1Mz
-A0ODQ5XX0=
+eyJoaXN0b3J5IjpbMTE3MTg0MDk0NCw5NTY4Njg3OCwtMTMzNT
+MwNDg0OV19
 -->
