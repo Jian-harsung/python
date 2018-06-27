@@ -201,7 +201,12 @@ _ | 当然r和三引号可以组合使用
 
 如果在一个函数中要用到一个全局变量，那么在函数体开头加上
 > global total
-
+```python
+total = 0
+def func():
+    global total
+    total = 10
+```
 
 
 # 4 string
@@ -1063,6 +1068,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgwMjE3ODIsLTE0OTEwODc4MCwtND
+eyJoaXN0b3J5IjpbLTE3NDAxMTQxMzQsLTE0OTEwODc4MCwtND
 g5MjA2NTY5XX0=
 -->
