@@ -718,10 +718,18 @@ def calc(*numbers):
 0
 ```
 如果已经有一个list或者tuple，要调用一个可变参数怎么办？可以这样做：
-
-
-
-
+```python
+>>> nums = [1, 2, 3]
+>>> calc(nums[0], nums[1], nums[2])
+14
+```
+这种写法当然是可行的，问题是太繁琐，所以Python允许你在list或tuple前面加一个`*`号，把list或tuple的元素变成可变参数传进去：
+```python
+>>> nums = [1, 2, 3]
+>>> calc(*nums)
+14
+```
+- `*nums`表示把`nums`这个list的所有元素作为可变参数传进去。这种写法相当有用，而且很常见。
 
 
 
@@ -891,11 +899,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDk4MjA3MywtODkwNTk5OTg0LDEyMz
-AxNzI3MzYsMTU3NTIzOTY4MiwtOTEzODIyNDI2LDE2ODUxMDgx
-ODMsLTQxODU1MjM3LDk1Njg2ODc4LDE1MzM4NTkwNTcsMjA3Nz
-kwOTM2MywtMTMzNTMwNDg0OSwtNjI2MzUxNzk3LDEyMTg2MTY4
-MDEsLTIyMDU4MDA4OSwxMzE4OTQ0NzU4LDM5MDg3ODQ0NywyMD
-AzMTk0NTc2LC02MDM3OTUwNDAsLTE3NDcwNzUxMDMsLTIwMTc5
-NzQyMTddfQ==
+eyJoaXN0b3J5IjpbODgzODE0ODgxLC0zNzA5ODIwNzMsMTIzMD
+E3MjczNiwxNTc1MjM5NjgyLC05MTM4MjI0MjYsMTY4NTEwODE4
+MywtNDE4NTUyMzcsOTU2ODY4NzgsMTUzMzg1OTA1NywyMDc3OT
+A5MzYzLC0xMzM1MzA0ODQ5LC02MjYzNTE3OTcsMTIxODYxNjgw
+MSwtMjIwNTgwMDg5LDEzMTg5NDQ3NTgsMzkwODc4NDQ3LDIwMD
+MxOTQ1NzYsLTYwMzc5NTA0MCwtMTc0NzA3NTEwMywtMjAxNzk3
+NDIxN119
 -->
