@@ -835,7 +835,19 @@ def f1(a, b, c=0, *args, **kw):
 def f2(a, b, c=0, *, d, **kw):
     print('a =', a, 'b =', b, 'c =', c, 'd =', d, 'kw =', kw)
 ```
-
+在函数调用的时候，Python解释器自动按照参数位置和参数名把对应的参数传进去。
+```python
+>>> f1(1, 2)
+a = 1 b = 2 c = 0 args = () kw = {}
+>>> f1(1, 2, c=3)
+a = 1 b = 2 c = 3 args = () kw = {}
+>>> f1(1, 2, 3, 'a', 'b')
+a = 1 b = 2 c = 3 args = ('a', 'b') kw = {}
+>>> f1(1, 2, 3, 'a', 'b', x=99)
+a = 1 b = 2 c = 3 args = ('a', 'b') kw = {'x': 99}
+>>> f2(1, 2, d=99, ext=None)
+a = 1 b = 2 c = 0 d = 99 kw = {'ext': None}
+```
 
 
 
@@ -1007,5 +1019,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTMyNTIxMCwtMTUzODg3MzM4Ml19
+eyJoaXN0b3J5IjpbMTA0MTA1NzU0OCwtMTUzODg3MzM4Ml19
 -->
