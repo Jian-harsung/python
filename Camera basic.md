@@ -767,7 +767,7 @@ name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}
 ```
 -  `**extra`表示把`extra`这个dict的所有key-value用关键字参数传入到函数的`**kw`参数，`kw`将获得一个dict，注意`kw`获得的dict是`extra`的一份拷贝，对`kw`的改动不会影响到函数外的`extra`。
 
-
+命名关键字参数
 
 
 ```python
@@ -923,5 +923,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4Mzk4MzY4XX0=
+eyJoaXN0b3J5IjpbLTcwMTE0MjQ1NF19
 -->
