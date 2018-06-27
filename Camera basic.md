@@ -25,6 +25,7 @@ ipython是基于CPython的交互式解析器
 
 
 ### 1.1.3 virtualenv
+```
 #virtualenv envp
 #cd C:\Users\jikang\envp\Scripts
 #active.bat
@@ -37,6 +38,7 @@ hello world
 In [2]:exit()
 (envp) #C:\Users\jikang\envp\Scripts>deactivate.bat
 C:\Users\jikang\envp\Scripts>
+```
 
 [# windows下搭建virtualenv、virtualenvwrapper虚拟环境](https://blog.csdn.net/shaququ/article/details/54292043)
 [# virtualenv和virtualenvwrapper插件的使用](https://www.jianshu.com/p/6a3ff66cb8d3)
@@ -827,5 +829,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjM1MTc5NywzOTA4Nzg0NDddfQ==
+eyJoaXN0b3J5IjpbLTEzMzUzMDQ4NDksLTYyNjM1MTc5NywzOT
+A4Nzg0NDddfQ==
 -->
