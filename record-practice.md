@@ -676,6 +676,10 @@ def add_end(L=None):
 - 此外，由于对象不变，多任务环境下同时读取对象不需要加锁，同时读一点问题都没有。我们在编写程序时，如果可以设计一个不变对象，那就尽量设计成不变对象。
 
 ### 11.2.3 可变参数
+可变参数就是传入的参数个数是可变的，可以是1个、2个到任意个，还可以是0个。
+
+
+
 
 
 ```python
@@ -831,11 +835,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjU4OTI4LDE1MzM4NTkwNTcsMjA3Nz
-kwOTM2MywtMTMzNTMwNDg0OSwtNjI2MzUxNzk3LDEyMTg2MTY4
-MDEsLTIyMDU4MDA4OSwxMzE4OTQ0NzU4LDM5MDg3ODQ0NywyMD
-AzMTk0NTc2LC02MDM3OTUwNDAsLTE3NDcwNzUxMDMsLTIwMTc5
-NzQyMTcsLTE5NDgwNjQ1MDAsLTE4MDUyNjk2NjgsLTE1NjM0MT
-YwMjgsLTMzNjEzNjcyMywtMTA4MTY5Mzc1MSwtMTMwNzI2ODUy
-NSwtMTYwMzQ0MjI5NV19
+eyJoaXN0b3J5IjpbOTU2ODY4NzgsMTUzMzg1OTA1NywyMDc3OT
+A5MzYzLC0xMzM1MzA0ODQ5LC02MjYzNTE3OTcsMTIxODYxNjgw
+MSwtMjIwNTgwMDg5LDEzMTg5NDQ3NTgsMzkwODc4NDQ3LDIwMD
+MxOTQ1NzYsLTYwMzc5NTA0MCwtMTc0NzA3NTEwMywtMjAxNzk3
+NDIxNywtMTk0ODA2NDUwMCwtMTgwNTI2OTY2OCwtMTU2MzQxNj
+AyOCwtMzM2MTM2NzIzLC0xMDgxNjkzNzUxLC0xMzA3MjY4NTI1
+LC0xNjAzNDQyMjk1XX0=
 -->
