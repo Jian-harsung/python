@@ -951,6 +951,9 @@ def fact_iter(num, product):
 > from math import pi
 > pi
 ```
+
+- from pythonze
+
 - import MODULE as short-name
 - from file_name import function
 > file_name.py定义了函数function
@@ -1072,5 +1075,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMzc4NDY3XX0=
+eyJoaXN0b3J5IjpbNzQ0MDgyMjY1LDM0MzM3ODQ2N119
 -->
