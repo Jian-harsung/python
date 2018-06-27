@@ -709,6 +709,29 @@ def calc(*numbers):
     return sum
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```python
 # 自定义取绝对值函数
 def aabs(x):
@@ -862,6 +885,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMDE3MjczNiw5NTY4Njg3OCwtMTMzNT
-MwNDg0OV19
+eyJoaXN0b3J5IjpbNDUyODY0MDk4LDEyMzAxNzI3MzYsOTU2OD
+Y4NzgsLTEzMzUzMDQ4NDldfQ==
 -->
