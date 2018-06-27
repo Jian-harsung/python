@@ -67,7 +67,7 @@ to be updated
 ### virtualenv 
 - active, 
 - deactive, 
-- source 
+- source activate
 - rm -rf project
 
 安装路径
@@ -1070,6 +1070,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzAwODYwMzAsLTE0OTEwODc4MCwtND
-g5MjA2NTY5XX0=
+eyJoaXN0b3J5IjpbLTEwNDAxNzY2NzMsLTEzNzAwODYwMzAsLT
+E0OTEwODc4MCwtNDg5MjA2NTY5XX0=
 -->
