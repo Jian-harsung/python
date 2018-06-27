@@ -849,9 +849,18 @@ a = 1 b = 2 c = 3 args = ('a', 'b') kw = {'x': 99}
 a = 1 b = 2 c = 0 d = 99 kw = {'ext': None}
 ```
 最神奇的是通过一个tuple和dict，你也可以调用上述函数：
-
-
-
+```python
+>>> args = (1, 2, 3, 4)
+>>> kw = {'d': 99, 'x': '#'}
+>>> f1(*args, **kw)
+a = 1 b = 2 c = 3 args = (4,) kw = {'d': 99, 'x': '#'}
+>>> args = (1, 2, 3)
+>>> kw = {'d': 88, 'x': '#'}
+>>> f2(*args, **kw)
+a = 1 b = 2 c = 3 d = 88 kw = {'x': '#'}
+```
+所以，对于任意函数，都可以通过类似`func(*args, **kw)`的形式调用它，无论它的参数是如何定义的。
+- ==虽然可以组合多达5种参数，但不要同时使用太多的组合，否则函数接口的可理解性很差。==
 
 
 
@@ -1020,8 +1029,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0MTExMTc4LDg1Mjg2MzM4OCwxMDQxMD
-U3NTQ4LC0xNTM4ODczMzgyLDIzODIzODAyMCwtMjY2MjMyODQ4
+eyJoaXN0b3J5IjpbLTk4NjIzMzk3OCw4ODQxMTExNzgsODUyOD
+YzMzg4LC0xNTM4ODczMzgyLDIzODIzODAyMCwtMjY2MjMyODQ4
 LC03MDExNDI0NTQsLTkxMjY0NDI5MCwtMTI1Mjk4Mjc3NiwxMD
 Q2OTY4OTU1LDE2ODA2OTcwNTcsLTM3MDk4MjA3MywxMjMwMTcy
 NzM2LDE1NzUyMzk2ODIsLTkxMzgyMjQyNiwxNjg1MTA4MTgzLC
