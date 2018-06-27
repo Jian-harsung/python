@@ -836,7 +836,18 @@ def f2(a, b, c=0, *, d, **kw):
     print('a =', a, 'b =', b, 'c =', c, 'd =', d, 'kw =', kw)
 ```
 在函数调用的时候，Python解释器自动按照参数位置和参数名把对应的参数传进去。
-
+```
+>>> f1(1, 2)
+a = 1 b = 2 c = 0 args = () kw = {}
+>>> f1(1, 2, c=3)
+a = 1 b = 2 c = 3 args = () kw = {}
+>>> f1(1, 2, 3, 'a', 'b')
+a = 1 b = 2 c = 3 args = ('a', 'b') kw = {}
+>>> f1(1, 2, 3, 'a', 'b', x=99)
+a = 1 b = 2 c = 3 args = ('a', 'b') kw = {'x': 99}
+>>> f2(1, 2, d=99, ext=None)
+a = 1 b = 2 c = 0 d = 99 kw = {'ext': None}
+```
 
 
 
@@ -1008,11 +1019,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjExMDA1MTcsLTE1Mzg4NzMzODIsMj
-M4MjM4MDIwLC0yNjYyMzI4NDgsLTcwMTE0MjQ1NCwtOTEyNjQ0
-MjkwLC0xMjUyOTgyNzc2LDEwNDY5Njg5NTUsMTY4MDY5NzA1Ny
-wtMzcwOTgyMDczLDEyMzAxNzI3MzYsMTU3NTIzOTY4MiwtOTEz
-ODIyNDI2LDE2ODUxMDgxODMsLTQxODU1MjM3LDk1Njg2ODc4LD
-E1MzM4NTkwNTcsMjA3NzkwOTM2MywtMTMzNTMwNDg0OSwtNjI2
-MzUxNzk3XX0=
+eyJoaXN0b3J5IjpbLTU5NDY3MDQyNCwtMTg2MTEwMDUxNywtMT
+UzODg3MzM4MiwyMzgyMzgwMjAsLTI2NjIzMjg0OCwtNzAxMTQy
+NDU0LC05MTI2NDQyOTAsLTEyNTI5ODI3NzYsMTA0Njk2ODk1NS
+wxNjgwNjk3MDU3LC0zNzA5ODIwNzMsMTIzMDE3MjczNiwxNTc1
+MjM5NjgyLC05MTM4MjI0MjYsMTY4NTEwODE4MywtNDE4NTUyMz
+csOTU2ODY4NzgsMTUzMzg1OTA1NywyMDc3OTA5MzYzLC0xMzM1
+MzA0ODQ5XX0=
 -->
