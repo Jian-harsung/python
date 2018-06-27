@@ -629,7 +629,7 @@ def power(x, n):
 > def power(x, n=2)
 - 必选参数在前，默认参数灾后
 - 变化大的默认参数在前，变化小的默认参数在后
-- 如果使用了参数名（几位==关键==字参数），那么还可以不用按顺序调用
+- 如果使用了参数名（即为 ==关键字参数==），那么还可以不用按顺序调用
 ```python
 def enroll(name, gender, age=6, city='Beijing'):
 > enroll('Sarah', 'F')
@@ -672,10 +672,10 @@ def add_end(L=None):
     L.append('END')
     return L
 ```
-- 为什么要设计`str`、`None`这样的不变对象呢？因为不变对象一旦创建，对象内部的数据就不能修改，这样就减少了由于修改数据导致的错误。
+- 为什么要设计`str`、`None`这样的 ==不变对象== 呢？因为不变对象一旦创建，对象内部的数据就不能修改，这样就减少了由于修改数据导致的错误。
 - 此外，由于对象不变，多任务环境下同时读取对象不需要加锁，同时读一点问题都没有。我们在编写程序时，如果可以设计一个不变对象，那就尽量设计成不变对象。
 
-
+### 11.2.3 可变参数
 
 
 ```python
@@ -831,11 +831,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzg1OTA1NywyMDc3OTA5MzYzLDEzMj
-MyMDUwMTYsLTEzMzUzMDQ4NDksLTYyNjM1MTc5NywxMjE4NjE2
-ODAxLC0yMjA1ODAwODksMTMxODk0NDc1OCwzOTA4Nzg0NDcsMj
-AwMzE5NDU3NiwtNjAzNzk1MDQwLC0xNzQ3MDc1MTAzLC0yMDE3
-OTc0MjE3LC0xOTQ4MDY0NTAwLC0xODA1MjY5NjY4LC0xNTYzND
-E2MDI4LC0zMzYxMzY3MjMsLTEwODE2OTM3NTEsLTEzMDcyNjg1
-MjUsLTE2MDM0NDIyOTVdfQ==
+eyJoaXN0b3J5IjpbMTE5MjU4OTI4LDE1MzM4NTkwNTcsMjA3Nz
+kwOTM2MywtMTMzNTMwNDg0OSwtNjI2MzUxNzk3LDEyMTg2MTY4
+MDEsLTIyMDU4MDA4OSwxMzE4OTQ0NzU4LDM5MDg3ODQ0NywyMD
+AzMTk0NTc2LC02MDM3OTUwNDAsLTE3NDcwNzUxMDMsLTIwMTc5
+NzQyMTcsLTE5NDgwNjQ1MDAsLTE4MDUyNjk2NjgsLTE1NjM0MT
+YwMjgsLTMzNjEzNjcyMywtMTA4MTY5Mzc1MSwtMTMwNzI2ODUy
+NSwtMTYwMzQ0MjI5NV19
 -->
