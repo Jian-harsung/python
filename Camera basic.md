@@ -733,8 +733,11 @@ def calc(*numbers):
 
 ### 12.2.4 关键字参数
 可变参数允许你传入0个或任意个参数，这些可变参数在函数调用时自动组装为一个tuple。
-而关键字参数允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict。请看示例：
-
+而 __关键字参数__ 允许你传入0个或任意个 __含参数名__ 的参数，这些关键字参数在函数内部自动组装为一个 __dict__ 。请看示例：
+```
+def person(name, age, **kw):
+    print('name:', name, 'age:', age, 'other:', kw)
+```
 
 
 
@@ -901,6 +904,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTExODIwNywxMjMwMTcyNzM2LDk1Nj
+eyJoaXN0b3J5IjpbLTU5NjU4NzEwMCwxMjMwMTcyNzM2LDk1Nj
 g2ODc4LC0xMzM1MzA0ODQ5XX0=
 -->
