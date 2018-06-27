@@ -807,12 +807,23 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: person() takes 2 positional arguments but 4 were given
 ```
-
-
-
-
-
-
+由于调用时缺少参数名`city`和`job`，Python解释器把这4个参数均视为位置参数，但`person()`函数仅接受2个位置参数。
+命名关键字参数可以有缺省值，从而简化调用：
+```
+def person(name, age, *, city='Beijing', job):
+    print(name, age, city, job)
+```
+由于命名关键字参数`city`具有默认值，调用时，可不传入`city`参数：
+```
+>>> person('Jack', 24, job='Engineer')
+Jack 24 Beijing Engineer
+```
+使用命名关键字参数时，要特别注意，如果没有可变参数，就必须加一个`*`作为特殊分隔符。如果缺少`*`，Python解释器将无法识别位置参数和命名关键字参数：
+```
+def person(name, age, city, job):
+    # 缺少 *，city和job被视为位置参数
+    pass
+```
 
 
 
@@ -988,11 +999,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzNDU4NzM4LDIzODIzODAyMCwtMjY2Mj
-MyODQ4LC03MDExNDI0NTQsLTkxMjY0NDI5MCwtMTI1Mjk4Mjc3
-NiwxMDQ2OTY4OTU1LDE2ODA2OTcwNTcsLTM3MDk4MjA3MywxMj
-MwMTcyNzM2LDE1NzUyMzk2ODIsLTkxMzgyMjQyNiwxNjg1MTA4
-MTgzLC00MTg1NTIzNyw5NTY4Njg3OCwxNTMzODU5MDU3LDIwNz
-c5MDkzNjMsLTEzMzUzMDQ4NDksLTYyNjM1MTc5NywxMjE4NjE2
-ODAxXX0=
+eyJoaXN0b3J5IjpbLTUyNDkzMjAxNCwyMzgyMzgwMjAsLTI2Nj
+IzMjg0OCwtNzAxMTQyNDU0LC05MTI2NDQyOTAsLTEyNTI5ODI3
+NzYsMTA0Njk2ODk1NSwxNjgwNjk3MDU3LC0zNzA5ODIwNzMsMT
+IzMDE3MjczNiwxNTc1MjM5NjgyLC05MTM4MjI0MjYsMTY4NTEw
+ODE4MywtNDE4NTUyMzcsOTU2ODY4NzgsMTUzMzg1OTA1NywyMD
+c3OTA5MzYzLC0xMzM1MzA0ODQ5LC02MjYzNTE3OTcsMTIxODYx
+NjgwMV19
 -->
