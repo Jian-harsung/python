@@ -881,7 +881,18 @@ a = 1 b = 2 c = 3 d = 88 kw = {'x': '#'}
 所以，对于任意函数，都可以通过类似`func(*args, **kw)`的形式调用它，无论它的参数是如何定义的。
 - ==虽然可以组合多达5种参数，但不要同时使用太多的组合，否则函数接口的可理解性很差。==
 
-小姐
+小结
+- Python的函数具有非常灵活的参数形态，既可以实现简单的调用，又可以传入非常复杂的参数。
+- 默认参数一定要用不可变对象，如果是可变对象，程序运行时会有逻辑错误！
+- 要注意定义可变参数和关键字参数的语法：
+- *args`是可变参数，args接收的是一个tuple；
+- `**kw`是关键字参数，kw接收的是一个dict。
+- 以及调用函数时如何传入可变参数和关键字参数的语法：
+- 可变参数既可以直接传入：`func(1, 2, 3)`，又可以先组装list或tuple，再通过`*args`传入：`func(*(1, 2, 3))`；
+- 关键字参数既可以直接传入：`func(a=1, b=2)`，又可以先组装dict，再通过`**kw`传入：`func(**{'a': 1, 'b': 2})`。
+- 使用`*args`和`**kw`是Python的习惯写法，当然也可以用其他参数名，但最好使用习惯用法。
+- 命名的关键字参数是为了限制调用者可以传入的参数名，同时可以提供默认值。
+- 定义命名的关键字参数在没有可变参数的情况下不要忘了写分隔符`*`，否则定义的将是位置参数。
 
 
 ## 11.3 import调用
@@ -1017,11 +1028,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM3OTQyMzcsNTc0MTg1NjY4LDE1ND
-E3MDc4ODAsLTEwNDM3NzgxMDIsODg0MTExMTc4LDg1Mjg2MzM4
-OCwtMTUzODg3MzM4MiwyMzgyMzgwMjAsLTI2NjIzMjg0OCwtNz
-AxMTQyNDU0LC05MTI2NDQyOTAsLTEyNTI5ODI3NzYsMTA0Njk2
-ODk1NSwxNjgwNjk3MDU3LC0zNzA5ODIwNzMsMTIzMDE3MjczNi
-wxNTc1MjM5NjgyLC05MTM4MjI0MjYsMTY4NTEwODE4MywtNDE4
-NTUyMzddfQ==
+eyJoaXN0b3J5IjpbMjA5MTM1MDM0OSwtMTgyMzc5NDIzNyw1Nz
+QxODU2NjgsMTU0MTcwNzg4MCwtMTA0Mzc3ODEwMiw4ODQxMTEx
+NzgsODUyODYzMzg4LC0xNTM4ODczMzgyLDIzODIzODAyMCwtMj
+Y2MjMyODQ4LC03MDExNDI0NTQsLTkxMjY0NDI5MCwtMTI1Mjk4
+Mjc3NiwxMDQ2OTY4OTU1LDE2ODA2OTcwNTcsLTM3MDk4MjA3My
+wxMjMwMTcyNzM2LDE1NzUyMzk2ODIsLTkxMzgyMjQyNiwxNjg1
+MTA4MTgzXX0=
 -->
