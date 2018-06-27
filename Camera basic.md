@@ -641,6 +641,7 @@ def aabs(x):
 > TypeError: bad operand type for abs(): 'str'
 > aabs('A')
 > 'A'		# python 2.x可以通过
+```
 
 ### 11.2.2 默认参数
 - 可以定义 __默认参数__ 作为缺省情况，如经常计算平方值
@@ -881,24 +882,6 @@ a = 1 b = 2 c = 3 d = 88 kw = {'x': '#'}
 - ==虽然可以组合多达5种参数，但不要同时使用太多的组合，否则函数接口的可理解性很差。==
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
-
-
 ## 11.3 import调用
 - import MODULE
 - import MODULE1, MODULE2, ...
@@ -1032,6 +1015,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQ3MDE5MzYsLTE1Mzg4NzMzODJdfQ
-==
+eyJoaXN0b3J5IjpbMTU0MTcwNzg4MCwtMTUzODg3MzM4Ml19
 -->
