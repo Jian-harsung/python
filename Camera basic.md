@@ -754,7 +754,11 @@ name: Adam age: 45 other: {'gender': 'M', 'job': 'Engineer'}
 比如，在`person`函数里，我们保证能接收到`name`和`age`这两个参数，但是，如果调用者愿意提供更多的参数，我们也能收到。试想你正在做一个用户注册的功能，除了用户名和年龄是必填项外，其他都是可选项，利用关键字参数来定义这个函数就能满足注册的需求。
 
 和可变参数类似，也可以先组装出一个dict，然后，把该dict转换为关键字参数传进去：
-
+```python
+>>> extra = {'city': 'Beijing', 'job': 'Engineer'}
+>>> person('Jack', 24, city=extra['city'], job=extra['job'])
+name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}
+```
 
 
 
@@ -915,5 +919,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxMzk0MjAzXX0=
+eyJoaXN0b3J5IjpbLTkxMjY0NDI5MF19
 -->
