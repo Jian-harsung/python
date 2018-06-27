@@ -767,7 +767,7 @@ name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}
 ```
 -  `**extra`表示把`extra`这个dict的所有key-value用关键字参数传入到函数的`**kw`参数，`kw`将获得一个dict，注意`kw`获得的dict是`extra`的一份拷贝，对`kw`的改动不会影响到函数外的`extra`。
 
-
+命名关键字参数
 
 
 ```python
@@ -923,11 +923,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4Mzk4MzY4LC05MTI2NDQyOTAsLTEyNT
-I5ODI3NzYsMTA0Njk2ODk1NSwxNjgwNjk3MDU3LC0zNzA5ODIw
-NzMsMTIzMDE3MjczNiwxNTc1MjM5NjgyLC05MTM4MjI0MjYsMT
-Y4NTEwODE4MywtNDE4NTUyMzcsOTU2ODY4NzgsMTUzMzg1OTA1
-NywyMDc3OTA5MzYzLC0xMzM1MzA0ODQ5LC02MjYzNTE3OTcsMT
-IxODYxNjgwMSwtMjIwNTgwMDg5LDEzMTg5NDQ3NTgsMzkwODc4
-NDQ3XX0=
+eyJoaXN0b3J5IjpbLTcwMTE0MjQ1NCwtOTEyNjQ0MjkwLC0xMj
+UyOTgyNzc2LDEwNDY5Njg5NTUsMTY4MDY5NzA1NywtMzcwOTgy
+MDczLDEyMzAxNzI3MzYsMTU3NTIzOTY4MiwtOTEzODIyNDI2LD
+E2ODUxMDgxODMsLTQxODU1MjM3LDk1Njg2ODc4LDE1MzM4NTkw
+NTcsMjA3NzkwOTM2MywtMTMzNTMwNDg0OSwtNjI2MzUxNzk3LD
+EyMTg2MTY4MDEsLTIyMDU4MDA4OSwxMzE4OTQ0NzU4LDM5MDg3
+ODQ0N119
 -->
