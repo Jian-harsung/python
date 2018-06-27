@@ -629,7 +629,7 @@ def power(x, n):
 > def power(x, n=2)
 - 必选参数在前，默认参数灾后
 - 变化大的默认参数在前，变化小的默认参数在后
-- 如果使用了参数名（），那么还可以不用按顺序调用
+- 如果使用了参数名（几位gu），那么还可以不用按顺序调用
 ```python
 def enroll(name, gender, age=6, city='Beijing'):
 > enroll('Sarah', 'F')
@@ -831,11 +831,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzIwNTAxNiwtMTY4NjA3MzE5MCwtMT
-UzMjQ3MzMyNCwtMTMzNTMwNDg0OSwtNjI2MzUxNzk3LDEyMTg2
-MTY4MDEsLTIyMDU4MDA4OSwxMzE4OTQ0NzU4LDM5MDg3ODQ0Ny
-wyMDAzMTk0NTc2LC02MDM3OTUwNDAsLTE3NDcwNzUxMDMsLTIw
-MTc5NzQyMTcsLTE5NDgwNjQ1MDAsLTE4MDUyNjk2NjgsLTE1Nj
-M0MTYwMjgsLTMzNjEzNjcyMywtMTA4MTY5Mzc1MSwtMTMwNzI2
-ODUyNSwtMTYwMzQ0MjI5NV19
+eyJoaXN0b3J5IjpbMjA3NzkwOTM2MywxMzIzMjA1MDE2LC0xNj
+g2MDczMTkwLC0xMzM1MzA0ODQ5LC02MjYzNTE3OTcsMTIxODYx
+NjgwMSwtMjIwNTgwMDg5LDEzMTg5NDQ3NTgsMzkwODc4NDQ3LD
+IwMDMxOTQ1NzYsLTYwMzc5NTA0MCwtMTc0NzA3NTEwMywtMjAx
+Nzk3NDIxNywtMTk0ODA2NDUwMCwtMTgwNTI2OTY2OCwtMTU2Mz
+QxNjAyOCwtMzM2MTM2NzIzLC0xMDgxNjkzNzUxLC0xMzA3MjY4
+NTI1LC0xNjAzNDQyMjk1XX0=
 -->
