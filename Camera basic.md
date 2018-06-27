@@ -199,6 +199,11 @@ _ | 当然r和三引号可以组合使用
 
 常量：在Python中，通常用全部大写的变量名表示常量。
 
+如果在一个函数中要用到一个全局变量，那么在函数体开头加上
+> global total
+
+
+
 # 4 string
 ## 4.1 Definition
 s = "Hello world"
@@ -1058,5 +1063,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTEwODc4MCwtNDg5MjA2NTY5XX0=
+eyJoaXN0b3J5IjpbLTE1NzgwMjE3ODIsLTE0OTEwODc4MCwtND
+g5MjA2NTY5XX0=
 -->
