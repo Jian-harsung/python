@@ -785,18 +785,28 @@ def person(name, age, **kw):
 >>> person('Jack', 24, city='Beijing', addr='Chaoyang', zipcode=123456)
 ```
 如果要限制关键字参数的名字，就可以用命名关键字参数，例如，只接收`city`和`job`作为关键字参数。这种方式定义的函数如下：
-```
+```python
 def person(name, age, *, city, job):
     print(name, age, city, job)
 ```
 和关键字参数`**kw`不同，命名关键字参数需要一个特殊分隔符`*`，`*`后面的参数被视为命名关键字参数。
-
 调用方式如下：
-
-
-
-
-
+```
+>>> person('Jack', 24, city='Beijing', job='Engineer')
+Jack 24 Beijing Engineer
+```
+如果函数定义中已经有了一个可变参数，后面跟着的命名关键字参数就不再需要一个特殊分隔符`*`了：
+```
+def person(name, age, *args, city, job):
+    print(name, age, args, city, job)
+```
+命名关键字参数必须传入参数名，这和位置参数不同。如果没有传入参数名，调用将报错：
+```
+>>> person('Jack', 24, 'Beijing', 'Engineer')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: person() takes 2 positional arguments but 4 were given
+```
 
 
 
@@ -978,11 +988,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjAzODc1MSwyMzgyMzgwMjAsLTI2Nj
-IzMjg0OCwtNzAxMTQyNDU0LC05MTI2NDQyOTAsLTEyNTI5ODI3
-NzYsMTA0Njk2ODk1NSwxNjgwNjk3MDU3LC0zNzA5ODIwNzMsMT
-IzMDE3MjczNiwxNTc1MjM5NjgyLC05MTM4MjI0MjYsMTY4NTEw
-ODE4MywtNDE4NTUyMzcsOTU2ODY4NzgsMTUzMzg1OTA1NywyMD
-c3OTA5MzYzLC0xMzM1MzA0ODQ5LC02MjYzNTE3OTcsMTIxODYx
-NjgwMV19
+eyJoaXN0b3J5IjpbOTEzNDU4NzM4LDIzODIzODAyMCwtMjY2Mj
+MyODQ4LC03MDExNDI0NTQsLTkxMjY0NDI5MCwtMTI1Mjk4Mjc3
+NiwxMDQ2OTY4OTU1LDE2ODA2OTcwNTcsLTM3MDk4MjA3MywxMj
+MwMTcyNzM2LDE1NzUyMzk2ODIsLTkxMzgyMjQyNiwxNjg1MTA4
+MTgzLC00MTg1NTIzNyw5NTY4Njg3OCwxNTMzODU5MDU3LDIwNz
+c5MDkzNjMsLTEzMzUzMDQ4NDksLTYyNjM1MTc5NywxMjE4NjE2
+ODAxXX0=
 -->
