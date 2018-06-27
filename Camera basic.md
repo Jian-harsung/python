@@ -613,7 +613,7 @@ method | description | example
 
 ## 11.2 参数检查
 必选参数外，还可以使用默认参数、可变参数和关键字参数
-位置参数
+### 11.2.1 位置参数
 ```python
 def power(x, n):
   s = 1
@@ -829,5 +829,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzUzMDQ4NDldfQ==
+eyJoaXN0b3J5IjpbMTE5NTU0NzcwOSwtMTMzNTMwNDg0OV19
 -->
