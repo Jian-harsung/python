@@ -756,7 +756,7 @@ name: Adam age: 45 other: {'gender': 'M', 'job': 'Engineer'}
 和可变参数类似，也可以先组装出一个dict，然后，把该dict转换为关键字参数传进去：
 ```python
 >>> extra = {'city': 'Beijing', 'job': 'Engineer'}
->>> person('Jack', 24, city=extra['city'], job=extra['job'])
+>>> person('Jack', 24, city=extra['city'], job=extra['job'])		# == TBC ==
 name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}
 ```
 当然，上面复杂的调用可以用简化的写法：
@@ -923,5 +923,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODg5MjY4NF19
+eyJoaXN0b3J5IjpbNzA4Mzk4MzY4XX0=
 -->
