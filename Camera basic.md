@@ -807,12 +807,23 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: person() takes 2 positional arguments but 4 were given
 ```
-
-
-
-
-
-
+由于调用时缺少参数名`city`和`job`，Python解释器把这4个参数均视为位置参数，但`person()`函数仅接受2个位置参数。
+命名关键字参数可以有缺省值，从而简化调用：
+```
+def person(name, age, *, city='Beijing', job):
+    print(name, age, city, job)
+```
+由于命名关键字参数`city`具有默认值，调用时，可不传入`city`参数：
+```
+>>> person('Jack', 24, job='Engineer')
+Jack 24 Beijing Engineer
+```
+使用命名关键字参数时，要特别注意，如果没有可变参数，就必须加一个`*`作为特殊分隔符。如果缺少`*`，Python解释器将无法识别位置参数和命名关键字参数：
+```
+def person(name, age, city, job):
+    # 缺少 *，city和job被视为位置参数
+    pass
+```
 
 
 
@@ -988,5 +999,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzNDU4NzM4LC03MDExNDI0NTRdfQ==
+eyJoaXN0b3J5IjpbLTUyNDkzMjAxNCwtNzAxMTQyNDU0XX0=
 -->
