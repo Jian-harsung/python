@@ -881,7 +881,7 @@ a = 1 b = 2 c = 3 d = 88 kw = {'x': '#'}
 所以，对于任意函数，都可以通过类似`func(*args, **kw)`的形式调用它，无论它的参数是如何定义的。
 - ==虽然可以组合多达5种参数，但不要同时使用太多的组合，否则函数接口的可理解性很差。==
 
-小结
+函数参数使用小结
 - Python的函数具有非常灵活的参数形态，既可以实现简单的调用，又可以传入非常复杂的参数。
 - 默认参数一定要用不可变对象，如果是可变对象，程序运行时会有逻辑错误！
 - 要注意定义可变参数和关键字参数的语法：
@@ -1028,8 +1028,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTM1MDM0OSwtMTgyMzc5NDIzNyw1Nz
-QxODU2NjgsMTU0MTcwNzg4MCwtMTA0Mzc3ODEwMiw4ODQxMTEx
+eyJoaXN0b3J5IjpbODM0NzI4NzI3LDIwOTEzNTAzNDksLTE4Mj
+M3OTQyMzcsMTU0MTcwNzg4MCwtMTA0Mzc3ODEwMiw4ODQxMTEx
 NzgsODUyODYzMzg4LC0xNTM4ODczMzgyLDIzODIzODAyMCwtMj
 Y2MjMyODQ4LC03MDExNDI0NTQsLTkxMjY0NDI5MCwtMTI1Mjk4
 Mjc3NiwxMDQ2OTY4OTU1LDE2ODA2OTcwNTcsLTM3MDk4MjA3My
