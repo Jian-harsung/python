@@ -25,6 +25,7 @@ ipython是基于CPython的交互式解析器
 
 
 ### 1.1.3 virtualenv
+```
 #virtualenv envp
 #cd C:\Users\jikang\envp\Scripts
 #active.bat
@@ -37,6 +38,7 @@ hello world
 In [2]:exit()
 (envp) #C:\Users\jikang\envp\Scripts>deactivate.bat
 C:\Users\jikang\envp\Scripts>
+```
 
 [# windows下搭建virtualenv、virtualenvwrapper虚拟环境](https://blog.csdn.net/shaququ/article/details/54292043)
 [# virtualenv和virtualenvwrapper插件的使用](https://www.jianshu.com/p/6a3ff66cb8d3)
@@ -827,11 +829,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjM1MTc5NywxMjE4NjE2ODAxLC0yMj
-A1ODAwODksMTMxODk0NDc1OCwzOTA4Nzg0NDcsMjAwMzE5NDU3
-NiwtNjAzNzk1MDQwLC0xNzQ3MDc1MTAzLC0yMDE3OTc0MjE3LC
-0xOTQ4MDY0NTAwLC0xODA1MjY5NjY4LC0xNTYzNDE2MDI4LC0z
-MzYxMzY3MjMsLTEwODE2OTM3NTEsLTEzMDcyNjg1MjUsLTE2MD
-M0NDIyOTUsMTgwMzY3Mzk0MiwtODg5NTQ1OTc0LDExNzY1Njgw
-MTUsLTE3NTg1MzcwMl19
+eyJoaXN0b3J5IjpbLTEzMzUzMDQ4NDksLTYyNjM1MTc5NywxMj
+E4NjE2ODAxLC0yMjA1ODAwODksMTMxODk0NDc1OCwzOTA4Nzg0
+NDcsMjAwMzE5NDU3NiwtNjAzNzk1MDQwLC0xNzQ3MDc1MTAzLC
+0yMDE3OTc0MjE3LC0xOTQ4MDY0NTAwLC0xODA1MjY5NjY4LC0x
+NTYzNDE2MDI4LC0zMzYxMzY3MjMsLTEwODE2OTM3NTEsLTEzMD
+cyNjg1MjUsLTE2MDM0NDIyOTUsMTgwMzY3Mzk0MiwtODg5NTQ1
+OTc0LDExNzY1NjgwMTVdfQ==
 -->
