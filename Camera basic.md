@@ -624,7 +624,7 @@ def power(x, n):
 ```
 > power (10, 5)		
 
-### 11.2.2 默认参数和关键参数
+### 11.2.2 默认参数
 - 可以定义 __默认参数__ 作为缺省情况，如经常计算平方值
 > def power(x, n=2)
 - 必选参数在前，默认参数灾后
@@ -731,7 +731,9 @@ def calc(*numbers):
 ```
 - `*nums`表示把`nums`这个list的所有元素作为可变参数传进去。这种写法相当有用，而且很常见。
 
-
+### 12.2.4 关键字参数
+可变参数允许你传入0个或任意个参数，这些可变参数在函数调用时自动组装为一个tuple。
+而关键字参数允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict。请看示例：
 
 
 
@@ -899,6 +901,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzODE0ODgxLDEyMzAxNzI3MzYsOTU2OD
-Y4NzgsLTEzMzUzMDQ4NDldfQ==
+eyJoaXN0b3J5IjpbLTE0NTExODIwNywxMjMwMTcyNzM2LDk1Nj
+g2ODc4LC0xMzM1MzA0ODQ5XX0=
 -->
