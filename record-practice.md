@@ -688,9 +688,9 @@ def calc(numbers):
 ```
 对应的调用的时候，就需要传入list或tuple
 ```python
->>> calc([1, 2, 3])
+>>> calc([1, 2, 3])				# list
 14
->>> calc((1, 3, 5, 7))
+>>> calc((1, 3, 5, 7))			# tuple
 84
 ```
 
@@ -849,11 +849,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMTgwODU2LDE1NzUyMzk2ODIsLTkxMz
-gyMjQyNiwxNjg1MTA4MTgzLC00MTg1NTIzNyw5NTY4Njg3OCwx
-NTMzODU5MDU3LDIwNzc5MDkzNjMsLTEzMzUzMDQ4NDksLTYyNj
-M1MTc5NywxMjE4NjE2ODAxLC0yMjA1ODAwODksMTMxODk0NDc1
-OCwzOTA4Nzg0NDcsMjAwMzE5NDU3NiwtNjAzNzk1MDQwLC0xNz
-Q3MDc1MTAzLC0yMDE3OTc0MjE3LC0xOTQ4MDY0NTAwLC0xODA1
-MjY5NjY4XX0=
+eyJoaXN0b3J5IjpbMTE3MTg0MDk0NCwxNTc1MjM5NjgyLC05MT
+M4MjI0MjYsMTY4NTEwODE4MywtNDE4NTUyMzcsOTU2ODY4Nzgs
+MTUzMzg1OTA1NywyMDc3OTA5MzYzLC0xMzM1MzA0ODQ5LC02Mj
+YzNTE3OTcsMTIxODYxNjgwMSwtMjIwNTgwMDg5LDEzMTg5NDQ3
+NTgsMzkwODc4NDQ3LDIwMDMxOTQ1NzYsLTYwMzc5NTA0MCwtMT
+c0NzA3NTEwMywtMjAxNzk3NDIxNywtMTk0ODA2NDUwMCwtMTgw
+NTI2OTY2OF19
 -->
