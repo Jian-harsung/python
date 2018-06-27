@@ -756,7 +756,7 @@ name: Adam age: 45 other: {'gender': 'M', 'job': 'Engineer'}
 和可变参数类似，也可以先组装出一个dict，然后，把该dict转换为关键字参数传进去：
 ```python
 >>> extra = {'city': 'Beijing', 'job': 'Engineer'}
->>> person('Jack', 24, city=extra['city'], job=extra['job'])
+>>> person('Jack', 24, city=extra['city'], job=extra['job'])		# == TBC ==
 name: Jack age: 24 other: {'city': 'Beijing', 'job': 'Engineer'}
 ```
 当然，上面复杂的调用可以用简化的写法：
@@ -923,11 +923,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODg5MjY4NCwtOTEyNjQ0MjkwLC0xMj
-UyOTgyNzc2LDEwNDY5Njg5NTUsMTY4MDY5NzA1NywtMzcwOTgy
-MDczLDEyMzAxNzI3MzYsMTU3NTIzOTY4MiwtOTEzODIyNDI2LD
-E2ODUxMDgxODMsLTQxODU1MjM3LDk1Njg2ODc4LDE1MzM4NTkw
-NTcsMjA3NzkwOTM2MywtMTMzNTMwNDg0OSwtNjI2MzUxNzk3LD
-EyMTg2MTY4MDEsLTIyMDU4MDA4OSwxMzE4OTQ0NzU4LDM5MDg3
-ODQ0N119
+eyJoaXN0b3J5IjpbNzA4Mzk4MzY4LC05MTI2NDQyOTAsLTEyNT
+I5ODI3NzYsMTA0Njk2ODk1NSwxNjgwNjk3MDU3LC0zNzA5ODIw
+NzMsMTIzMDE3MjczNiwxNTc1MjM5NjgyLC05MTM4MjI0MjYsMT
+Y4NTEwODE4MywtNDE4NTUyMzcsOTU2ODY4NzgsMTUzMzg1OTA1
+NywyMDc3OTA5MzYzLC0xMzM1MzA0ODQ5LC02MjYzNTE3OTcsMT
+IxODYxNjgwMSwtMjIwNTgwMDg5LDEzMTg5NDQ3NTgsMzkwODc4
+NDQ3XX0=
 -->
