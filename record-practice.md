@@ -733,7 +733,7 @@ def calc(*numbers):
 
 ### 12.2.4 关键字参数
 可变参数允许你传入0个或任意个参数，这些可变参数在函数调用时自动组装为一个tuple。
-而关键字参数允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict。请看示例：
+而==关键字参数==允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict。请看示例：
 
 
 
@@ -901,11 +901,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTExODIwNywtMzcwOTgyMDczLDEyMz
-AxNzI3MzYsMTU3NTIzOTY4MiwtOTEzODIyNDI2LDE2ODUxMDgx
-ODMsLTQxODU1MjM3LDk1Njg2ODc4LDE1MzM4NTkwNTcsMjA3Nz
-kwOTM2MywtMTMzNTMwNDg0OSwtNjI2MzUxNzk3LDEyMTg2MTY4
-MDEsLTIyMDU4MDA4OSwxMzE4OTQ0NzU4LDM5MDg3ODQ0NywyMD
-AzMTk0NTc2LC02MDM3OTUwNDAsLTE3NDcwNzUxMDMsLTIwMTc5
-NzQyMTddfQ==
+eyJoaXN0b3J5IjpbLTEzMDQ5MDM0MjMsLTE0NTExODIwNywtMz
+cwOTgyMDczLDEyMzAxNzI3MzYsMTU3NTIzOTY4MiwtOTEzODIy
+NDI2LDE2ODUxMDgxODMsLTQxODU1MjM3LDk1Njg2ODc4LDE1Mz
+M4NTkwNTcsMjA3NzkwOTM2MywtMTMzNTMwNDg0OSwtNjI2MzUx
+Nzk3LDEyMTg2MTY4MDEsLTIyMDU4MDA4OSwxMzE4OTQ0NzU4LD
+M5MDg3ODQ0NywyMDAzMTk0NTc2LC02MDM3OTUwNDAsLTE3NDcw
+NzUxMDNdfQ==
 -->
