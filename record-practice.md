@@ -848,7 +848,7 @@ a = 1 b = 2 c = 3 args = ('a', 'b') kw = {'x': 99}
 >>> f2(1, 2, d=99, ext=None)
 a = 1 b = 2 c = 0 d = 99 kw = {'ext': None}
 ```
-
+最神奇的是通过一个tuple和dict，你也可以调用上述函数：
 
 
 
@@ -1019,11 +1019,11 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTA1NzU0OCw1MTE1MzQyODIsLTU5ND
-Y3MDQyNCwtMTUzODg3MzM4MiwyMzgyMzgwMjAsLTI2NjIzMjg0
-OCwtNzAxMTQyNDU0LC05MTI2NDQyOTAsLTEyNTI5ODI3NzYsMT
-A0Njk2ODk1NSwxNjgwNjk3MDU3LC0zNzA5ODIwNzMsMTIzMDE3
-MjczNiwxNTc1MjM5NjgyLC05MTM4MjI0MjYsMTY4NTEwODE4My
-wtNDE4NTUyMzcsOTU2ODY4NzgsMTUzMzg1OTA1NywyMDc3OTA5
-MzYzXX0=
+eyJoaXN0b3J5IjpbODUyODYzMzg4LDEwNDEwNTc1NDgsNTExNT
+M0MjgyLC0xNTM4ODczMzgyLDIzODIzODAyMCwtMjY2MjMyODQ4
+LC03MDExNDI0NTQsLTkxMjY0NDI5MCwtMTI1Mjk4Mjc3NiwxMD
+Q2OTY4OTU1LDE2ODA2OTcwNTcsLTM3MDk4MjA3MywxMjMwMTcy
+NzM2LDE1NzUyMzk2ODIsLTkxMzgyMjQyNiwxNjg1MTA4MTgzLC
+00MTg1NTIzNyw5NTY4Njg3OCwxNTMzODU5MDU3LDIwNzc5MDkz
+NjNdfQ==
 -->
