@@ -679,6 +679,20 @@ def add_end(L=None):
 可变参数就是传入的参数个数是可变的，可以是1个、2个到任意个，还可以是0个。
 以给定一组数字a, b, c, ...计算a^2^+b^2^+c^2^+...
  做法一：把参数定义为list或tuple
+```python
+def calc(numbers):
+    sum = 0
+    for n in numbers:
+        sum = sum + n * n
+    return sum
+```
+对应的调用的时候，就需要传入list或tuple
+```python
+>>> calc([1, 2, 3])
+14
+>>> calc((1, 3, 5, 7))
+84
+```
 
 
 
@@ -835,6 +849,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTY1MDA5Miw5NTY4Njg3OCwtMTMzNT
-MwNDg0OV19
+eyJoaXN0b3J5IjpbMzkzMTgwODU2LDk1Njg2ODc4LC0xMzM1Mz
+A0ODQ5XX0=
 -->
