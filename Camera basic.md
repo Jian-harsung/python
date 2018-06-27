@@ -69,7 +69,7 @@ to be updated
 - pip install virtualenv
 - virtualenv envp
 - source activate
-- deactive
+- deactivate				# why not deactive
 - rm -rf project
 
 安装路径
@@ -1072,6 +1072,5 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzEzNTM4MzEsLTEwNDAxNzY2NzMsLT
-EzNzAwODYwMzAsLTE0OTEwODc4MCwtNDg5MjA2NTY5XX0=
+eyJoaXN0b3J5IjpbMzQzMzc4NDY3XX0=
 -->
