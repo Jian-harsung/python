@@ -866,6 +866,7 @@ a = 1 b = 2 c = 0 d = 99 kw = {'ext': None}
 
 
 
+
 ```python
 # 自定义取绝对值函数
 def aabs(x):
@@ -1019,8 +1020,8 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyODYzMzg4LDEwNDEwNTc1NDgsNTExNT
-M0MjgyLC0xNTM4ODczMzgyLDIzODIzODAyMCwtMjY2MjMyODQ4
+eyJoaXN0b3J5IjpbODg0MTExMTc4LDg1Mjg2MzM4OCwxMDQxMD
+U3NTQ4LC0xNTM4ODczMzgyLDIzODIzODAyMCwtMjY2MjMyODQ4
 LC03MDExNDI0NTQsLTkxMjY0NDI5MCwtMTI1Mjk4Mjc3NiwxMD
 Q2OTY4OTU1LDE2ODA2OTcwNTcsLTM3MDk4MjA3MywxMjMwMTcy
 NzM2LDE1NzUyMzk2ODIsLTkxMzgyMjQyNiwxNjg1MTA4MTgzLC
