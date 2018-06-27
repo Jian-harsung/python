@@ -64,6 +64,7 @@ to be updated
 
 ## 1.2 Linux
 to be updated
+
 ### virtualenv 
 - active, 
 - deactive, 
@@ -1070,6 +1071,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDAxNzY2NzMsLTEzNzAwODYwMzBdfQ
-==
+eyJoaXN0b3J5IjpbMTYyNDUwNjksLTEwNDAxNzY2NzMsLTEzNz
+AwODYwMzBdfQ==
 -->
