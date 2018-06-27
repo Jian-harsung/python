@@ -693,8 +693,21 @@ def calc(numbers):
 >>> calc((1, 3, 5, 7))			# tuple
 84
 ```
-
-
+如果利用可变参数，调用函数的方式可以简化成这样:
+```python
+>>> calc(1, 2, 3)
+14
+>>> calc(1, 3, 5, 7)
+84
+```
+函数定义使用可变参数传入
+```python
+def calc(*numbers):
+    sum = 0
+    for n in numbers:
+        sum = sum + n * n
+    return sum
+```
 
 ```python
 # 自定义取绝对值函数
@@ -849,6 +862,6 @@ printf("%s", str);
 == H-2-O is ==
 2^10^ is 1024
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTg0MDk0NCw5NTY4Njg3OCwtMTMzNT
+eyJoaXN0b3J5IjpbMTIzMDE3MjczNiw5NTY4Njg3OCwtMTMzNT
 MwNDg0OV19
 -->
